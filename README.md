@@ -26,3 +26,7 @@ Hadoop, Spark
 
 ### Tools
 IntelliJ, Eclipse, SonarQube, Git, Confluence, JIRA, StarUML, Jenkins, Postman, Docker, Maven, Gradle, Android Studio, Xcode
+
+## Pages
+
+* [Contact](https://donny-nguyen.github.io/contact)
