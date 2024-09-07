@@ -30,3 +30,7 @@ IntelliJ, Eclipse, SonarQube, Git, Confluence, JIRA, StarUML, Jenkins, Postman, 
 ## Pages
 
 * [Contact](https://donny-nguyen.github.io/contact)
+
+## Posts
+
+* [Java EE](https://donny-nguyen.github.io/2024/09/07/java-ee.html)
