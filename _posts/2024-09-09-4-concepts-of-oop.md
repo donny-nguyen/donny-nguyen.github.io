@@ -20,9 +20,13 @@
 
 **Definition:** The ability of objects of different classes to respond to the same method call in different ways.
 
-**Types:** Method overriding (when a subclass provides a different implementation of a method inherited from the superclass) and method overloading (when a class has multiple methods with the same name but different parameters).   
-
 **Purpose:** Enables flexible and dynamic code, promotes code reusability, and makes code more adaptable to changes.
+
+**Types:**
+
+  * Method overriding: When a subclass provides a different implementation of a method inherited from the superclass. It uses static binding and can be chcked at compile time.
+
+  * Method overloading: when a class has multiple methods with the same name but different parameters. It uses static binding and can be checked at run time.
 
 **Example:** A ```Dog``` object and a ```Cat``` object both responding to the ```makeSound()``` method, but each producing a different sound.
 
@@ -30,8 +34,8 @@
 
 **Definition:** Simplifying complex reality by focusing on essential characteristics and ignoring unnecessary details.
 
-**Types:** Abstract classes (cannot be instantiated directly) and interfaces (define a contract that concrete classes must implement).
-
 **Purpose:** Promotes code organization, modularity, and reusability.
+
+**Types:** Abstract classes (cannot be instantiated directly) and interfaces (define a contract that concrete classes must implement).
 
 **Example:** An ```Animal``` abstract class defining common methods like ```makeSound()``` and ```eat()```, which concrete classes like ```Dog``` and ```Cat``` must implement.
