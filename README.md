@@ -35,3 +35,4 @@ IntelliJ, Eclipse, SonarQube, Git, Confluence, JIRA, StarUML, Jenkins, Postman, 
 
 * [Java EE](https://donny-nguyen.github.io/2024/09/07/java-ee.html)
 * [4 Concepts of OOP](https://donny-nguyen.github.io/2024/09/09/4-concepts-of-oop.html)
+* [Abstract Class and Interface](https://donny-nguyen.github.io/2024/09/09/abstract-class-and-interface.html)
