@@ -1,6 +1,6 @@
 # JDK, JRE, and JVM
 
-![Java Conceptual Diagram](../images/java-conceptual-diagram.png)
+![Java Conceptual Diagram](https://github.com/donny-nguyen/donny-nguyen.github.io/blob/main/images/java-conceptual-diagram.png)
 
 ## JDK (Java Development Kit)
 
