@@ -41,3 +41,27 @@
 * **Supporting multiple inheritance:** Java doesn't allow direct multiple inheritance of classes, but interfaces can be implemented by a class to achieve a similar effect.
 
 * **Decoupling components:** Promotes loose coupling between classes, makes code more modular and easier to maintain.
+
+## Additional Notes
+
+It is possible to put abstract methods into an interface. In fact, that's one of the primary purposes of interfaces.
+
+We don't need to use the ```abstract``` keyword when declaring methods in an interface, although we can if we want to be explicit.
+
+For example:
+
+```java
+public interface MyInterface {
+    // Abstract method (no implementation)
+    void abstractMethod();
+    
+    // This is equivalent to the above
+    abstract void explicitAbstractMethod();
+}
+```
+
+Some IDEs will show the warning message when we add the ``abstract`` keyword explicitly:
+
+```
+Modifier 'abstract' is redundant for interface methods
+```
