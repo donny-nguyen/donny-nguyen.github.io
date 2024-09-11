@@ -1,6 +1,6 @@
 # JDK, JRE, and JVM
 
-![Java Conceptual Diagram](https://github.com/donny-nguyen/donny-nguyen.github.io/blob/main/images/java-conceptual-diagram.png)
+![Java Conceptual Diagram](/donny-nguyen.github.io/assets/images/java-conceptual-diagram.png)
 
 ## JDK (Java Development Kit)
 
@@ -31,4 +31,4 @@
   * Translates the bytecode into machine code specific to your computer's processor at runtime (just-in-time compilation).
 Executes the machine code instructions, allowing the Java program to run.
 
-<em>Reference:</em> https://docs.oracle.com/javase/8/docs/index.html
+<em>Reference:</em> [Java Platform Standard Edition 8 Documentation](https://docs.oracle.com/javase/8/docs/index.html)
