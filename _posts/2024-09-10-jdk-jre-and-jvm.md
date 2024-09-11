@@ -1,6 +1,6 @@
 # JDK, JRE, and JVM
 
-![Java Conceptual Diagram](./../docs/assets/images/java-conceptual-diagram.png)
+![Java Conceptual Diagram]({{ site.baseurl }}/images/java-conceptual-diagram.png)
 
 ## JDK (Java Development Kit)
 
