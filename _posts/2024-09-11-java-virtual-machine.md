@@ -50,4 +50,5 @@ In summary, the JVM architecture ensures that Java applications can run on any d
 
 <em>References:</em>
 * [What is JVM (Java Virtual Machine): Architecture Explained!](https://www.guru99.com/java-virtual-machine-jvm.html)
+* [Java Memory Management - In-Depth Tutorial](https://www.golinuxcloud.com/java-memory-management/)
 * [Java Virtual Machine - Core java tutorial for beginners](https://www.startertutorials.com/corejava/java-virtual-machine.html)
