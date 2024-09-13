@@ -17,4 +17,5 @@
 * [String Pool](https://donny-nguyen.github.io/2024/09/12/string-pool.html)
 * [equals() and hashCode() methods](https://donny-nguyen.github.io/2024/09/12/equals-and-hashcode-methods.html)
 * [What happens if hashCode() method always returns the same value?](https://donny-nguyen.github.io/2024/09/12/if-hashcode-returns-the-same-value.html)
+* [The Java Collection Framework Hierarchy](https://donny-nguyen.github.io/2024/09/13/java-collection-hierarchy.html)
 * [AWS Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
