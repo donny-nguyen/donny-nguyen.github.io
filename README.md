@@ -15,3 +15,4 @@
 * [4 Concepts of OOP](https://donny-nguyen.github.io/2024/09/09/4-concepts-of-oop.html)
 * [Abstract Class and Interface](https://donny-nguyen.github.io/2024/09/09/abstract-class-and-interface.html)
 * [String Pool](https://donny-nguyen.github.io/2024/09/12/string-pool.html)
+* [equals() and hashCode() methods](https://donny-nguyen.github.io/2024/09/12/equals-and-hashcode-methods.html)
