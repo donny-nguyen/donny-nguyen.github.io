@@ -39,3 +39,5 @@
 * Represents a collection of key-value pairs.
 * Does not extend `Collection`.
 * Has three implementations: `HashMap`, `LinkedHashMap`, and `TreeMap`.
+
+<em>References:</em> [How to Learn Java Collections – A Complete Guide](https://www.geeksforgeeks.org/how-to-learn-java-collections-a-complete-guide/)
