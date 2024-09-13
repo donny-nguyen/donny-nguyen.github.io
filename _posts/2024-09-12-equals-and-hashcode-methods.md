@@ -70,3 +70,5 @@ class Employee {
 Here, `equals()` checks if two `Employee` objects have the same `id` and `name`, and `hashCode()` ensures that these objects return the same hash code if they are equal.
 
 By properly overriding both methods, you ensure that the object behaves as expected in hash-based collections.
+
+[What happens if hashCode() method always returns the same value?](https://donny-nguyen.github.io/2024/09/12/if-hashcode-returns-the-same-value.html)
