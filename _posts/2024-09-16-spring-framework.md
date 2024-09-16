@@ -9,7 +9,6 @@ The **Spring Framework** is a powerful and versatile framework for building Java
 - **Data Access**: Spring simplifies data access using JDBC, ORM frameworks like Hibernate, and transaction management.
 - **Modularity**: You can use the entire framework or just the parts that you need, making it highly modular and flexible.
 
-
 <em>References:</em>
 * [Wikipedia](https://en.wikipedia.org/wiki/Spring_Framework)
 * [Spring Documentation](https://docs.spring.io/spring-framework/docs/4.3.x/spring-framework-reference/html/overview.html)

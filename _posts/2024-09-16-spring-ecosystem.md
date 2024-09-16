@@ -4,9 +4,9 @@ The **Spring ecosystem** is a comprehensive suite of projects and tools designed
 
 1. **[Spring Framework](https://donny-nguyen.github.io/2024/09/16/spring-framework.html)**: The core framework providing dependency injection, aspect-oriented programming, and transaction management.
 
-2. **Spring Boot**: Simplifies the setup and development of new Spring applications by providing defaults and reducing boilerplate code.
+2. **[Spring Boot](https://donny-nguyen.github.io/2024/09/16/spring-boot.html)**: Simplifies the setup and development of new Spring applications by providing defaults and reducing boilerplate code.
 
-3. **Spring Data**: Simplifies data access and manipulation across various databases and storage technologies.
+3. **[Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)**: Simplifies data access and manipulation across various databases and storage technologies.
 
 4. **Spring Security**: Provides robust security features for authentication, authorization, and protection against common vulnerabilities.
 
