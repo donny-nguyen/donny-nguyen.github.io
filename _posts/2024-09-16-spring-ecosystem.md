@@ -2,7 +2,7 @@
 
 The **Spring ecosystem** is a comprehensive suite of projects and tools designed to simplify and accelerate Java application development. Here are some key components:
 
-1. **Spring Framework**: The core framework providing dependency injection, aspect-oriented programming, and transaction management.
+1. **[Spring Framework](https://donny-nguyen.github.io/2024/09/16/spring-framework.html)**: The core framework providing dependency injection, aspect-oriented programming, and transaction management.
 
 2. **Spring Boot**: Simplifies the setup and development of new Spring applications by providing defaults and reducing boilerplate code.
 
