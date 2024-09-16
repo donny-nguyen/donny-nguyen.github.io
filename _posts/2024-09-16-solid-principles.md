@@ -10,7 +10,7 @@ Those are a set of five design principles in object-oriented programming that he
 
 These principles aim to make our code more robust and easier to manage.
 
-<em>References:</em> 
+<em>References:</em>
 * [DigitalOcean's article](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design) * [FreeCodeCamp's explanation](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
 * [SOLID: The First 5 Principles of Object Oriented Design] (https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
 * [The SOLID Principles of Object-Oriented Programming Explained in Plain ....] (https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
