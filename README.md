@@ -18,6 +18,7 @@
 * [What happens if hashCode() method always returns the same value?](https://donny-nguyen.github.io/2024/09/12/if-hashcode-returns-the-same-value.html)
 * [The Java Collection Framework Hierarchy](https://donny-nguyen.github.io/2024/09/13/java-collection-hierarchy.html)
 * [ArrayList and LinkedList](https://donny-nguyen.github.io/2024/09/17/arraylist-and-linkedlist.html)
+* [ArrayList and Vector](https://donny-nguyen.github.io/2024/09/17/arraylist-and-vector.html)
 * [HashSet](https://donny-nguyen.github.io/2024/09/17/hashset.html)
 * [HashMap](https://donny-nguyen.github.io/2024/09/17/hashmap.html)
 * [HashMap and Hashtable](https://donny-nguyen.github.io/2024/09/17/hashmap-and-hashtable.html)
