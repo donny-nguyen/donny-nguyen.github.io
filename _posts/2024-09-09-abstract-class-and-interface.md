@@ -4,7 +4,7 @@
 
 ### Java 8 (and later)
 
-| | Abstract Class | Interface |
+| Feature | Abstract Class | Interface |
 | --- | --- | --- |
 | Instance Methods | May have fully implemented instance methods | May also have implemented instance methods, but they must bear the keyword ```default``` |
 | Static Methods | May have fully implemented static methods | May have fully implemented static methods |
@@ -13,7 +13,7 @@
 
 ### Java 7 (and earlier)
 
-| | Abstract Class | Interface |
+| Feature | Abstract Class | Interface |
 | --- | --- | --- |
 | Instance Methods | May have fully implemented instance methods | Can not have |
 | Static Methods | May have fully implemented static methods | Can not have |

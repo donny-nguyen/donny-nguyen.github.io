@@ -19,6 +19,7 @@
 * [The Java Collection Framework Hierarchy](https://donny-nguyen.github.io/2024/09/13/java-collection-hierarchy.html)
 * [ArrayList and LinkedList](https://donny-nguyen.github.io/2024/09/17/arraylist-and-linkedlist.html)
 * [HashMap](https://donny-nguyen.github.io/2024/09/17/hashmap.html)
+* [HashMap and Hashtable](https://donny-nguyen.github.io/2024/09/17/hashmap-and-hashtable.html)
 * [Checked and Unchecked Exceptions](https://donny-nguyen.github.io/2024/09/16/checked-and-unchecked-exceptions.html)
 * [4 Concepts of OOP](https://donny-nguyen.github.io/2024/09/09/4-concepts-of-oop.html)
 * [SOLID Principles](https://donny-nguyen.github.io/2024/09/16/solid-principles.html)

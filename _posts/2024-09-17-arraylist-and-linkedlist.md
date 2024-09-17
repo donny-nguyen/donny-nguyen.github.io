@@ -2,7 +2,7 @@
 
 Both ```ArrayList``` and ```LinkedList``` are part of Java’s ```java.util``` package and implement the ```List``` interface, but they have some key differences:
 
-| | ArrayList | LinkedList |
+| Feature | ArrayList | LinkedList |
 | --- | --- | --- |
 | Underlying Data Structure | Uses a dynamic array to store elements | Uses a doubly linked list to store elements |
 | Access Time | Provides constant-time access (O(1)) to elements using the get method, making it faster for random access | Provides linear-time access (O(n)) to elements, making it slower for random access |
