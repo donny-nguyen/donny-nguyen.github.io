@@ -1,4 +1,4 @@
-# ArrayList and LinkedList in Java
+# ArrayList and LinkedList
 
 Both ```ArrayList``` and ```LinkedList``` are part of Java’s ```java.util``` package and implement the ```List``` interface, but they have some key differences:
 
