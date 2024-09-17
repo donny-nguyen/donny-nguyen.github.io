@@ -21,6 +21,12 @@
 
 ![AWS Snowball Flow]({{ site.baseurl }}/images/AWS-snowball-flow.webp)
 
+**Device Types**
+
+There are two main types of devices:
+  * **Snowball Edge Storage Optimized:** Primarily for large-scale data migrations, backup, and disaster recovery with up to 80 TB of usable storage.
+  * **Snowball Edge Compute Optimized:** Designed for both data transfer and edge computing, with more compute capacity for processing data locally before transfer.
+
 **Use cases**
 * Migrating large datasets to the cloud
 * Backing up and archiving data
