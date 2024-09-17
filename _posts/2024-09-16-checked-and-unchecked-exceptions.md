@@ -19,6 +19,6 @@ In Java, exceptions are categorized into two main types: **checked** and **unche
 <em>References:</em>
 * [Checked vs Unchecked Exceptions in Java - GeeksforGeeks](https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/)
 * [Checked or Unchecked Exceptions? - Jenkov.com](https://jenkov.com/tutorials/java-exception-handling/checked-or-unchecked-exceptions.html)
-* [Exception Handling in Java | Java Exceptions - javatpoint](https://www.javatpoint.com/exception-handling-in-java)
+* [Exception Handling in Java](https://www.javatpoint.com/exception-handling-in-java)
 * [Checked and Unchecked Exceptions in Java - Baeldung](https://www.baeldung.com/java-checked-unchecked-exceptions)
 * [Java Checked vs Unchecked Exceptions - HowToDoInJava](https://howtodoinjava.com/java/exception-handling/checked-vs-unchecked-exceptions-in-java/)
