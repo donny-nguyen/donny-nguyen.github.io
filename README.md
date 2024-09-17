@@ -21,6 +21,7 @@
 * [HashSet](https://donny-nguyen.github.io/2024/09/17/hashset.html)
 * [HashMap](https://donny-nguyen.github.io/2024/09/17/hashmap.html)
 * [HashMap and Hashtable](https://donny-nguyen.github.io/2024/09/17/hashmap-and-hashtable.html)
+* [Iterator](https://donny-nguyen.github.io/2024/09/17/iterator.html)
 * [Checked and Unchecked Exceptions](https://donny-nguyen.github.io/2024/09/16/checked-and-unchecked-exceptions.html)
 * [4 Concepts of OOP](https://donny-nguyen.github.io/2024/09/09/4-concepts-of-oop.html)
 * [SOLID Principles](https://donny-nguyen.github.io/2024/09/16/solid-principles.html)
