@@ -30,4 +30,5 @@
 * [Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)
 * [AWS S3](https://donny-nguyen.github.io/2024/09/17/aws-s3.html)
 * [AWS S3 Transfer Acceleration](https://donny-nguyen.github.io/2024/09/17/aws-s3-transfer-acceleration.html)
+* [AWS S3 Cross-Region Replication](https://donny-nguyen.github.io/2024/09/17/aws-s3-cross-region-replication.html)
 * [AWS Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
