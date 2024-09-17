@@ -1,6 +1,6 @@
 # AWS Snowball
 
-![AWS Snowball Flow]({{ site.baseurl }}/images/aws-snowball.png :center:)
+![AWS Snowball Flow]({{ site.baseurl }}/images/aws-snowball.png)
 
 **AWS Snowball** is a physical data transfer service that allows us to securely and efficiently transfer large amounts of data into and out of the AWS cloud. It's particularly useful for organizations with massive datasets that would take too long or be too expensive to transfer over the internet.
 
