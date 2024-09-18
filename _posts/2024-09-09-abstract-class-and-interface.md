@@ -1,28 +1,28 @@
 # Abstract Class and Interface
 
-## Differences
+### Differences
 
-### Java 8 (and later)
-
-| Feature | Abstract Class | Interface |
-| --- | --- | --- |
-| Instance Methods | May have fully implemented instance methods | May also have implemented instance methods, but they must bear the keyword ```default``` |
-| Static Methods | May have fully implemented static methods | May have fully implemented static methods |
-| Instance Variables | May have instance variables of any kind | Can have only ```public``` ```static``` ```final``` variables |
-| Visibility | May have any visibility (```public```, ```protected```, ```package-level```, ```private```) | Always ```public``` |
-
-### Java 7 (and earlier)
+#### Java 8 (and later)
 
 | Feature | Abstract Class | Interface |
 | --- | --- | --- |
-| Instance Methods | May have fully implemented instance methods | Can not have |
-| Static Methods | May have fully implemented static methods | Can not have |
-| Instance Variables | May have instance variables of any kind | Can have only ```public``` ```static``` ```final``` variables |
-| Visibility | May have any visibility (```public```, ```protected```, ```package-level```, ```private```) | Always ```public``` |
+| Instance Methods | Can have fully implemented instance methods | Can also have implemented instance methods, but they must bear the keyword ```default``` |
+| Static Methods | Can have fully implemented static methods | Can have fully implemented static methods |
+| Variables | Can have instance variables of any kind | Can have only ```public``` ```static``` ```final``` variables |
+| Visibility | Can have any visibility (```public```, ```protected```, ```package-level```, ```private```) | Only ```public``` |
 
-## Usage
+#### Java 7 (and earlier)
 
-### Abstract Class
+| Feature | Abstract Class | Interface |
+| --- | --- | --- |
+| Instance Methods | Can have fully implemented instance methods | Can not have |
+| Static Methods | Can have fully implemented static methods | Can not have |
+| Instance Variables | Can have instance variables of any kind | Can have only ```public``` ```static``` ```final``` variables |
+| Visibility | Can have any visibility (```public```, ```protected```, ```package-level```, ```private```) | Only ```public``` |
+
+### Usage
+
+#### Abstract Class
 
 * **Defining common behavior:** Establish a foundation for a family of related classes, abstract classes provide a clear structure and common methods.
 
@@ -32,7 +32,7 @@
 
 * **Enforcing a template pattern:** Ensure that subclasses follow a certain structure and implement required methods.
 
-### Interface
+#### Interface
 
 * **Defining contracts:** Define contracts that classes must adhere to, ensuring consistency and interoperability.
 
@@ -42,7 +42,7 @@
 
 * **Decoupling components:** Promotes loose coupling between classes, makes code more modular and easier to maintain.
 
-## Additional Notes
+### Additional Notes
 
 It is possible to put abstract methods into an interface. In fact, that's one of the primary purposes of interfaces.
 
