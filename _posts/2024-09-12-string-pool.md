@@ -34,7 +34,7 @@ System.out.println(s1 == s3); // false, because s3 refers to a different object
 
 ## String Interning:
 
-We can manually add a string to the String Pool using the ```intern()`` method. The ```intern()``` method checks the String Pool, and if the string is already there, it returns the reference to the pooled string. If not, it adds the string to the pool.
+We can manually add a string to the String Pool using the `intern()` method. The `intern()` method checks the String Pool, and if the string is already there, it returns the reference to the pooled string. If not, it adds the string to the pool.
 
 Example:
 

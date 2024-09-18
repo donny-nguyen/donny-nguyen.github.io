@@ -6,7 +6,7 @@ The `equals()` and `hashCode()` methods are used to compare objects and determin
 
 * **Purpose:** It is used to compare two objects for equality. By default, the `equals()` method from the `Object` class compares memory addresses (i.e., reference equality).
 
-* **Override:** You should override the `equals()` method if you want to compare objects based on their content rather than their memory reference.
+* **Override:** We should override the `equals()` method if we want to compare objects based on their content rather than their memory reference.
 
 ```java
 @Override
@@ -22,7 +22,7 @@ public boolean equals(Object obj) {
 
 * **Purpose:** The `hashCode()` method returns an integer hash value for the object. This hash code is used by hash-based collections to efficiently locate objects.
 
-* **Contract with `equals()`:** When overriding `equals()`, you **must also** override `hashCode()` to maintain consistency. The contract between `equals()` and `hashCode()` is:
+* **Contract with `equals()`:** When overriding `equals()`, we **must also** override `hashCode()` to maintain consistency. The contract between `equals()` and `hashCode()` is:
 
   * If two objects are considered equal by `equals()`, they **must** have the same `hashCode()`.
 
@@ -37,7 +37,7 @@ public int hashCode() {
 
 ## Key Points
 
-* **Consistency:** If you override `equals()`, you should also override `hashCode()`. Failing to do so can cause issues with collections like `HashMap` or `HashSet` that rely on both methods.
+* **Consistency:** If we override `equals()`, we should also override `hashCode()`. Failing to do so can cause issues with collections like `HashMap` or `HashSet` that rely on both methods.
 
 * **hashCode() in Collections:** Hash-based collections use the `hashCode()` method to find the bucket where the object will be stored, and then `equals()` to check if two objects are the same.
 
@@ -69,6 +69,6 @@ class Employee {
 
 Here, `equals()` checks if two `Employee` objects have the same `id` and `name`, and `hashCode()` ensures that these objects return the same hash code if they are equal.
 
-By properly overriding both methods, you ensure that the object behaves as expected in hash-based collections.
+By properly overriding both methods, we ensure that the object behaves as expected in hash-based collections.
 
 [What happens if hashCode() method always returns the same value?](https://donny-nguyen.github.io/2024/09/12/if-hashcode-returns-the-same-value.html)
