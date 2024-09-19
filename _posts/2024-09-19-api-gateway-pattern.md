@@ -40,3 +40,6 @@ An API Gateway acts as a single entry point for client requests to a microservic
    - IoT devices
 
 The API Gateway pattern is particularly useful in complex, distributed systems where it can help manage and streamline communication between clients and various microservices.
+
+<em>References:</em>
+[API Gateway Pattern](https://medium.com/design-microservices-architecture-with-patterns/api-gateway-pattern-8ed0ddfce9df)
