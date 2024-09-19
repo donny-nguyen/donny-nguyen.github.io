@@ -16,8 +16,10 @@ An API Gateway acts as a single entry point for client requests to a microservic
    - API composition
    - Protocol translation
    - Authentication and authorization
+   - Load Balancing
    - Rate limiting and throttling
    - Caching
+   - Aggregation of results
    - Monitoring and analytics
 
 ### Benefits
