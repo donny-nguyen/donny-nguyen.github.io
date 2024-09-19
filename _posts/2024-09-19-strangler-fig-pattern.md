@@ -30,3 +30,6 @@ It's used to incrementally replace an old system with a new one, piece by piece.
    - May involve temporary complexity during transition
 
 This pattern is particularly useful for large, complex systems where a complete rewrite would be too risky or time-consuming.
+
+<em>References:</em>
+[Embracing the Strangler Fig pattern for legacy modernization](https://www.thoughtworks.com/insights/articles/embracing-strangler-fig-pattern-legacy-modernization-part-one)
