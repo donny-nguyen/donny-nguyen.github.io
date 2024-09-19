@@ -4,8 +4,6 @@ The **API Gateway pattern** is an architectural design pattern commonly used in 
 
 ![API Gateway pattern]({{ site.baseurl }}/images/api-gateway-pattern.png)
 
-Here's a concise overview:
-
 ### Definition
 
 An API Gateway acts as a single entry point for client requests to a microservices-based application.
