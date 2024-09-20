@@ -39,5 +39,6 @@
 * [AWS S3 Cross-Region Replication](https://donny-nguyen.github.io/2024/09/17/aws-s3-cross-region-replication.html)
 * [AWS Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
 * [AWS EBS](https://donny-nguyen.github.io/2024/09/20/aws-ebs.html)
+* [AWS Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
 * [Strangler Fig Pattern](https://donny-nguyen.github.io/2024/09/19/strangler-fig-pattern.html)
 * [API Gateway Pattern](https://donny-nguyen.github.io/2024/09/19/api-gateway-pattern.html)
