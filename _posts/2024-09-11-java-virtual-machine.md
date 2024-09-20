@@ -4,7 +4,7 @@ The Java Virtual Machine (JVM) architecture is designed to provide a runtime env
 
 ![Java Virtual Machine]({{ site.baseurl }}/images/java-virtual-machine.png)
 
-## Class Loader
+### Class Loader
 
 This subsystem loads class files into the JVM. It performs three main functions:
 
@@ -14,7 +14,7 @@ This subsystem loads class files into the JVM. It performs three main functions:
 
 * **Initialization:** Initializes static variables and executes static blocks.
 
-## Runtime Data Areas
+### Runtime Data Areas
 
 These are the memory areas used during the execution of a program:
 
@@ -28,7 +28,7 @@ These are the memory areas used during the execution of a program:
 
 * **Native Method Stack:** Contains all the native methods used in the application.
 
-## Execution Engine
+### Execution Engine
 
 This component is responsible for executing the bytecode:
 
@@ -38,11 +38,11 @@ This component is responsible for executing the bytecode:
 
 * **Garbage Collector:** Automatically manages memory by reclaiming memory used by objects that are no longer reachable.
 
-## Native Method Interface
+### Native Method Interface
 
 This framework allows the JVM to call and be called by native applications (programs specific to the hardware and operating system).
 
-## Native Method Libraries
+### Native Method Libraries
 
 These are the libraries (written in other languages like C or C++) required for the execution of native methods.
 
