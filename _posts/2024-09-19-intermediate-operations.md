@@ -1,5 +1,7 @@
 # Intermediate Operations of the Java Stream API
 
+**Intermediate operations** in the Java Stream API are operations that transform a stream into another stream. These operations are lazy, meaning they are not executed until a terminal operation is invoked on the stream. Intermediate operations allow us to build a pipeline of transformations on the elements of the stream.
+
 Here are some intermediate operations of the Java Stream API:
 
 1. `filter()`: Filters elements based on a predicate.
