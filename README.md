@@ -45,3 +45,4 @@
 * [Strangler Fig Pattern](https://donny-nguyen.github.io/2024/09/19/strangler-fig-pattern.html)
 * [API Gateway Pattern](https://donny-nguyen.github.io/2024/09/19/api-gateway-pattern.html)
 * [Backends For Frontends Pattern](https://donny-nguyen.github.io/2024/09/21/backends-for-frontends-pattern.html)
+* [Service Discovery Pattern](https://donny-nguyen.github.io/2024/09/21/service-discovery-pattern.html)
