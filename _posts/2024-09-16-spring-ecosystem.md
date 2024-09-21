@@ -8,7 +8,7 @@ The **Spring ecosystem** is a comprehensive suite of projects and tools designed
 
 3. **[Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)**: Simplifies data access and manipulation across various databases and storage technologies.
 
-4. **Spring Security**: Provides robust security features for authentication, authorization, and protection against common vulnerabilities.
+4. **[Spring Security](https://donny-nguyen.github.io/2024/09/16/spring-security.html)**: Provides robust security features for authentication, authorization, and protection against common vulnerabilities.
 
 5. **Spring Cloud**: Facilitates the development of distributed systems and microservices with tools for configuration management, service discovery, and circuit breakers.
 
