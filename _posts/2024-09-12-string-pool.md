@@ -4,7 +4,7 @@ The **String Pool** (also known as the **String Intern Pool**) is a special memo
 
 Here's how the String Pool works:
 
-## String Literal:
+### String Literal:
 
 When we create a string using double quotes (e.g., ```String s1 = "Hello";```), the JVM checks the String Pool to see if a string with the same value already exists.
 
@@ -21,7 +21,7 @@ String s2 = "Hello";
 System.out.println(s1 == s2); // true, because both point to the same object in the String Pool
 ```
 
-## String Object:
+### String Object:
 
 If we create a string using the ```new``` keyword (e.g., ```String s3 = new String("Hello");```), a new object is created in the heap, and it is not placed in the String Pool unless explicitly requested.
 
@@ -32,7 +32,7 @@ String s3 = new String("Hello");
 System.out.println(s1 == s3); // false, because s3 refers to a different object
 ```
 
-## String Interning:
+### String Interning:
 
 We can manually add a string to the String Pool using the `intern()` method. The `intern()` method checks the String Pool, and if the string is already there, it returns the reference to the pooled string. If not, it adds the string to the pool.
 
