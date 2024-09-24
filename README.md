@@ -1,7 +1,3 @@
-# Dung (Donny) Nguyen
-
-## Senior Software Engineer
-
 ## Pages
 
 * [About Me](https://donny-nguyen.github.io/aboutme)
