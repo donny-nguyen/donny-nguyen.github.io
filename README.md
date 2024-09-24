@@ -32,6 +32,7 @@
 * [Inversion of Control](https://donny-nguyen.github.io/2024/09/24/inversion-of-control.html)
 * [Bean](https://donny-nguyen.github.io/2024/09/24/bean.html)
 * [Spring MVC](https://donny-nguyen.github.io/2024/09/20/spring-mvc.html)
+* [Controller and RestController](https://donny-nguyen.github.io/2024/09/24/controller-and-restcontroller.html)
 * [Spring Boot](https://donny-nguyen.github.io/2024/09/16/spring-boot.html)
 * [Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
