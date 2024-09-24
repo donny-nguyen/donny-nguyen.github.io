@@ -30,6 +30,7 @@
 * [Spring Ecosystem](https://donny-nguyen.github.io/2024/09/16/spring-ecosystem.html)
 * [Spring Framework](https://donny-nguyen.github.io/2024/09/16/spring-framework.html)
 * [Inversion of Control](https://donny-nguyen.github.io/2024/09/24/inversion-of-control.html)
+* [Bean](https://donny-nguyen.github.io/2024/09/24/bean.html)
 * [Spring MVC](https://donny-nguyen.github.io/2024/09/20/spring-mvc.html)
 * [Spring Boot](https://donny-nguyen.github.io/2024/09/16/spring-boot.html)
 * [Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)
