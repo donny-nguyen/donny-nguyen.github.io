@@ -20,9 +20,9 @@ Here are some intermediate operations of the Java Stream API:
 
 8. `skip()`: Discards the first n elements.
 
-9. `takeWhile()`: Takes elements while a condition is true (Java 9+).
+9. `takeWhile()`: Takes elements while a condition is true. It stops processing as soon as an element does not match the predicate. (Java 9+)
 
-10. `dropWhile()`: Drops elements while a condition is true (Java 9+).
+10. `dropWhile()`: Drops elements while a condition is true. It stops dropping elements as soon as an element does not match the predicate and includes the remaining elements in the stream. (Java 9+)
 
 These operations can be chained together to create complex data processing pipelines.
 
