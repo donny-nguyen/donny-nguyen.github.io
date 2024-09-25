@@ -34,6 +34,7 @@
 * [Spring MVC](https://donny-nguyen.github.io/2024/09/20/spring-mvc.html)
 * [Controller and RestController](https://donny-nguyen.github.io/2024/09/24/controller-and-restcontroller.html)
 * [PUT and PATCH in RESTful APIs](https://donny-nguyen.github.io/2024/09/25/put-and-patch.html)
+* [Maintaining Versions of RESTful APIs](https://donny-nguyen.github.io/2024/09/25/maintaining-versions-of-restful-apis.html)
 * [Spring Boot](https://donny-nguyen.github.io/2024/09/16/spring-boot.html)
 * [Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
