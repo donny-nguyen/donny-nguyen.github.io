@@ -50,5 +50,6 @@
 * [Backends For Frontends Pattern](https://donny-nguyen.github.io/2024/09/21/backends-for-frontends-pattern.html)
 * [Service Discovery Pattern](https://donny-nguyen.github.io/2024/09/21/service-discovery-pattern.html)
 * [Circuit Breaker Pattern](https://donny-nguyen.github.io/2024/09/21/circuit-breaker-pattern.html)
+* [Communication Between Microservices](https://donny-nguyen.github.io/2024/09/26/communication-between-microservices.html)
 * [Read Phenomena](https://donny-nguyen.github.io/2024/09/23/read-phenomena.html)
 * [Isolation Levels](https://donny-nguyen.github.io/2024/09/23/isolation-levels.html)
