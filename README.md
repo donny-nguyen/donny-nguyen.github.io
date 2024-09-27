@@ -48,6 +48,7 @@
 * [AWS EBS](https://donny-nguyen.github.io/2024/09/20/aws-ebs.html)
 * [AWS Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
 * [Microservices Architecture](https://donny-nguyen.github.io/2024/09/26/microservices-architecture.html)
+* [Event Driven Architecture](https://donny-nguyen.github.io/2024/09/27/event-driven-architecture.html)
 * [Strangler Fig Pattern](https://donny-nguyen.github.io/2024/09/19/strangler-fig-pattern.html)
 * [API Gateway Pattern](https://donny-nguyen.github.io/2024/09/19/api-gateway-pattern.html)
 * [Backends For Frontends Pattern](https://donny-nguyen.github.io/2024/09/21/backends-for-frontends-pattern.html)
