@@ -24,7 +24,7 @@
 
 **Types:**
 
-  * Method overriding: When a subclass provides a different implementation of a method inherited from the superclass. It uses static binding and can be chcked at compile time.
+  * Method overriding: When a subclass provides a different implementation of a method inherited from the superclass. It uses static binding and can be checked at compile time.
 
   * Method overloading: when a class has multiple methods with the same name but different parameters. It uses static binding and can be checked at run time.
 

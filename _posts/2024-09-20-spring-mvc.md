@@ -12,7 +12,7 @@ Some key features of Spring MVC include:
 - **Flexible data binding**: Allows binding of request parameters to Java objects.
 - **View resolution**: Supports various view technologies like JSP, Thymeleaf, and more.
 - **RESTful support**: Enables the creation of RESTful web services using annotations like `@PathVariable`.
-- **Integration with other Spring components**: Works seamlessly with other parts of the Spring ecosystem, such as Spring Boot⁴.
+- **Integration with other Spring components**: Works seamlessly with other parts of the Spring ecosystem, such as Spring Boot.
 
 Spring MVC works by following the Model-View-Controller (MVC) design pattern, which helps in separating the different aspects of the application, making it more manageable and scalable. Here's a high-level overview of how it works:
 
