@@ -5,6 +5,7 @@
 
 ## Posts
 
+### Java Core
 * [Java EE](https://donny-nguyen.github.io/2024/09/07/java-ee.html)
 * [JDK, JRE, and JVM](https://donny-nguyen.github.io/2024/09/10/jdk-jre-and-jvm.html)
 * [Java Virtual Machine](https://donny-nguyen.github.io/2024/09/11/java-virtual-machine.html)
@@ -27,26 +28,32 @@
 * [4 Concepts of OOP](https://donny-nguyen.github.io/2024/09/09/4-concepts-of-oop.html)
 * [SOLID Principles](https://donny-nguyen.github.io/2024/09/16/solid-principles.html)
 * [Strategy Design Pattern](https://donny-nguyen.github.io/2024/09/16/strategy-design-pattern.html)
+
+### Spring Framework
 * [Spring Ecosystem](https://donny-nguyen.github.io/2024/09/16/spring-ecosystem.html)
 * [Spring Framework](https://donny-nguyen.github.io/2024/09/16/spring-framework.html)
-* [Inversion of Control](https://donny-nguyen.github.io/2024/09/24/inversion-of-control.html)
-* [Bean](https://donny-nguyen.github.io/2024/09/24/bean.html)
-* [Dependency Injection](https://donny-nguyen.github.io/2024/09/26/dependency-injection.html)
-* [Qualifier](https://donny-nguyen.github.io/2024/09/26/qualifier.html)
-* [Spring MVC](https://donny-nguyen.github.io/2024/09/20/spring-mvc.html)
-* [Controller and RestController](https://donny-nguyen.github.io/2024/09/24/controller-and-restcontroller.html)
-* [PUT and PATCH in RESTful APIs](https://donny-nguyen.github.io/2024/09/25/put-and-patch.html)
-* [Maintaining Versions of RESTful APIs](https://donny-nguyen.github.io/2024/09/25/maintaining-versions-of-restful-apis.html)
+  * [Inversion of Control](https://donny-nguyen.github.io/2024/09/24/inversion-of-control.html)
+  * [Bean](https://donny-nguyen.github.io/2024/09/24/bean.html)
+  * [Dependency Injection](https://donny-nguyen.github.io/2024/09/26/dependency-injection.html)
+  * [Qualifier](https://donny-nguyen.github.io/2024/09/26/qualifier.html)
+  * [Spring MVC](https://donny-nguyen.github.io/2024/09/20/spring-mvc.html)
+  * [Controller and RestController](https://donny-nguyen.github.io/2024/09/24/controller-and-restcontroller.html)
+  * [PUT and PATCH in RESTful APIs](https://donny-nguyen.github.io/2024/09/25/put-and-patch.html)
+  * [Maintaining Versions of RESTful APIs](https://donny-nguyen.github.io/2024/09/25/maintaining-versions-of-restful-apis.html)
 * [Spring Boot](https://donny-nguyen.github.io/2024/09/16/spring-boot.html)
 * [Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
 * [SOAP and REST](https://donny-nguyen.github.io/2024/09/21/soap-and-rest.html)
+
+### AWS
 * [AWS S3](https://donny-nguyen.github.io/2024/09/17/aws-s3.html)
 * [AWS S3 Transfer Acceleration](https://donny-nguyen.github.io/2024/09/17/aws-s3-transfer-acceleration.html)
 * [AWS S3 Cross-Region Replication](https://donny-nguyen.github.io/2024/09/17/aws-s3-cross-region-replication.html)
 * [AWS Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
 * [AWS EBS](https://donny-nguyen.github.io/2024/09/20/aws-ebs.html)
 * [AWS Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
+
+### System Design
 * [Microservices Architecture](https://donny-nguyen.github.io/2024/09/26/microservices-architecture.html)
 * [Event Driven Architecture](https://donny-nguyen.github.io/2024/09/27/event-driven-architecture.html)
 * [Strangler Fig Pattern](https://donny-nguyen.github.io/2024/09/19/strangler-fig-pattern.html)
@@ -55,6 +62,10 @@
 * [Service Discovery Pattern](https://donny-nguyen.github.io/2024/09/21/service-discovery-pattern.html)
 * [Circuit Breaker Pattern](https://donny-nguyen.github.io/2024/09/21/circuit-breaker-pattern.html)
 * [Communication Between Microservices](https://donny-nguyen.github.io/2024/09/26/communication-between-microservices.html)
+
+### Database
 * [Read Phenomena](https://donny-nguyen.github.io/2024/09/23/read-phenomena.html)
 * [Isolation Levels](https://donny-nguyen.github.io/2024/09/23/isolation-levels.html)
+
+### Node.js
 * [Node.js](https://donny-nguyen.github.io/2024/09/27/nodejs.html)
