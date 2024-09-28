@@ -1,6 +1,10 @@
 # Test Driven Development
 
-Test Driven Development (TDD) is a software development approach where we write tests before writing the actual code. Here's a brief overview of the process:
+Test Driven Development (TDD) is a software development approach where we write tests before writing the actual code.
+
+![TDD](https://www.lambdatest.com/resources/images/learning-hub/tdd-process.png)
+
+Here's a brief overview of the process:
 
 1. **Write a Test**: Start by writing a test for a new feature or functionality. This test will initially fail because the feature hasn't been implemented yet.
 2. **Run the Test**: Execute the test to confirm that it fails. This step ensures that the test is valid and that the feature is not already present.
