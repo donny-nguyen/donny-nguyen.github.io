@@ -9,7 +9,7 @@
 * [Java EE](https://donny-nguyen.github.io/2024/09/07/java-ee.html)
 * [JDK, JRE, and JVM](https://donny-nguyen.github.io/2024/09/10/jdk-jre-and-jvm.html)
 * [Java Virtual Machine](https://donny-nguyen.github.io/2024/09/11/java-virtual-machine.html)
-* [Garbage Collection](https://donny-nguyen.github.io/2024/09/27/garbage-collection.html)
+* [Garbage Collection](https://donny-nguyen.github.io/2024/09/28/garbage-collection.html)
 * [Abstract Class and Interface](https://donny-nguyen.github.io/2024/09/09/abstract-class-and-interface.html)
 * [String Pool](https://donny-nguyen.github.io/2024/09/12/string-pool.html)
 * [equals() and hashCode() methods](https://donny-nguyen.github.io/2024/09/12/equals-and-hashcode-methods.html)
