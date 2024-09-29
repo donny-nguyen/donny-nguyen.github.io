@@ -58,18 +58,18 @@
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
 
 ### System Design
-* [Microservices Architecture](https://donny-nguyen.github.io/2024/09/26/microservices-architecture.html)
-* [Event Driven Architecture](https://donny-nguyen.github.io/2024/09/27/event-driven-architecture.html)
 * [As-a-Service Architecture](https://donny-nguyen.github.io/2024/09/27/as-a-service-architecture.html)
   * [Infrastructure as a Service (IaaS)](https://donny-nguyen.github.io/2024/09/27/infrastructure-as-a-service.html)
   * [Platform as a Service (PaaS)](https://donny-nguyen.github.io/2024/09/27/platform-as-a-service.html)
   * [Software as a Service (SaaS)](https://donny-nguyen.github.io/2024/09/27/software-as-a-service.html)
   * [Function as a Service (FaaS)](https://donny-nguyen.github.io/2024/09/27/function-as-a-service.html)
-* [Strangler Fig Pattern](https://donny-nguyen.github.io/2024/09/19/strangler-fig-pattern.html)
-* [API Gateway Pattern](https://donny-nguyen.github.io/2024/09/19/api-gateway-pattern.html)
-* [Backends For Frontends Pattern](https://donny-nguyen.github.io/2024/09/21/backends-for-frontends-pattern.html)
-* [Service Discovery Pattern](https://donny-nguyen.github.io/2024/09/21/service-discovery-pattern.html)
-* [Circuit Breaker Pattern](https://donny-nguyen.github.io/2024/09/21/circuit-breaker-pattern.html)
+* [Microservices Architecture](https://donny-nguyen.github.io/2024/09/26/microservices-architecture.html)
+  * [Strangler Fig Pattern](https://donny-nguyen.github.io/2024/09/19/strangler-fig-pattern.html)
+  * [API Gateway Pattern](https://donny-nguyen.github.io/2024/09/19/api-gateway-pattern.html)
+  * [Backends For Frontends Pattern](https://donny-nguyen.github.io/2024/09/21/backends-for-frontends-pattern.html)
+  * [Service Discovery Pattern](https://donny-nguyen.github.io/2024/09/21/service-discovery-pattern.html)
+  * [Circuit Breaker Pattern](https://donny-nguyen.github.io/2024/09/21/circuit-breaker-pattern.html)
+  * [Event Driven Architecture](https://donny-nguyen.github.io/2024/09/27/event-driven-architecture.html)
 * [Communication Between Microservices](https://donny-nguyen.github.io/2024/09/26/communication-between-microservices.html)
 
 ### Database
