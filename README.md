@@ -49,6 +49,7 @@
 * [SOAP and REST](https://donny-nguyen.github.io/2024/09/21/soap-and-rest.html)
 
 ### AWS
+* [Cloud Computing](https://donny-nguyen.github.io/2024/10/01/cloud-computing.html)
 * [Simple Storage Service (S3)](https://donny-nguyen.github.io/2024/09/17/aws-s3.html)
   * [S3 Transfer Acceleration](https://donny-nguyen.github.io/2024/09/17/aws-s3-transfer-acceleration.html)
   * [S3 Cross-Region Replication](https://donny-nguyen.github.io/2024/09/17/aws-s3-cross-region-replication.html)
