@@ -59,6 +59,7 @@
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
 
 ### System Design
+* [Non-Functional Requirements](https://donny-nguyen.github.io/2024/10/01/non-functional-requirements.html)
 * [As-a-Service Architecture](https://donny-nguyen.github.io/2024/09/27/as-a-service-architecture.html)
   * [Infrastructure as a Service (IaaS)](https://donny-nguyen.github.io/2024/09/27/infrastructure-as-a-service.html)
   * [Platform as a Service (PaaS)](https://donny-nguyen.github.io/2024/09/27/platform-as-a-service.html)
