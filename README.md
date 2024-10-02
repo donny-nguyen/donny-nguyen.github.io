@@ -86,3 +86,4 @@
 
 ### Other
 * [Git - Manage Username and Email](https://donny-nguyen.github.io/2024/10/01/git-manage-username-and-email.html)
+* [Managing Identities in SSH Agent](https://donny-nguyen.github.io/2024/10/01/managing-identities-in-ssh-agent.html)
