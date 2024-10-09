@@ -47,6 +47,7 @@
 * [Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
 * [Spring Cloud](https://donny-nguyen.github.io/2024/10/08/spring-cloud.html)
+  * [Spring Cloud and AWS](https://donny-nguyen.github.io/2024/10/08/spring-cloud-and-aws.html)
 * [SOAP and REST](https://donny-nguyen.github.io/2024/09/21/soap-and-rest.html)
 
 ### AWS
