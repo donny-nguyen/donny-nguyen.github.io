@@ -15,3 +15,5 @@
 * **Cost-Effectiveness:** By avoiding the need for public IP addresses for every device in a private network, NAT gateways can help reduce costs.
 
 **In essence, a NAT gateway acts as a protective shield for private networks, allowing them to connect to the internet while maintaining a layer of security.**
+
+<em>References:</em> [Understanding NAT Gateways - AWS Training](https://www.youtube.com/watch?v=ujXr0i5EoHE)
