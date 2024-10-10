@@ -19,7 +19,7 @@ The main benefits of TDD include:
 - **Better Design**: TDD encourages developers to think about the design and requirements before writing code, leading to more modular and maintainable code.
 
 <em>Reference:</em>
-* [What is Test Driven Development (TDD)? | Agile Alliance](https://www.agilealliance.org/glossary/tdd/)
+* [What is Test Driven Development (TDD)? - Agile Alliance](https://www.agilealliance.org/glossary/tdd/)
 * [Test-driven development - Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
 * [What Is Test Driven Development (TDD) - LambdaTest](https://www.lambdatest.com/learning-hub/test-driven-development)
 * [What is Test Driven Development (TDD)? - GeeksforGeeks](https://www.geeksforgeeks.org/test-driven-development-tdd/)
