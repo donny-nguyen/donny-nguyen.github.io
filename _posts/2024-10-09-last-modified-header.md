@@ -18,4 +18,4 @@ The Last-Modified header is an HTTP response header that indicates the date and 
 
 **Note:**
 
-- The Last-Modified header is a simple but effective mechanism for caching resources. However, it may not be suitable for all scenarios, especially when resources are frequently updated or when precise caching control is required. In such cases, other caching mechanisms like ETag or conditional GET requests may be more appropriate.
+- The Last-Modified header is a simple but effective mechanism for caching resources. However, it may not be suitable for all scenarios, especially when resources are frequently updated or when precise caching control is required. In such cases, other caching mechanisms like ETag or conditional GET requests may be more appropriate, and Last-Modified can be used as a fallback.

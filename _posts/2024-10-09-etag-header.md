@@ -19,6 +19,10 @@ Here's how it works:
 - **Improved performance:** By leveraging cached resources, ETag can improve the perceived performance of web applications.
 - **Enhanced efficiency:** ETag helps to optimize resource management and reduce server load.
 
+**When to use:**
+
+ETags are generally preferred over Last-Modified headers because they provide a more accurate and reliable way to determine if a resource has changed. They can handle scenarios where the content of a resource has changed but the modification timestamp remains the same.
+
 **Key points to remember:**
 
 - ETag is a mechanism for efficient caching in HTTP.
