@@ -58,6 +58,7 @@
 * [Auto Scaling Group](https://donny-nguyen.github.io/2024/10/22/aws-auto-scaling-group.html)
 * [Load Balancer](https://donny-nguyen.github.io/2024/10/09/aws-load-balancer.html)
 * [Beanstalk](https://donny-nguyen.github.io/2024/10/22/aws-elastic-beanstalk.html)
+* [API Gateway](https://donny-nguyen.github.io/2024/10/22/aws-api-gateway.html)
 * [NAT Gateway](https://donny-nguyen.github.io/2024/10/09/nat-gateway.html)
 * [Simple Queue Service (SQS)](https://donny-nguyen.github.io/2024/09/28/aws-sqs.html)
 * [Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
