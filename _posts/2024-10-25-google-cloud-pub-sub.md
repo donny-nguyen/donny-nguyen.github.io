@@ -15,3 +15,5 @@ Here are some key features of Google Cloud Pub/Sub:
 * Security: Offers robust security features, including encryption in transit and at rest.
 
 Common use cases for Google Cloud Pub/Sub include real-time analytics, data integration, and microservices communication.
+
+<em>Related Posts:</em> [Simple Queue Service (SQS)](https://donny-nguyen.github.io/2024/09/28/aws-sqs.html)
