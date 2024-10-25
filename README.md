@@ -52,6 +52,7 @@
 
 ### Cloud
 * [Cloud Computing](https://donny-nguyen.github.io/2024/10/01/cloud-computing.html)
+* [Multi-Cloud Strategy](https://donny-nguyen.github.io/2024/10/25/multi-cloud-strategy.html)
 
 #### AWS
 * [Simple Storage Service (S3)](https://donny-nguyen.github.io/2024/09/17/aws-s3.html)
