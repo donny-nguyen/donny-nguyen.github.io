@@ -71,6 +71,7 @@
 * [Google Cloud Bigtable](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigtable.html)
 * [Google Cloud SQL](https://donny-nguyen.github.io/2024/10/25/google-cloud-sql.html)
 * [Google Cloud Pub/Sub](https://donny-nguyen.github.io/2024/10/25/google-cloud-pub-sub.html)
+* [Google Cloud BigQuery](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigquery.html)
 
 ### System Design
 * [Non-Functional Requirements](https://donny-nguyen.github.io/2024/10/01/non-functional-requirements.html)
