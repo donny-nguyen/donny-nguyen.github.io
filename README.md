@@ -69,6 +69,7 @@
 
 #### GCP
 * [Google Cloud Bigtable](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigtable.html)
+* [Google Cloud SQL](https://donny-nguyen.github.io/2024/10/25/google-cloud-sql.html)
 
 ### System Design
 * [Non-Functional Requirements](https://donny-nguyen.github.io/2024/10/01/non-functional-requirements.html)
