@@ -50,8 +50,10 @@
   * [Spring Cloud and AWS](https://donny-nguyen.github.io/2024/10/08/spring-cloud-and-aws.html)
 * [SOAP and REST](https://donny-nguyen.github.io/2024/09/21/soap-and-rest.html)
 
-### AWS
+### Cloud
 * [Cloud Computing](https://donny-nguyen.github.io/2024/10/01/cloud-computing.html)
+
+#### AWS
 * [Simple Storage Service (S3)](https://donny-nguyen.github.io/2024/09/17/aws-s3.html)
   * [S3 Transfer Acceleration](https://donny-nguyen.github.io/2024/09/17/aws-s3-transfer-acceleration.html)
   * [S3 Cross-Region Replication](https://donny-nguyen.github.io/2024/09/17/aws-s3-cross-region-replication.html)
@@ -64,6 +66,9 @@
 * [Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
 * [Elastic Block Store (EBS)](https://donny-nguyen.github.io/2024/09/20/aws-ebs.html)
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
+
+#### GCP
+* [Google Cloud Bigtable](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigtable.html)
 
 ### System Design
 * [Non-Functional Requirements](https://donny-nguyen.github.io/2024/10/01/non-functional-requirements.html)
