@@ -15,3 +15,5 @@ Here are some key features of Google Cloud BigQuery:
 * AI-Ready: Built-in features for machine learning, geospatial analysis, and business intelligence.
 
 BigQuery is commonly used for business intelligence, data warehousing, and real-time analytics. It's a powerful tool for organizations looking to gain insights from their data without the overhead of managing a traditional data warehouse.
+
+<em>Related Posts:</em> [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)

@@ -16,3 +16,5 @@
 * [What is Amazon (AWS) Redshift?](https://www.snaplogic.com/blog/what-is-amazon-redshift-data-warehousing)
 * [AWS Redshift 101: What Is It and When Should You Use It? - CloudZero](https://www.cloudzero.com/blog/aws-redshift/)
 * [en.wikipedia.org](https://en.wikipedia.org/wiki/Amazon_Redshift)
+
+<em>Related Posts:</em> [Google Cloud BigQuery](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigquery.html)
