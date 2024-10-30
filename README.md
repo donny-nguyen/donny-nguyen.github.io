@@ -90,6 +90,7 @@
   * [Bulkhead Pattern](https://donny-nguyen.github.io/2024/09/29/bulkhead-pattern.html)
   * [Retry Pattern](https://donny-nguyen.github.io/2024/09/29/retry-pattern.html)
   * [Event Driven Architecture](https://donny-nguyen.github.io/2024/09/27/event-driven-architecture.html)
+  * [Saga Pattern](https://donny-nguyen.github.io/2024/10/30/saga-pattern.html)
 * [Communication Between Microservices](https://donny-nguyen.github.io/2024/09/26/communication-between-microservices.html)
 * [Stateful vs. Stateless Applications](https://donny-nguyen.github.io/2024/10/22/stateful-vs-stateless-applications.html)
 
