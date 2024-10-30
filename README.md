@@ -116,3 +116,4 @@
 * [HTTP Request Caching](https://donny-nguyen.github.io/2024/10/09/http-request-caching.html)
   * [ETag Header](https://donny-nguyen.github.io/2024/10/09/etag-header.html)
   * [Last-Modified Header](https://donny-nguyen.github.io/2024/10/09/last-modified-header.html)
+* [Self-awareness in Job Interviews](https://donny-nguyen.github.io/2024/10/30/self-awareness-in-job-interviews.html)
