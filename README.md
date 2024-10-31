@@ -102,6 +102,7 @@
 ### Node.js
 * [Node.js](https://donny-nguyen.github.io/2024/09/27/nodejs.html)
 * [Event Loop](https://donny-nguyen.github.io/2024/09/27/event-loop-in-nodejs.html)
+* [Node Package Manager (npm)](https://donny-nguyen.github.io/2024/10/31/npm.html)
 * [Express](https://donny-nguyen.github.io/2024/10/20/express.html)
 
 ### Frontend
