@@ -1,6 +1,6 @@
 # Require and Import
 
-In Node.js, `require` and `import` are both used to bring modules or packages into your code, but they come from different module systems and have distinct behaviors. Here’s a breakdown of their differences and usage:
+In Node.js, `require` and `import` are both used to bring modules or packages into our code, but they come from different module systems and have distinct behaviors. Here’s a breakdown of their differences and usage:
 
 ### 1. **Module Systems**
 
@@ -23,8 +23,8 @@ In Node.js, `require` and `import` are both used to bring modules or packages in
 
 ### 3. **Module Exporting**
 
-   - **`module.exports` / `exports`:** When using `require`, you define exports with `module.exports` or `exports`.
-   - **`export default` / `export { ... }`:** When using `import`, you define exports using `export default` (for a single default export) or `export { ... }` for named exports.
+   - **`module.exports` / `exports`:** When using `require`, we define exports with `module.exports` or `exports`.
+   - **`export default` / `export { ... }`:** When using `import`, we define exports using `export default` (for a single default export) or `export { ... }` for named exports.
 
 ### 4. **Compatibility**
 
@@ -34,7 +34,7 @@ In Node.js, `require` and `import` are both used to bring modules or packages in
 ### 5. **Use Cases**
 
    - **Use `require`** when working with CommonJS modules, such as many Node.js packages that still use CommonJS by default.
-   - **Use `import`** when you want to work with ES6 modules and take advantage of asynchronous loading and more modern syntax.
+   - **Use `import`** when we want to work with ES6 modules and take advantage of asynchronous loading and more modern syntax.
 
 ### Example Comparison
 
