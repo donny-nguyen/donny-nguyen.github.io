@@ -87,4 +87,4 @@ readFile();
 - **Promises**: Improve readability and allow chaining, but can still become complex with multiple `.then()` calls.
 - **Async/Await**: Offers the best readability and maintainability for handling asynchronous code and makes it appear synchronous, though it requires understanding promises. 
 
-Choosing between these approaches depends on the complexity and structure of the asynchronous tasks you're handling, with `async`/`await` typically preferred for its readability and ease of debugging.
+Choosing between these approaches depends on the complexity and structure of the asynchronous tasks we're handling, with `async`/`await` typically preferred for its readability and ease of debugging.
