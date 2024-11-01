@@ -117,6 +117,7 @@
 * [Install](https://donny-nguyen.github.io/2024/10/29/install-flutter-and-dart.html)
 * [Get Started](https://donny-nguyen.github.io/2024/10/29/getting-started-with-dart-console-project.html)
 * [Data Types](https://donny-nguyen.github.io/2024/11/01/dart-data-types.html)
+* [Const and Final Keywords](https://donny-nguyen.github.io/2024/11/01/const-and-final.html)
 
 ### Other
 * [Git - Manage Username and Email](https://donny-nguyen.github.io/2024/10/01/git-manage-username-and-email.html)
