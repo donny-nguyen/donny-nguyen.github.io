@@ -6,7 +6,7 @@ dart create my_console_app
 cd my_console_app
 ```
 
-### 2. The project structure I provided includes:
+### 2. The project structure:
    - `pubspec.yaml`: Project configuration and dependencies
    - `bin/main.dart`: Our main application code
    - `test`: Directory for our unit tests
@@ -63,7 +63,7 @@ void main() {
 dart run
 ```
 
-You can also pass arguments:
+We can also pass arguments:
 ```bash
 dart run bin/main.dart arg1 arg2
 ```
