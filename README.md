@@ -66,6 +66,7 @@
 * [Simple Queue Service (SQS)](https://donny-nguyen.github.io/2024/09/28/aws-sqs.html)
 * [Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
 * [Elastic Block Store (EBS)](https://donny-nguyen.github.io/2024/09/20/aws-ebs.html)
+* [Cognito](https://donny-nguyen.github.io/2024/11/01/aws-cognito.html)
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
 
 #### GCP
