@@ -49,8 +49,9 @@
 ### RESTful API
 * [RESTful API](https://donny-nguyen.github.io/2024/11/02/restful-api.html)
 * [SOAP and REST](https://donny-nguyen.github.io/2024/09/21/soap-and-rest.html)
-* [PUT and PATCH in RESTful APIs](https://donny-nguyen.github.io/2024/09/25/put-and-patch.html)
-* [Maintaining Versions of RESTful APIs](https://donny-nguyen.github.io/2024/09/25/maintaining-versions-of-restful-apis.html)
+* [PUT and PATCH](https://donny-nguyen.github.io/2024/09/25/put-and-patch.html)
+* [HEAD Method](https://donny-nguyen.github.io/2024/11/02/head-method.html)
+* [Maintaining Versions](https://donny-nguyen.github.io/2024/09/25/maintaining-versions-of-restful-apis.html)
 * [Common HTTP Status Codes](https://donny-nguyen.github.io/2024/09/28/common-http-status-codes.html)
 
 ### Cloud
