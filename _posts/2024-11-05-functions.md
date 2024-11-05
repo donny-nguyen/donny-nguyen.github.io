@@ -30,25 +30,6 @@ Dart allows us to use a shorthand syntax called the "arrow" syntax for simple, o
 int multiply(int a, int b) => a * b;
 ```
 
-### Optional Parameters
-Dart supports optional parameters, which can be either positional or named.
-
-1. **Positional Optional Parameters**: Defined using square brackets `[]`:
-
-    ```dart
-    String greet(String name, [String title = '']) {
-      return 'Hello, $title $name';
-    }
-    ```
-
-2. **Named Optional Parameters**: Defined using curly braces `{}`:
-
-    ```dart
-    String greet({String name = 'User', String title = ''}) {
-      return 'Hello, $title $name';
-    }
-    ```
-
 ### Anonymous Functions (Lambdas)
 Dart allows us to create functions without names, called anonymous functions or lambdas. These are useful for short callbacks:
 
