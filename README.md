@@ -137,6 +137,7 @@
 * [Common Operators](https://donny-nguyen.github.io/2024/11/04/common-operators-in-dart.html)
 * [Nullable](https://donny-nguyen.github.io/2024/11/04/nullable.html)
 * [Late](https://donny-nguyen.github.io/2024/11/05/late.html)
+* [Functions](https://donny-nguyen.github.io/2024/11/05/functions.html)
 
 ### Other
 * [Git - Manage Username and Email](https://donny-nguyen.github.io/2024/10/01/git-manage-username-and-email.html)
