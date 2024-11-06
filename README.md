@@ -142,6 +142,7 @@
 * [Late](https://donny-nguyen.github.io/2024/11/05/late.html)
 * [Functions](https://donny-nguyen.github.io/2024/11/05/functions.html)
 * [Function Parameters](https://donny-nguyen.github.io/2024/11/05/function-parameters.html)
+* [Collections](https://donny-nguyen.github.io/2024/11/06/collections.html)
 
 ### Other
 * [Git - Manage Username and Email](https://donny-nguyen.github.io/2024/10/01/git-manage-username-and-email.html)
