@@ -46,12 +46,15 @@
 * [Spring Cloud](https://donny-nguyen.github.io/2024/10/08/spring-cloud.html)
   * [Spring Cloud and AWS](https://donny-nguyen.github.io/2024/10/08/spring-cloud-and-aws.html)
 
-### RESTful API
+### RESTful APIs
 * [RESTful API](https://donny-nguyen.github.io/2024/11/02/restful-api.html)
 * [SOAP and REST](https://donny-nguyen.github.io/2024/09/21/soap-and-rest.html)
 * [PUT and PATCH](https://donny-nguyen.github.io/2024/09/25/put-and-patch.html)
 * [HEAD Method](https://donny-nguyen.github.io/2024/11/02/head-method.html)
 * [OPTIONS Method](https://donny-nguyen.github.io/2024/11/02/options-method.html)
+* [HTTP Request Caching](https://donny-nguyen.github.io/2024/10/09/http-request-caching.html)
+  * [ETag Header](https://donny-nguyen.github.io/2024/10/09/etag-header.html)
+  * [Last-Modified Header](https://donny-nguyen.github.io/2024/10/09/last-modified-header.html)
 * [Maintaining Versions](https://donny-nguyen.github.io/2024/09/25/maintaining-versions-of-restful-apis.html)
 * [Common HTTP Status Codes](https://donny-nguyen.github.io/2024/09/28/common-http-status-codes.html)
 
@@ -143,7 +146,4 @@
 ### Other
 * [Git - Manage Username and Email](https://donny-nguyen.github.io/2024/10/01/git-manage-username-and-email.html)
 * [Managing Identities in SSH Agent](https://donny-nguyen.github.io/2024/10/01/managing-identities-in-ssh-agent.html)
-* [HTTP Request Caching](https://donny-nguyen.github.io/2024/10/09/http-request-caching.html)
-  * [ETag Header](https://donny-nguyen.github.io/2024/10/09/etag-header.html)
-  * [Last-Modified Header](https://donny-nguyen.github.io/2024/10/09/last-modified-header.html)
 * [Self-awareness in Job Interviews](https://donny-nguyen.github.io/2024/10/30/self-awareness-in-job-interviews.html)
