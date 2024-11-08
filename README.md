@@ -90,13 +90,18 @@
 * [Google Cloud Pub/Sub](https://donny-nguyen.github.io/2024/10/25/google-cloud-pub-sub.html)
 * [Google Cloud BigQuery](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigquery.html)
 
-### Microservices
+### System Design
+* [System Design Process](https://donny-nguyen.github.io/2024/11/08/system-design-process.html)
 * [Non-Functional Requirements](https://donny-nguyen.github.io/2024/10/01/non-functional-requirements.html)
 * [As-a-Service Architecture](https://donny-nguyen.github.io/2024/09/27/as-a-service-architecture.html)
   * [Infrastructure as a Service (IaaS)](https://donny-nguyen.github.io/2024/09/27/infrastructure-as-a-service.html)
   * [Platform as a Service (PaaS)](https://donny-nguyen.github.io/2024/09/27/platform-as-a-service.html)
   * [Software as a Service (SaaS)](https://donny-nguyen.github.io/2024/09/27/software-as-a-service.html)
   * [Function as a Service (FaaS)](https://donny-nguyen.github.io/2024/09/27/function-as-a-service.html)
+* [Stateful vs. Stateless Applications](https://donny-nguyen.github.io/2024/10/22/stateful-vs-stateless-applications.html)
+* [Chaos Engineering](https://donny-nguyen.github.io/2024/10/30/chaos-engineering.html)
+
+#### Microservices
 * [Microservices Architecture](https://donny-nguyen.github.io/2024/09/26/microservices-architecture.html)
   * [Strangler Fig Pattern](https://donny-nguyen.github.io/2024/09/19/strangler-fig-pattern.html)
   * [API Gateway Pattern](https://donny-nguyen.github.io/2024/09/19/api-gateway-pattern.html)
@@ -109,8 +114,6 @@
   * [Saga Pattern](https://donny-nguyen.github.io/2024/10/30/saga-pattern.html)
   * [Domain-Driven Design (DDD)](https://donny-nguyen.github.io/2024/11/01/domain-driven-design.html)
 * [Communication Between Microservices](https://donny-nguyen.github.io/2024/09/26/communication-between-microservices.html)
-* [Stateful vs. Stateless Applications](https://donny-nguyen.github.io/2024/10/22/stateful-vs-stateless-applications.html)
-* [Chaos Engineering](https://donny-nguyen.github.io/2024/10/30/chaos-engineering.html)
 
 ### Database
 * [Read Phenomena](https://donny-nguyen.github.io/2024/09/23/read-phenomena.html)
