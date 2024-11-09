@@ -81,9 +81,10 @@
 * [Simple Queue Service (SQS)](https://donny-nguyen.github.io/2024/09/28/aws-sqs.html)
 * [Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
 * [Elastic Block Store (EBS)](https://donny-nguyen.github.io/2024/09/20/aws-ebs.html)
+* [Elastic Container Service (ECS)](https://donny-nguyen.github.io/2024/11/09/aws-ecs.html)
 * [Cognito](https://donny-nguyen.github.io/2024/11/01/aws-cognito.html)
   * [Implementing AWS Cognito Authentication in Web Apps](https://donny-nguyen.github.io/2024/11/01/implementing-cognito-in-web-apps.html)
-* [RDS](https://donny-nguyen.github.io/2024/11/09/aws-rds.html)
+* [Relational Database Service (RDS)](https://donny-nguyen.github.io/2024/11/09/aws-rds.html)
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
 
 #### GCP
