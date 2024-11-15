@@ -1,6 +1,6 @@
 # String Pool
 
-The **String Pool** (also known as the **String Intern Pool**) is a special memory region where **String literals** are stored. It is part of the **heap memory** and is used to optimize memory usage by storing only one copy of each distinct string value.
+The String Pool (also known as the String Intern Pool) is a special memory region where **String literals** are stored. It is part of the **heap memory** and is used to optimize memory usage by storing only one copy of each distinct string value.
 
 Here's how the String Pool works:
 
