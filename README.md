@@ -142,6 +142,7 @@
 
 * [What is React.js?](https://donny-nguyen.github.io/2024/11/16/reactjs.html)
 * [JSX](https://donny-nguyen.github.io/2024/11/16/jsx.html)
+* [React Component](https://donny-nguyen.github.io/2024/11/16/react-component.html)
 
 #### Flutter
 * [Install](https://donny-nguyen.github.io/2024/10/29/install-flutter-and-dart.html)
