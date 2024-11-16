@@ -85,6 +85,7 @@
 * [Cognito](https://donny-nguyen.github.io/2024/11/01/aws-cognito.html)
   * [Implementing AWS Cognito Authentication in Web Apps](https://donny-nguyen.github.io/2024/11/01/implementing-cognito-in-web-apps.html)
 * [Relational Database Service (RDS)](https://donny-nguyen.github.io/2024/11/09/aws-rds.html)
+* [DynamoDB](https://donny-nguyen.github.io/2024/11/16/aws-dynamodb.html)
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
 
 #### GCP
