@@ -144,6 +144,7 @@
 * [What is React.js?](https://donny-nguyen.github.io/2024/11/16/reactjs.html)
 * [JSX](https://donny-nguyen.github.io/2024/11/16/jsx.html)
 * [React Component](https://donny-nguyen.github.io/2024/11/16/react-component.html)
+  * [Creating Simple React component](https://donny-nguyen.github.io/2024/11/18/creating-simple-react-component.html)
 * [Props](https://donny-nguyen.github.io/2024/11/16/props.html)
 * [State](https://donny-nguyen.github.io/2024/11/16/state.html)
 
