@@ -87,6 +87,7 @@
 * [Relational Database Service (RDS)](https://donny-nguyen.github.io/2024/11/09/aws-rds.html)
 * [DynamoDB](https://donny-nguyen.github.io/2024/11/16/aws-dynamodb.html)
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
+* [CloudWatch](https://donny-nguyen.github.io/2024/11/18/aws-cloudwatch.html)
 
 #### GCP
 * [Google Cloud Bigtable](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigtable.html)
