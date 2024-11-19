@@ -150,7 +150,7 @@
   * [Controlled and Uncontrolled Components](https://donny-nguyen.github.io/2024/11/19/controlled-and-uncontrolled-components.html)
 * [Props](https://donny-nguyen.github.io/2024/11/16/props.html)
 * [State](https://donny-nguyen.github.io/2024/11/16/state.html)
-  * [State Managing](https://donny-nguyen.github.io/2024/11/19/state-managing.html)
+  * [State Management](https://donny-nguyen.github.io/2024/11/19/state-managing.html)
 * [Virtual DOM](https://donny-nguyen.github.io/2024/11/18/virtual-dom.html)
 * [Events Handling](https://donny-nguyen.github.io/2024/11/19/events-handling.html)
 

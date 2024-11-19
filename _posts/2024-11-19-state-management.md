@@ -1,4 +1,4 @@
-# State Managing
+# State Management
 
 Managing state in a React application is a fundamental concept that allows us to create dynamic and interactive user interfaces. Here are several ways to manage state, ranging from simple state management within a single component to more complex state management across an entire application:
 
