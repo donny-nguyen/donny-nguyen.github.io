@@ -153,6 +153,7 @@
   * [State Management](https://donny-nguyen.github.io/2024/11/19/state-managing.html)
 * [Virtual DOM](https://donny-nguyen.github.io/2024/11/18/virtual-dom.html)
 * [Events Handling](https://donny-nguyen.github.io/2024/11/19/events-handling.html)
+* [React Hooks](https://donny-nguyen.github.io/2024/11/19/react-hooks.html)
 
 #### Flutter
 * [Install](https://donny-nguyen.github.io/2024/10/29/install-flutter-and-dart.html)
