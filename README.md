@@ -139,6 +139,7 @@
 * [Error Handling](https://donny-nguyen.github.io/2024/10/31/error-handling.html)
 * [Express](https://donny-nguyen.github.io/2024/10/20/express.html)
   * [Middleware Functions](https://donny-nguyen.github.io/2024/11/02/middleware-functions.html)
+* [Preventing Memory Leaks](https://donny-nguyen.github.io/2024/11/21/preventing-memory-leaks.html)
 
 ### Frontend
 
