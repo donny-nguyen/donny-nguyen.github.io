@@ -95,6 +95,7 @@
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
 * [CloudWatch](https://donny-nguyen.github.io/2024/11/18/aws-cloudwatch.html)
 * [Deploying from GitHub to AWS ECS using AWS Pipelines](https://donny-nguyen.github.io/2024/11/22/deployment.html)
+* [Scaling Application in AWS ECS](https://donny-nguyen.github.io/2024/11/22/scaling.html)
 
 #### GCP
 * [Google Cloud Bigtable](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigtable.html)
