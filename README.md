@@ -65,6 +65,7 @@
 
 ### Security
 * [JSON Web Token (JWT)](https://donny-nguyen.github.io/2024/11/22/jwt.html)
+* [Signed JWTs and Encrypted JWTs](https://donny-nguyen.github.io/2024/11/22/signed-jwt-and-encrypted-jwt.html)
 
 ### Cloud
 * [Cloud Computing](https://donny-nguyen.github.io/2024/10/01/cloud-computing.html)
