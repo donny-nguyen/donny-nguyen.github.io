@@ -63,6 +63,9 @@
 * [Integration Test](https://donny-nguyen.github.io/2024/11/02/integration-testing.html)
 * [Mockito](https://donny-nguyen.github.io/2024/11/20/mockito.html)
 
+### Security
+* [JSON Web Token (JWT)](https://donny-nguyen.github.io/2024/11/22/jwt.html)
+
 ### Cloud
 * [Cloud Computing](https://donny-nguyen.github.io/2024/10/01/cloud-computing.html)
 * [Multi-Cloud Strategy](https://donny-nguyen.github.io/2024/10/25/multi-cloud-strategy.html)
