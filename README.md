@@ -41,6 +41,7 @@
   * [Spring MVC](https://donny-nguyen.github.io/2024/09/20/spring-mvc.html)
   * [Controller and RestController](https://donny-nguyen.github.io/2024/09/24/controller-and-restcontroller.html)
 * [Spring Boot](https://donny-nguyen.github.io/2024/09/16/spring-boot.html)
+  * [How Spring Boot Simplifies the Configuration Process](https://donny-nguyen.github.io/2024/11/23/spring-boot-simplifies-configuration.html)
 * [Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
 * [Spring Cloud](https://donny-nguyen.github.io/2024/10/08/spring-cloud.html)
