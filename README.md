@@ -111,6 +111,7 @@
   * [Platform as a Service (PaaS)](https://donny-nguyen.github.io/2024/09/27/platform-as-a-service.html)
   * [Software as a Service (SaaS)](https://donny-nguyen.github.io/2024/09/27/software-as-a-service.html)
   * [Function as a Service (FaaS)](https://donny-nguyen.github.io/2024/09/27/function-as-a-service.html)
+* [Layered Architecture](https://donny-nguyen.github.io/2024/11/23/layered-architecture.html)
 * [Stateful vs. Stateless Applications](https://donny-nguyen.github.io/2024/10/22/stateful-vs-stateless-applications.html)
 * [Chaos Engineering](https://donny-nguyen.github.io/2024/10/30/chaos-engineering.html)
 
