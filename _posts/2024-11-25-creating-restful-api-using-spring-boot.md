@@ -3,7 +3,9 @@
 Here's a comprehensive guide to creating a RESTful API with Spring Boot:
 
 ### 1. Project Setup
+
 - Use Spring Initializr (start.spring.io) to create a new project. This is the project structure we will create:
+
 ```
 src/
 ├── main/
@@ -30,6 +32,7 @@ src/
 ```
 
 - Add dependencies: Spring Web, Spring Data JPA, and a database driver (H2 for this example):
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -77,6 +80,7 @@ src/
 ```
 
 - Configure project properties:
+
 ```
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driverClassName=org.h2.Driver
@@ -89,6 +93,7 @@ spring.h2.console.enabled=true
 ### 2. Key Components
 
 **- Model (User.java):** Defines the data structure
+
 ```java
 package com.example.demo.model;
 
@@ -135,6 +140,7 @@ public class User {
 ```
 
 **- Repository (UserRepository.java):** Handles database operations
+
 ```java
 package com.example.demo.repository;
 
@@ -149,6 +155,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 ```
 
 **- Service (UserService.java):** Implements business logic
+
 ```java
 package com.example.demo.service;
 
@@ -200,6 +207,7 @@ public class UserService {
 ```
 
 **- Controller (UserController.java):** Defines REST endpoints which provide these RESTful endpoints:
+
   - GET /api/users: Retrieve all users
   - GET /api/users/{id}: Retrieve a specific user
   - POST /api/users: Create a new user
@@ -266,6 +274,7 @@ public class UserController {
 **- Exception Handling:**
 
 1. Custom Exception for Resource Not Found
+
 ```java
 package com.example.demo.exception;
 
@@ -277,9 +286,11 @@ public class ResourceNotFoundException extends RuntimeException {
 ```
 
 2. Global Exception Handler with @ControllerAdvice allows centralized exception handling. Three main exception handlers:
+
     a. ResourceNotFoundException: Handles specific resource-not-found scenarios
     b. ConstraintViolationException: Manages input validation errors
     c. Generic Exception handler for unexpected errors
+
 ```java
 public class GlobalExceptionHandler {
     // Handle specific ResourceNotFoundException
@@ -327,6 +338,7 @@ public class GlobalExceptionHandler {
 ```
 
 3. Error Response DTO provides a structured error response, includes timestamp, HTTP status, message, and details, helps provide consistent error information:
+
 ```java
 class ErrorResponse {
     private LocalDateTime timestamp;
@@ -358,6 +370,7 @@ class ErrorResponse {
 
 
 **- Main Method (DemoApplication.java):**
+
 ```java
 // Main Application: DemoApplication.java
 package com.example.demo;
