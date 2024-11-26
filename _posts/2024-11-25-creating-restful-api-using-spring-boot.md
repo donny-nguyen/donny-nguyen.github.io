@@ -18,8 +18,12 @@ src/
 │   │               │   └── User.java
 │   │               ├── repository/
 │   │               │   └── UserRepository.java
-│   │               └── service/
-│   │                   └── UserService.java
+│   │               ├── service/
+│   │               │   └── UserService.java
+│   │               └── exception/
+│   │                   ├── ResourceNotFoundException.java
+│   │                   ├── ErrorResponse.java
+│   │                   └── GlobalExceptionHandler.java
 │   └── resources/
 │       └── application.properties
 └── pom.xml
@@ -55,6 +59,12 @@ src/
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
+
+        <!-- Spring Validation for validation -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
         
         <!-- H2 Database (for in-memory testing) -->
         <dependency>
@@ -86,6 +96,9 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
 @Entity
 public class User {
@@ -93,7 +106,12 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
+    @NotBlank(message = "Name cannot be blank")
+    @Size(min = 2, max = 100, message = "Name must be between 2 and 100 characters")
     private String name;
+    
+    @NotBlank(message = "Email cannot be blank")
+    @Email(message = "Invalid email format")
     private String email;
     
     // Constructors
@@ -136,6 +154,7 @@ package com.example.demo.service;
 
 import com.example.demo.model.User;
 import com.example.demo.repository.UserRepository;
+import com.example.demo.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -161,7 +180,9 @@ public class UserService {
     
     public User updateUser(Long id, User userDetails) {
         User user = userRepository.findById(id)
-            .orElseThrow(() -> new RuntimeException("User not found"));
+            .orElseThrow(() -> new ResourceNotFoundException(
+                "User not found with id: " + id
+            ));
         
         user.setName(userDetails.getName());
         user.setEmail(userDetails.getEmail());
@@ -190,6 +211,7 @@ package com.example.demo.controller;
 
 import com.example.demo.model.User;
 import com.example.demo.service.UserService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -226,7 +248,7 @@ public class UserController {
     @PutMapping("/{id}")
     public ResponseEntity<User> updateUser(
         @PathVariable Long id, 
-        @RequestBody User userDetails
+        @Valid @RequestBody User userDetails
     ) {
         User updatedUser = userService.updateUser(id, userDetails);
         return ResponseEntity.ok(updatedUser);
@@ -240,6 +262,100 @@ public class UserController {
     }
 }
 ```
+
+**- Exception Handling:**
+
+1. Custom Exception for Resource Not Found
+```java
+package com.example.demo.exception;
+
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+}
+```
+
+2. Global Exception Handler with @ControllerAdvice allows centralized exception handling. Three main exception handlers:
+    a. ResourceNotFoundException: Handles specific resource-not-found scenarios
+    b. ConstraintViolationException: Manages input validation errors
+    c. Generic Exception handler for unexpected errors
+```java
+public class GlobalExceptionHandler {
+    // Handle specific ResourceNotFoundException
+    @ExceptionHandler(ResourceNotFoundException.class)
+    public ResponseEntity<ErrorResponse> handleResourceNotFoundException(
+        ResourceNotFoundException ex, 
+        WebRequest request
+    ) {
+        ErrorResponse error = new ErrorResponse(
+            HttpStatus.NOT_FOUND, 
+            "Resource Not Found", 
+            ex.getMessage()
+        );
+        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+    }
+
+    // Handle validation errors
+    @ExceptionHandler(jakarta.validation.ConstraintViolationException.class)
+    public ResponseEntity<ErrorResponse> handleValidationExceptions(
+        jakarta.validation.ConstraintViolationException ex,
+        WebRequest request
+    ) {
+        ErrorResponse error = new ErrorResponse(
+            HttpStatus.BAD_REQUEST, 
+            "Validation Error", 
+            ex.getMessage()
+        );
+        return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
+    }
+
+    // Handle generic exceptions
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<ErrorResponse> handleGlobalException(
+        Exception ex, 
+        WebRequest request
+    ) {
+        ErrorResponse error = new ErrorResponse(
+            HttpStatus.INTERNAL_SERVER_ERROR, 
+            "An unexpected error occurred", 
+            ex.getMessage()
+        );
+        return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+}
+```
+
+3. Error Response DTO provides a structured error response, includes timestamp, HTTP status, message, and details, helps provide consistent error information:
+```java
+class ErrorResponse {
+    private LocalDateTime timestamp;
+    private HttpStatus status;
+    private String message;
+    private String details;
+
+    public ErrorResponse(HttpStatus status, String message, String details) {
+        this.timestamp = LocalDateTime.now();
+        this.status = status;
+        this.message = message;
+        this.details = details;
+    }
+
+    // Getters and setters
+    public LocalDateTime getTimestamp() { return timestamp; }
+    public void setTimestamp(LocalDateTime timestamp) { this.timestamp = timestamp; }
+
+    public HttpStatus getStatus() { return status; }
+    public void setStatus(HttpStatus status) { this.status = status; }
+
+    public String getMessage() { return message; }
+    public void setMessage(String message) { this.message = message; }
+
+    public String getDetails() { return details; }
+    public void setDetails(String details) { this.details = details; }
+}
+```
+
 
 **- Main Method (DemoApplication.java):**
 ```java
@@ -274,3 +390,4 @@ Key Spring Boot Features Demonstrated:
 - ResponseEntity for flexible HTTP responses
 - Spring Data JPA for database operations
 - Dependency Injection with @Autowired
+- Exception handling with @ControllerAdvice, @ExceptionHandler
