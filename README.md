@@ -49,6 +49,7 @@
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
 * [Spring Cloud](https://donny-nguyen.github.io/2024/10/08/spring-cloud.html)
   * [Spring Cloud and AWS](https://donny-nguyen.github.io/2024/10/08/spring-cloud-and-aws.html)
+* [Creating a RESTful API using Spring Boot](https://donny-nguyen.github.io/2024/11/25/creating-restful-api-using-spring-boot.html)
 
 ### RESTful APIs
 * [RESTful API](https://donny-nguyen.github.io/2024/11/02/restful-api.html)
