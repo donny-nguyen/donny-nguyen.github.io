@@ -33,7 +33,7 @@ src/
 
 - Add dependencies: Spring Web, Spring Data JPA, and a database driver (H2 for this example):
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -273,100 +273,100 @@ public class UserController {
 
 **- Exception Handling:**
 
-1. Custom Exception for Resource Not Found
+  * Custom Exception for Resource Not Found
 
-```java
-package com.example.demo.exception;
+    ```java
+    package com.example.demo.exception;
 
-public class ResourceNotFoundException extends RuntimeException {
-    public ResourceNotFoundException(String message) {
-        super(message);
+    public class ResourceNotFoundException extends RuntimeException {
+        public ResourceNotFoundException(String message) {
+            super(message);
+        }
     }
-}
-```
+    ```
 
-2. Global Exception Handler with @ControllerAdvice allows centralized exception handling. Three main exception handlers:
+  * Global Exception Handler with @ControllerAdvice allows centralized exception handling. Three main exception handlers:
 
     a. ResourceNotFoundException: Handles specific resource-not-found scenarios
     b. ConstraintViolationException: Manages input validation errors
     c. Generic Exception handler for unexpected errors
 
-```java
-public class GlobalExceptionHandler {
-    // Handle specific ResourceNotFoundException
-    @ExceptionHandler(ResourceNotFoundException.class)
-    public ResponseEntity<ErrorResponse> handleResourceNotFoundException(
-        ResourceNotFoundException ex, 
-        WebRequest request
-    ) {
-        ErrorResponse error = new ErrorResponse(
-            HttpStatus.NOT_FOUND, 
-            "Resource Not Found", 
-            ex.getMessage()
-        );
-        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+    ```java
+    public class GlobalExceptionHandler {
+        // Handle specific ResourceNotFoundException
+        @ExceptionHandler(ResourceNotFoundException.class)
+        public ResponseEntity<ErrorResponse> handleResourceNotFoundException(
+            ResourceNotFoundException ex, 
+            WebRequest request
+        ) {
+            ErrorResponse error = new ErrorResponse(
+                HttpStatus.NOT_FOUND, 
+                "Resource Not Found", 
+                ex.getMessage()
+            );
+            return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+        }
+
+        // Handle validation errors
+        @ExceptionHandler(jakarta.validation.ConstraintViolationException.class)
+        public ResponseEntity<ErrorResponse> handleValidationExceptions(
+            jakarta.validation.ConstraintViolationException ex,
+            WebRequest request
+        ) {
+            ErrorResponse error = new ErrorResponse(
+                HttpStatus.BAD_REQUEST, 
+                "Validation Error", 
+                ex.getMessage()
+            );
+            return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
+        }
+
+        // Handle generic exceptions
+        @ExceptionHandler(Exception.class)
+        public ResponseEntity<ErrorResponse> handleGlobalException(
+            Exception ex, 
+            WebRequest request
+        ) {
+            ErrorResponse error = new ErrorResponse(
+                HttpStatus.INTERNAL_SERVER_ERROR, 
+                "An unexpected error occurred", 
+                ex.getMessage()
+            );
+            return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
+    ```
 
-    // Handle validation errors
-    @ExceptionHandler(jakarta.validation.ConstraintViolationException.class)
-    public ResponseEntity<ErrorResponse> handleValidationExceptions(
-        jakarta.validation.ConstraintViolationException ex,
-        WebRequest request
-    ) {
-        ErrorResponse error = new ErrorResponse(
-            HttpStatus.BAD_REQUEST, 
-            "Validation Error", 
-            ex.getMessage()
-        );
-        return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
+  * Error Response DTO provides a structured error response, includes timestamp, HTTP status, message, and details, helps provide consistent error information:
+
+    ```java
+    class ErrorResponse {
+        private LocalDateTime timestamp;
+        private HttpStatus status;
+        private String message;
+        private String details;
+
+        public ErrorResponse(HttpStatus status, String message, String details) {
+            this.timestamp = LocalDateTime.now();
+            this.status = status;
+            this.message = message;
+            this.details = details;
+        }
+
+        // Getters and setters
+        public LocalDateTime getTimestamp() { return timestamp; }
+        public void setTimestamp(LocalDateTime timestamp) { this.timestamp = timestamp; }
+
+        public HttpStatus getStatus() { return status; }
+        public void setStatus(HttpStatus status) { this.status = status; }
+
+        public String getMessage() { return message; }
+        public void setMessage(String message) { this.message = message; }
+
+        public String getDetails() { return details; }
+        public void setDetails(String details) { this.details = details; }
     }
-
-    // Handle generic exceptions
-    @ExceptionHandler(Exception.class)
-    public ResponseEntity<ErrorResponse> handleGlobalException(
-        Exception ex, 
-        WebRequest request
-    ) {
-        ErrorResponse error = new ErrorResponse(
-            HttpStatus.INTERNAL_SERVER_ERROR, 
-            "An unexpected error occurred", 
-            ex.getMessage()
-        );
-        return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
-    }
-}
-```
-
-3. Error Response DTO provides a structured error response, includes timestamp, HTTP status, message, and details, helps provide consistent error information:
-
-```java
-class ErrorResponse {
-    private LocalDateTime timestamp;
-    private HttpStatus status;
-    private String message;
-    private String details;
-
-    public ErrorResponse(HttpStatus status, String message, String details) {
-        this.timestamp = LocalDateTime.now();
-        this.status = status;
-        this.message = message;
-        this.details = details;
-    }
-
-    // Getters and setters
-    public LocalDateTime getTimestamp() { return timestamp; }
-    public void setTimestamp(LocalDateTime timestamp) { this.timestamp = timestamp; }
-
-    public HttpStatus getStatus() { return status; }
-    public void setStatus(HttpStatus status) { this.status = status; }
-
-    public String getMessage() { return message; }
-    public void setMessage(String message) { this.message = message; }
-
-    public String getDetails() { return details; }
-    public void setDetails(String details) { this.details = details; }
-}
-```
+    ```
 
 
 **- Main Method (DemoApplication.java):**
