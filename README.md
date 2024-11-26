@@ -144,6 +144,7 @@
 * [MongoDB](https://donny-nguyen.github.io/2024/11/26/mongodb.html)
 * [Documents and Collections](https://donny-nguyen.github.io/2024/11/26/documents-and-collections.html)
 * [Differences between MongoDB and SQL Databases](https://donny-nguyen.github.io/2024/11/26/documents-and-collections.html)
+* [Querying](https://donny-nguyen.github.io/2024/11/26/querying.html)
 
 ### Node.js
 * [Node.js](https://donny-nguyen.github.io/2024/09/27/nodejs.html)
