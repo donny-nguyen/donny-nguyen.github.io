@@ -200,4 +200,5 @@
 ### Other
 * [Git - Manage Username and Email](https://donny-nguyen.github.io/2024/10/01/git-manage-username-and-email.html)
 * [Managing Identities in SSH Agent](https://donny-nguyen.github.io/2024/10/01/managing-identities-in-ssh-agent.html)
+* [Staying Updated with New Knowledge](https://donny-nguyen.github.io/2024/11/27/staying-updated-with-new-knowledge.html)
 * [Self-awareness in Job Interviews](https://donny-nguyen.github.io/2024/10/30/self-awareness-in-job-interviews.html)
