@@ -166,6 +166,7 @@
 * [Preventing Memory Leaks](https://donny-nguyen.github.io/2024/11/21/preventing-memory-leaks.html)
 * [Child Processes](https://donny-nguyen.github.io/2024/11/28/child-processes.html)
 * [Clustering](https://donny-nguyen.github.io/2024/11/28/clustering.html)
+* [Implementing JWT-Based Authentication](https://donny-nguyen.github.io/2024/11/28/implementing-jwt-in-nodejs.html)
 
 ### Frontend
 
