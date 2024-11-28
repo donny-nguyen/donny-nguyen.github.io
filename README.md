@@ -125,16 +125,17 @@
 
 #### Microservices
 * [Microservices Architecture](https://donny-nguyen.github.io/2024/09/26/microservices-architecture.html)
-  * [Strangler Fig Pattern](https://donny-nguyen.github.io/2024/09/19/strangler-fig-pattern.html)
-  * [API Gateway Pattern](https://donny-nguyen.github.io/2024/09/19/api-gateway-pattern.html)
-  * [Backends For Frontends Pattern](https://donny-nguyen.github.io/2024/09/21/backends-for-frontends-pattern.html)
-  * [Service Discovery Pattern](https://donny-nguyen.github.io/2024/09/21/service-discovery-pattern.html)
-  * [Circuit Breaker Pattern](https://donny-nguyen.github.io/2024/09/21/circuit-breaker-pattern.html)
-  * [Bulkhead Pattern](https://donny-nguyen.github.io/2024/09/29/bulkhead-pattern.html)
-  * [Retry Pattern](https://donny-nguyen.github.io/2024/09/29/retry-pattern.html)
-  * [Event Driven Architecture](https://donny-nguyen.github.io/2024/09/27/event-driven-architecture.html)
-  * [Saga Pattern](https://donny-nguyen.github.io/2024/10/30/saga-pattern.html)
-  * [Domain-Driven Design (DDD)](https://donny-nguyen.github.io/2024/11/01/domain-driven-design.html)
+* [Strangler Fig Pattern](https://donny-nguyen.github.io/2024/09/19/strangler-fig-pattern.html)
+* [API Gateway Pattern](https://donny-nguyen.github.io/2024/09/19/api-gateway-pattern.html)
+* [Backends For Frontends Pattern](https://donny-nguyen.github.io/2024/09/21/backends-for-frontends-pattern.html)
+* [Service Discovery Pattern](https://donny-nguyen.github.io/2024/09/21/service-discovery-pattern.html)
+* [Circuit Breaker Pattern](https://donny-nguyen.github.io/2024/09/21/circuit-breaker-pattern.html)
+* [Bulkhead Pattern](https://donny-nguyen.github.io/2024/09/29/bulkhead-pattern.html)
+* [Retry Pattern](https://donny-nguyen.github.io/2024/09/29/retry-pattern.html)
+* [Event Driven Architecture](https://donny-nguyen.github.io/2024/09/27/event-driven-architecture.html)
+* [Saga Pattern](https://donny-nguyen.github.io/2024/10/30/saga-pattern.html)
+* [Domain-Driven Design (DDD)](https://donny-nguyen.github.io/2024/11/01/domain-driven-design.html)
+* [Replaceability Principle](https://donny-nguyen.github.io/2024/11/27/replaceability-principle.html)
 * [Communication Between Microservices](https://donny-nguyen.github.io/2024/09/26/communication-between-microservices.html)
 
 ### Database
