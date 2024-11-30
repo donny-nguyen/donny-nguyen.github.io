@@ -56,6 +56,7 @@
 ### Hibernate
 * [Hibernate](https://donny-nguyen.github.io/2024/11/30/hibernate.html)
 * [Hibernate over JDBC](https://donny-nguyen.github.io/2024/11/30/hibernate-over-jdbc.html)
+* [HQL and SQL](https://donny-nguyen.github.io/2024/11/30/hql-and-sql.html)
 
 ### RESTful APIs
 * [RESTful API](https://donny-nguyen.github.io/2024/11/02/restful-api.html)
