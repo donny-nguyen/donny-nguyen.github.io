@@ -74,7 +74,8 @@
 * [Unit Test](https://donny-nguyen.github.io/2024/11/02/unit-test.html)
 * [Integration Test](https://donny-nguyen.github.io/2024/11/02/integration-testing.html)
 * [Mockito](https://donny-nguyen.github.io/2024/11/20/mockito.html)
-* [Testing the Service Layer with Mockito](https://donny-nguyen.github.io/2024/11/23/testing-the-service-layer-with-mockito.html)
+* [Testing Controller Layer with Mockito](https://donny-nguyen.github.io/2024/11/30/testing-controller-layer-with-mockito.html)
+* [Testing Service Layer with Mockito](https://donny-nguyen.github.io/2024/11/23/testing-service-layer-with-mockito.html)
 
 ### Security
 * [JSON Web Token (JWT)](https://donny-nguyen.github.io/2024/11/22/jwt.html)
