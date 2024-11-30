@@ -5,6 +5,7 @@ Hibernate is a powerful, high-performance Object-Relational Mapping (ORM) framew
 ### Key Features of Hibernate
 
 1. **Object-Relational Mapping (ORM)**
+   - ORM is a programming technique used to convert data between incompatible type systems in object-oriented programming languages. Essentially, ORM allows developers to interact with a relational database using their programming language of choice, without needing to write complex SQL queries.
    - Hibernate maps Java classes to database tables, and Java data types to SQL data types, which helps in handling database operations through Java code.
 
 2. **Hibernate Query Language (HQL)**
