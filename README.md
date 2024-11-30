@@ -53,6 +53,9 @@
   * [Spring Cloud and AWS](https://donny-nguyen.github.io/2024/10/08/spring-cloud-and-aws.html)
 * [Creating a RESTful API using Spring Boot](https://donny-nguyen.github.io/2024/11/25/creating-restful-api-using-spring-boot.html)
 
+### Hibernate
+* [Hibernate](https://donny-nguyen.github.io/2024/11/30/hibernate.html)
+
 ### RESTful APIs
 * [RESTful API](https://donny-nguyen.github.io/2024/11/02/restful-api.html)
 * [SOAP and REST](https://donny-nguyen.github.io/2024/09/21/soap-and-rest.html)
