@@ -73,14 +73,15 @@ In Java, **overriding** and **overloading** are two important concepts related t
 ---
 
 ### **Key Differences**
-| Feature            | Overriding                          | Overloading                          |
-|--------------------|-------------------------------------|--------------------------------------|
-| **Definition**     | Redefines a method from the parent class. | Defines multiple methods with the same name but different parameters. |
-| **Purpose**        | To change behavior in the subclass. | To perform similar tasks with different inputs. |
-| **Resolution**     | At runtime (dynamic binding).       | At compile time (static binding).   |
-| **Parameter List** | Must be identical to the parent method. | Must differ in type, number, or order. |
-| **Inheritance**    | Requires inheritance (parent-child relationship). | Does not require inheritance.       |
-| **Access Modifier**| Cannot have a stricter modifier.    | No such restriction.                |
+
+| Feature             | Overriding                                        | Overloading                                                           |
+| ------------------- | ------------------------------------------------- | --------------------------------------------------------------------- |
+| **Definition**      | Redefines a method from the parent class.         | Defines multiple methods with the same name but different parameters. |
+| **Purpose**         | To change behavior in the subclass.               | To perform similar tasks with different inputs.                       |
+| **Resolution**      | At runtime (dynamic binding).                     | At compile time (static binding).                                     |
+| **Parameter List**  | Must be identical to the parent method.           | Must differ in type, number, or order.                                |
+| **Inheritance**     | Requires inheritance (parent-child relationship). | Does not require inheritance.                                         |
+| **Access Modifier** | Cannot have a stricter modifier.                  | No such restriction.                                                  |
 
 ---
 

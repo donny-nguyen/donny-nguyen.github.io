@@ -36,7 +36,7 @@ In the Spring framework, `@Controller` and `@RestController` are used to define 
   }
   ```
 
-In summary, `@Controller` is used for traditional web applications that return views, while `@RestController` is used for RESTful web services that return data directly in formats like JSON or XML¹²³.
+In summary, `@Controller` is used for traditional web applications that return views, while `@RestController` is used for RESTful web services that return data directly in formats like JSON or XML.
 
 <em>References:</em>
 * [Spring @Controller Vs. @RestController: What's Difference? - HowToDoInJava](https://howtodoinjava.com/spring-boot/controller-restcontroller/)
