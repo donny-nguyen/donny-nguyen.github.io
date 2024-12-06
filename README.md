@@ -208,6 +208,7 @@
   * [Lists](https://donny-nguyen.github.io/2024/11/06/lists.html)
   * [Sets](https://donny-nguyen.github.io/2024/11/06/sets.html)
   * [Maps](https://donny-nguyen.github.io/2024/11/06/maps.html)
+* [Library Augmentation](https://donny-nguyen.github.io/2024/12/05/library-augmentation.html)
 * [Bad State: Future Already Completed](https://donny-nguyen.github.io/2024/11/29/future-already-completed.html)
 
 ### Other
