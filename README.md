@@ -194,6 +194,7 @@
 * [Install](https://donny-nguyen.github.io/2024/10/29/install-flutter-and-dart.html)
 * [Get Started](https://donny-nguyen.github.io/2024/10/29/getting-started-with-dart-console-project.html)
   * [Understanding pubspec.yaml](https://donny-nguyen.github.io/2024/12/06/understanding-pubspec.html)
+  * [Working with analysis_options.yaml](https://donny-nguyen.github.io/2024/12/06/working-with-analysis-options.html)
 * [Data Types](https://donny-nguyen.github.io/2024/11/01/dart-data-types.html)
   * [Either](https://donny-nguyen.github.io/2024/11/08/either-type.html)
   * [String Formatting in Dart](https://donny-nguyen.github.io/2024/11/29/format-string.html)
