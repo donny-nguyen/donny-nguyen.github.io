@@ -1,6 +1,6 @@
 # About Me
 
-I am a Senior Software Engineer with 10+ years of experience in building scalable backend services, cloud infrastructure, and web applications. Demonstrated expertise in architecting AWS-based solutions supporting millions of users and leading development of complex marketing automation platforms. Strong track record in cross-functional collaboration, mentoring junior developers, and delivering high-impact projects for global clients including Ferrero International S.A. Specialized in Java/Spring ecosystem, cloud architecture, and building robust RESTful APIs.
+Senior Software Engineer with 10+ years of experience specializing in Java/Spring ecosystem, scalable cloud infrastructure and distributed systems. Proven track record in developing high-performance backend services for gaming and educational platforms, serving millions of users worldwide. Extensive expertise in AWS cloud architecture, real-time multiplayer systems, and marketing automation platforms. Demonstrated success in building robust RESTful APIs, implementing sophisticated matchmaking systems, and optimizing application performance. Strong background in cross-functional collaboration and delivering high-impact projects for global clients including Ferrero International S.A.
 
 ## Technical Skills
 
@@ -8,10 +8,10 @@ I am a Senior Software Engineer with 10+ years of experience in building scalabl
 |----------|---------|
 | Programming Languages | Java, JavaScript, Python, SQL |
 | Frameworks & Libraries | Spring Framework (Boot, MVC, Data JPA, Security), Hibernate, React.js, Node.js |
-| Cloud & Infrastructure | AWS (API Gateway, Lambda, RDS, S3, ECS, CloudFront, CloudFormation, CDK), Cloud Architecture, Microservices Architecture |
+| Cloud & Infrastructure | AWS (API Gateway, Lambda, S3, ECS, RDS, DynamoDB, Cognito, CloudFront, CloudFormation, CDK), Cloud Architecture, Microservices Architecture |
 | Containerization | Docker, Container Orchestration |
 | Databases | MySQL, PostgreSQL, SQL Server, MongoDB |
-| DevOps | Jenkins, Git, SVN, Maven, Gradle, CI/CD Pipelines |
+| DevOps | AWS CodePipeline, Jenkins, Git, SVN, Maven, Gradle |
 | Testing & Quality | JUnit, Mockito, Selenium, Test Automation |
 | Development Tools | IntelliJ IDEA, Visual Studio Code, Eclipse, Android Studio, Xcode, Postman |
 | Project Management | Agile/Scrum, JIRA |
