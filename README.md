@@ -76,6 +76,7 @@
 * [Mockito](https://donny-nguyen.github.io/2024/11/20/mockito.html)
 * [Testing Controller Layer with Mockito](https://donny-nguyen.github.io/2024/11/30/testing-controller-layer-with-mockito.html)
 * [Testing Service Layer with Mockito](https://donny-nguyen.github.io/2024/11/23/testing-service-layer-with-mockito.html)
+* [Private Methods Testing](https://donny-nguyen.github.io/2024/12/07/private-methods-testing.html)
 
 ### Security
 * [JSON Web Token (JWT)](https://donny-nguyen.github.io/2024/11/22/jwt.html)
