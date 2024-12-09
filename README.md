@@ -152,6 +152,7 @@
 #### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
 * [Regular Tasks Performed by an Oracle DBA](https://donny-nguyen.github.io/2024/12/09/regular-tasks-of-oracle-dba.html)
+* [Set up Oracle Database on a Mac using Docker](https://donny-nguyen.github.io/2024/12/09/setup-oracle-database-on-mac-using-docker.html)
 
 #### MongoDB
 * [MongoDB](https://donny-nguyen.github.io/2024/11/26/mongodb.html)
