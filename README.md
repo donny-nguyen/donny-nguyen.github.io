@@ -149,6 +149,9 @@
 * [Read Phenomena](https://donny-nguyen.github.io/2024/09/23/read-phenomena.html)
 * [Isolation Levels](https://donny-nguyen.github.io/2024/09/23/isolation-levels.html)
 
+#### Oracle
+* [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
+
 #### MongoDB
 * [MongoDB](https://donny-nguyen.github.io/2024/11/26/mongodb.html)
 * [Documents and Collections](https://donny-nguyen.github.io/2024/11/26/documents-and-collections.html)
