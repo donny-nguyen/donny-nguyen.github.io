@@ -23,8 +23,21 @@ analyzer:
    - **`strong-mode`**: Enables strong mode, which enforces type safety.
      - **`implicit-casts`**: Disallows implicit casts.
      - **`implicit-dynamic`**: Disallows implicit dynamic typing.
+   - **`enable-experiment`**: Enables experimental features, such as macros.
 2. **`linter`**: Configures the linter.
    - **`rules`**: Specifies a list of linting rules to enable or disable.
+
+### Enabling Experimental Features
+
+Dart occasionally introduces experimental features that developers can test before they're fully stable. One such feature is **macros**, which enhance metaprogramming capabilities in Dart. To enable the `macros` experiment, update your `analysis_options.yaml` as follows:
+
+```yaml
+analyzer:
+  enable-experiment:
+    - macros
+```
+
+After adding this, ensure your environment supports the feature by using an appropriate Dart SDK version (e.g., a beta or dev release if the feature isn't yet in stable).
 
 ### Common Use Cases
 
@@ -73,4 +86,6 @@ We can use the `lints` package to manage linting rules and configurations. This 
 
 We can then customize the linting rules by adding or removing rules from the `analysis_options.yaml` file.
 
-By effectively using the `analysis_options.yaml` file, we can improve the quality, consistency, and maintainability of our Dart code.
+### Conclusion
+
+By effectively using the `analysis_options.yaml` file and enabling experimental features like `macros`, we can improve the quality, consistency, and maintainability of our Dart code while staying at the forefront of new Dart capabilities.
