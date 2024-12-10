@@ -85,6 +85,7 @@
 ### Cloud
 * [Cloud Computing](https://donny-nguyen.github.io/2024/10/01/cloud-computing.html)
 * [Multi-Cloud Strategy](https://donny-nguyen.github.io/2024/10/25/multi-cloud-strategy.html)
+* [Granting Access to Roles vs Users](https://donny-nguyen.github.io/2024/12/10/granting-access-roles-users.html)
 
 #### AWS
 * [Regions and Availability Zones](https://donny-nguyen.github.io/2024/11/06/regions-and-availability-zones.html)
