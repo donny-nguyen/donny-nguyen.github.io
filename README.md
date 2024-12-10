@@ -158,6 +158,9 @@
 * [Security of Oracle Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-oracle-dbms.html)
 * [Set up Oracle Database on a Mac using Docker](https://donny-nguyen.github.io/2024/12/09/setup-oracle-database-on-mac-using-docker.html)
 
+#### SQL Server
+* [Security of SQL Server Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-sql-server-dbms.html)
+
 #### MongoDB
 * [MongoDB](https://donny-nguyen.github.io/2024/11/26/mongodb.html)
 * [Documents and Collections](https://donny-nguyen.github.io/2024/11/26/documents-and-collections.html)
