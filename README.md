@@ -148,6 +148,7 @@
 ### Database
 * [Read Phenomena](https://donny-nguyen.github.io/2024/09/23/read-phenomena.html)
 * [Isolation Levels](https://donny-nguyen.github.io/2024/09/23/isolation-levels.html)
+* [Database Administrator (DBA)](https://donny-nguyen.github.io/2024/12/10/dba.html)
 
 #### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
