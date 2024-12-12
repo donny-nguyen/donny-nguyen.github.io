@@ -163,6 +163,7 @@
 * [Oracle Database User Management](https://donny-nguyen.github.io/2024/12/12/oracle-database-user-management.html)
 * [Oracle Database Backup and Recovery Strategy](https://donny-nguyen.github.io/2024/12/12/oracle-db-backup-and-recovery.html)
 * [Oracle Real Application Clusters (RAC)](https://donny-nguyen.github.io/2024/12/12/oracle-rac.html)
+* [Deploy and Manage Oracle Real Application Clusters (RAC) on AWS](https://donny-nguyen.github.io/2024/12/12/oracle-rac-on-aws.html)
 
 #### SQL Server
 * [Security of SQL Server Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-sql-server-dbms.html)
