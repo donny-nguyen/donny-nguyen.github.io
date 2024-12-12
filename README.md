@@ -159,6 +159,7 @@
 * [Security of Oracle Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-oracle-dbms.html)
 * [Set up Oracle Database on a Mac using Docker](https://donny-nguyen.github.io/2024/12/09/setup-oracle-database-on-mac-using-docker.html)
 * [Working with Oracle Database in Docker](https://donny-nguyen.github.io/2024/12/12/working-with-oracle-db-in-docker.html)
+* [Oracle Database User Management](https://donny-nguyen.github.io/2024/12/12/oracle-database-user-management.html)
 * [Oracle Database Backup and Recovery Strategy](https://donny-nguyen.github.io/2024/12/12/oracle-db-backup-and-recovery.html)
 
 #### SQL Server
