@@ -151,6 +151,7 @@
 * [Isolation Levels](https://donny-nguyen.github.io/2024/09/23/isolation-levels.html)
 * [Database Administrator (DBA)](https://donny-nguyen.github.io/2024/12/10/dba.html)
 * [Security of Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-dbms.html)
+* [Backup and Recovery Strategies](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategies.html)
 
 #### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
