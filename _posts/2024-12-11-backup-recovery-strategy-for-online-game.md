@@ -2,7 +2,8 @@
 
 This is a comprehensive backup and recovery strategy for an online game database system, which needs to handle player data, game states, transactions, and maintain high availability.
 
-Example Scenario:
+### Example Scenario:
+
 - Online multiplayer game with 100,000+ active players
 - Player data includes accounts, characters, inventories, and achievements
 - In-game transactions (purchases, trades, item acquisitions)
@@ -12,7 +13,7 @@ Example Scenario:
 - Maximum acceptable data loss: 5 minutes
 - Maximum acceptable downtime: 30 minutes
 
-Backup Strategy:
+### Backup Strategy:
 
 1. Primary Backups (On-Premise):
 - Full Database Backup
@@ -47,9 +48,10 @@ Backup Strategy:
   * Automatic failover capability
   * Used for read-scaling during peak times
 
-Recovery Procedures:
+### Recovery Procedures:
 
 1. Minor Issues (Corrupt Data/Accidental Changes):
+
 ```sql
 -- Example point-in-time recovery
 RESTORE DATABASE GameDB 
@@ -76,7 +78,7 @@ STOPAT = '2024-12-11 14:30:00';
 - RTO: Less than 15 minutes
 - RPO: Potential loss of last few transactions
 
-Monitoring and Maintenance:
+### Monitoring and Maintenance:
 
 1. Automated Health Checks
 - Backup success/failure monitoring
@@ -96,6 +98,7 @@ Monitoring and Maintenance:
 - Storage cleanup procedures
 
 Example Recovery Time Estimates:
+
 ```plaintext
 Scenario 1: Single table corruption
 - Recovery time: 10-15 minutes
@@ -113,13 +116,13 @@ Scenario 3: Data center disaster
 - Some data loss possible
 ```
 
-Documentation:
+### Documentation:
 1. Maintain detailed recovery procedures
 2. Keep configuration scripts in version control
 3. Document all backup schedules and retention policies
 4. Regular updates to emergency contact list
 
-Special Considerations for Game Data:
+### Special Considerations for Game Data:
 
 1. Player Economy Protection
 - Transaction log backup frequency increased during special events
