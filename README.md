@@ -156,6 +156,7 @@
 
 #### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
+* [Tablespaces](https://donny-nguyen.github.io/2024/12/12/tablespaces.html)
 * [Security of Oracle Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-oracle-dbms.html)
 * [Set up Oracle Database on a Mac using Docker](https://donny-nguyen.github.io/2024/12/09/setup-oracle-database-on-mac-using-docker.html)
 * [Working with Oracle Database in Docker](https://donny-nguyen.github.io/2024/12/12/working-with-oracle-db-in-docker.html)
