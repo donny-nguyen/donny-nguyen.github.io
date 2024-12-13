@@ -283,4 +283,165 @@ EXCEPTION
         NULL;
 END log_player_action;
 /
+
 ```
+
+I've also created a comprehensive test script that demonstrates how to use the game management package above. Here's what the script does:
+
+1. Data Setup:
+- Creates three test players with different levels and resources
+- Adds initial inventory items
+- Sets up basic player stats
+
+2. Package Testing:
+- Tests the `add_experience` procedure with enough XP for a level up
+- Demonstrates the `can_afford_item` function
+- Tests the `purchase_item` procedure
+- Shows proper exception handling
+
+3. Additional Features:
+- Triggers the login tracking trigger
+- Demonstrates the autonomous transaction logging
+- Includes status checks before and after operations
+
+4. Output and Verification:
+- Uses DBMS_OUTPUT to show the results of operations
+- Includes a final query to verify all changes
+- Shows proper error handling
+
+```sql
+-- Insert test players
+INSERT INTO players (player_id, username, level, experience, gold, last_login)
+VALUES (1, 'DragonSlayer', 1, 0, 1000, SYSDATE);
+
+INSERT INTO players (player_id, username, level, experience, gold, last_login)
+VALUES (2, 'WizardMaster', 5, 4500, 2500, SYSDATE);
+
+INSERT INTO players (player_id, username, level, experience, gold, last_login)
+VALUES (3, 'StealthArcher', 3, 2200, 800, SYSDATE);
+
+-- Insert initial inventory items
+INSERT INTO inventory (inventory_id, player_id, item_id, quantity, equipped)
+VALUES (1, 1, 101, 1, 1);  -- DragonSlayer's sword
+
+INSERT INTO inventory (inventory_id, player_id, item_id, quantity, equipped)
+VALUES (2, 2, 201, 5, 0);  -- WizardMaster's potions
+
+-- Insert initial player stats
+INSERT INTO player_stats (player_id, stat_name, stat_value)
+VALUES (1, 'strength', 10);
+
+INSERT INTO player_stats (player_id, stat_name, stat_value)
+VALUES (1, 'agility', 8);
+
+INSERT INTO player_stats (player_id, stat_name, stat_value)
+VALUES (2, 'intelligence', 15);
+
+-- Example usage of package procedures and functions
+DECLARE
+    v_player_id NUMBER := 1;
+    v_can_afford BOOLEAN;
+    v_current_level NUMBER;
+    v_exp_gain NUMBER := 1200;  -- Enough for a level up
+BEGIN
+    -- Check current player status
+    DBMS_OUTPUT.PUT_LINE('--- Initial Player Status ---');
+    FOR player_rec IN (
+        SELECT username, level, experience, gold 
+        FROM players 
+        WHERE player_id = v_player_id
+    ) LOOP
+        DBMS_OUTPUT.PUT_LINE('Player: ' || player_rec.username);
+        DBMS_OUTPUT.PUT_LINE('Level: ' || player_rec.level);
+        DBMS_OUTPUT.PUT_LINE('Experience: ' || player_rec.experience);
+        DBMS_OUTPUT.PUT_LINE('Gold: ' || player_rec.gold);
+    END LOOP;
+    
+    -- Test experience gain and level up
+    DBMS_OUTPUT.PUT_LINE(CHR(10) || '--- Adding Experience ---');
+    game_management.add_experience(v_player_id, v_exp_gain);
+    
+    -- Check updated status
+    SELECT level INTO v_current_level 
+    FROM players 
+    WHERE player_id = v_player_id;
+    
+    DBMS_OUTPUT.PUT_LINE('Experience added: ' || v_exp_gain);
+    DBMS_OUTPUT.PUT_LINE('New level: ' || v_current_level);
+    
+    -- Test item purchase
+    DBMS_OUTPUT.PUT_LINE(CHR(10) || '--- Testing Item Purchase ---');
+    v_can_afford := game_management.can_afford_item(v_player_id, 500);
+    
+    IF v_can_afford THEN
+        DBMS_OUTPUT.PUT_LINE('Attempting to purchase item...');
+        -- Purchase 2 items
+        game_management.purchase_item(v_player_id, 301, 2);
+        DBMS_OUTPUT.PUT_LINE('Purchase successful!');
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Cannot afford item!');
+    END IF;
+    
+    -- Display final inventory
+    DBMS_OUTPUT.PUT_LINE(CHR(10) || '--- Final Inventory Status ---');
+    FOR inv_rec IN (
+        SELECT i.item_id, i.quantity, i.equipped
+        FROM inventory i
+        WHERE i.player_id = v_player_id
+    ) LOOP
+        DBMS_OUTPUT.PUT_LINE('Item ID: ' || inv_rec.item_id || 
+                            ', Quantity: ' || inv_rec.quantity ||
+                            ', Equipped: ' || inv_rec.equipped);
+    END LOOP;
+
+EXCEPTION
+    WHEN game_management.insufficient_gold THEN
+        DBMS_OUTPUT.PUT_LINE('Error: Insufficient gold for purchase!');
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+        ROLLBACK;
+END;
+/
+
+-- Example of triggering player login update
+UPDATE players 
+SET last_login = SYSDATE 
+WHERE player_id = 1;
+
+-- Example of using autonomous transaction logging
+BEGIN
+    log_player_action(
+        p_player_id => 1,
+        p_action_type => 'COMBAT',
+        p_action_details => 'Defeated Dragon Boss'
+    );
+END;
+/
+
+-- Query to verify results
+SELECT p.username, p.level, p.experience, p.gold,
+       ps.stat_name, ps.stat_value,
+       i.item_id, i.quantity, i.equipped
+FROM players p
+LEFT JOIN player_stats ps ON p.player_id = ps.player_id
+LEFT JOIN inventory i ON p.player_id = i.player_id
+WHERE p.player_id = 1
+ORDER BY ps.stat_name;
+
+```
+
+To run this example:
+
+1. First ensure you have DBMS_OUTPUT enabled:
+
+```sql
+SET SERVEROUTPUT ON;
+```
+
+2. Run the script in sequence. You should see output showing:
+- Initial player status
+- Experience gain and level up results
+- Item purchase attempt results
+- Final inventory status
+
+The script includes error handling for cases like insufficient gold and will show appropriate messages if any errors occur.
