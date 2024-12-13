@@ -167,6 +167,7 @@
 * [Oracle Real Application Clusters (RAC)](https://donny-nguyen.github.io/2024/12/12/oracle-rac.html)
   * [Deploy and Manage Oracle Real Application Clusters (RAC) on AWS](https://donny-nguyen.github.io/2024/12/12/oracle-rac-on-aws.html)
   * [Oracle Automatic Storage Management (ASM)](https://donny-nguyen.github.io/2024/12/13/oracle-asm.html)
+  * [Oracle ASM and Amazon EBS](https://donny-nguyen.github.io/2024/12/13/oracle-asm-and-amazon-ebs.html)
   * [Installing and Setting up Oracle Grid Infrastructure](https://donny-nguyen.github.io/2024/12/12/oracle-grid-infrastructure.html)
 * [Oracle Data Guard](https://donny-nguyen.github.io/2024/12/13/oracle-data-guard.html)
   * [Setting Up Oracle Data Guard on AWS](https://donny-nguyen.github.io/2024/12/13/setting-up-oracle-data-guard-on-aws.html)
