@@ -170,6 +170,7 @@
 * [Oracle RAC vs Data Guard](https://donny-nguyen.github.io/2024/12/13/oracle-rac-vs-data-guard.html)
 * [Troubleshooting Performance Issues in Oracle Databases](https://donny-nguyen.github.io/2024/12/13/troubleshooting-performance-oracle-db.html)
   * [Oracle Performance Diagnostics using AWR and ADDM](https://donny-nguyen.github.io/2024/12/13/oracle-performance-diagnostics-using-awr-and-addm.html)
+* [Oracle Autonomous Health Framework (AHF)](https://donny-nguyen.github.io/2024/12/13/oracle-ahf.html)
 
 #### SQL Server
 * [Security of SQL Server Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-sql-server-dbms.html)
