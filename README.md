@@ -147,6 +147,7 @@
 * [Communication Between Microservices](https://donny-nguyen.github.io/2024/09/26/communication-between-microservices.html)
 
 ### Database
+* [Types of Joins in SQL](https://donny-nguyen.github.io/2024/12/13/sql-joins.html)
 * [Read Phenomena](https://donny-nguyen.github.io/2024/09/23/read-phenomena.html)
 * [Isolation Levels](https://donny-nguyen.github.io/2024/09/23/isolation-levels.html)
 * [Database Administrator (DBA)](https://donny-nguyen.github.io/2024/12/10/dba.html)
