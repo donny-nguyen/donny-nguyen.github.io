@@ -168,6 +168,7 @@
 * [Oracle Data Guard](https://donny-nguyen.github.io/2024/12/13/oracle-data-guard.html)
   * [Setting Up Oracle Data Guard on AWS](https://donny-nguyen.github.io/2024/12/13/setting-up-oracle-data-guard-on-aws.html)
 * [Oracle RAC vs Data Guard](https://donny-nguyen.github.io/2024/12/13/oracle-rac-vs-data-guard.html)
+* [Troubleshooting Performance Issues in Oracle Databases](https://donny-nguyen.github.io/2024/12/13/troubleshooting-performance-oracle-db.html)
 
 #### SQL Server
 * [Security of SQL Server Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-sql-server-dbms.html)
