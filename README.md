@@ -162,6 +162,7 @@
 * [Working with Oracle Database in Docker](https://donny-nguyen.github.io/2024/12/12/working-with-oracle-db-in-docker.html)
 * [Oracle Database User Management](https://donny-nguyen.github.io/2024/12/12/oracle-database-user-management.html)
 * [Procedural Language/Structured Query Language (PL/SQL)](https://donny-nguyen.github.io/2024/12/13/pl-sql.html)
+  * [Comprehensive PL/SQL Example for an Online Game System](https://donny-nguyen.github.io/2024/12/13/pl-sql-for-online-game-system.html)
 * [Oracle Database Backup and Recovery Strategy](https://donny-nguyen.github.io/2024/12/12/oracle-db-backup-and-recovery.html)
 * [Oracle Real Application Clusters (RAC)](https://donny-nguyen.github.io/2024/12/12/oracle-rac.html)
   * [Deploy and Manage Oracle Real Application Clusters (RAC) on AWS](https://donny-nguyen.github.io/2024/12/12/oracle-rac-on-aws.html)
