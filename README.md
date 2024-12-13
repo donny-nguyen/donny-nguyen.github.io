@@ -166,6 +166,7 @@
   * [Deploy and Manage Oracle Real Application Clusters (RAC) on AWS](https://donny-nguyen.github.io/2024/12/12/oracle-rac-on-aws.html)
   * [Installing and Setting up Oracle Grid Infrastructure](https://donny-nguyen.github.io/2024/12/12/oracle-grid-infrastructure.html)
 * [Oracle Data Guard](https://donny-nguyen.github.io/2024/12/13/oracle-data-guard.html)
+  * [Setting Up Oracle Data Guard on AWS](https://donny-nguyen.github.io/2024/12/13/setting-up-oracle-data-guard-on-aws.html)
 * [Oracle RAC vs Data Guard](https://donny-nguyen.github.io/2024/12/13/oracle-rac-vs-data-guard.html)
 
 #### SQL Server
