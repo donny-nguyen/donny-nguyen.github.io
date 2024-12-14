@@ -16,6 +16,7 @@ This is a comprehensive backup and recovery strategy for an online game database
 ### Backup Strategy:
 
 1. Primary Backups (On-Premise):
+
 - Full Database Backup
   * Every Sunday at 2 AM UTC (lowest player activity)
   * Stored on high-speed SAN storage
