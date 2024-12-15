@@ -155,6 +155,9 @@
 * [Backup and Recovery Strategies](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategies.html)
   * [Backup and Recovery Strategy for an Online Game Database System](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategy-for-online-game.html)
 
+#### PostgreSQL
+* [PostgreSQL Database](https://donny-nguyen.github.io/2024/12/14/postgresql.html)
+
 #### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
 * [Tablespaces](https://donny-nguyen.github.io/2024/12/12/tablespaces.html)
