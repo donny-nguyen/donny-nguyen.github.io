@@ -68,8 +68,21 @@ GRANT UNLIMITED TABLESPACE TO newuser;
 ALTER USER newuser IDENTIFIED BY new_password;
 ```
 
+### Database Operations
+
+```sql
+-- Determine the current database by selecting the database name from v$database
+SELECT name FROM v$database;
+
+-- Determine the current database by querying the global_name
+SELECT * FROM global_name;
+```
+
 ### Table Operations
 ```sql
+-- List all tables owned by the current user
+SELECT table_name FROM user_tables;
+
 -- Create table
 CREATE TABLE customers (
     id NUMBER PRIMARY KEY,
