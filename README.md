@@ -177,6 +177,7 @@
   * [Setting Up Oracle Data Guard on AWS](https://donny-nguyen.github.io/2024/12/13/setting-up-oracle-data-guard-on-aws.html)
 * [Oracle RAC vs Data Guard](https://donny-nguyen.github.io/2024/12/13/oracle-rac-vs-data-guard.html)
 * [Troubleshooting Performance Issues in Oracle Databases](https://donny-nguyen.github.io/2024/12/13/troubleshooting-performance-oracle-db.html)
+  * [Automatic Workload Repository (AWR)](https://donny-nguyen.github.io/2024/12/16/oracle-awr.html)
   * [Oracle Performance Diagnostics using AWR and ADDM](https://donny-nguyen.github.io/2024/12/13/oracle-performance-diagnostics-using-awr-and-addm.html)
   * [Oracle Autonomous Health Framework (AHF)](https://donny-nguyen.github.io/2024/12/13/oracle-ahf.html)
   * [Oracle Top SQL Analysis](https://donny-nguyen.github.io/2024/12/13/oracle-top-sql-analysis.html)
