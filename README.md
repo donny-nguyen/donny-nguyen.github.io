@@ -260,6 +260,7 @@
 
 ##### Flutter
 * [Creating a Flutter Project](https://donny-nguyen.github.io/2024/12/10/creating-flutter-project.html)
+* [Use Dart Console Project as a Dependency in Flutter Project ](https://donny-nguyen.github.io/2024/12/16/dart-project-as-dependency.html)
 
 ### Other
 * [Git - Manage Username and Email](https://donny-nguyen.github.io/2024/10/01/git-manage-username-and-email.html)
