@@ -183,6 +183,7 @@
   * [Oracle Top SQL Analysis](https://donny-nguyen.github.io/2024/12/13/oracle-top-sql-analysis.html)
   * [Oracle SQL Tuning Advisor](https://donny-nguyen.github.io/2024/12/13/oracle-sql-tuning-advisor.html)
   * [Oracle Enterprise Manager Database Monitoring](https://donny-nguyen.github.io/2024/12/13/oracle-enterprise-manager.html)
+* [Migrating Database from SQL Server to Oracle](https://donny-nguyen.github.io/2024/12/16/migrate-database-sqlserver-to-oracle.html)
 
 #### SQL Server
 * [Security of SQL Server Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-sql-server-dbms.html)
