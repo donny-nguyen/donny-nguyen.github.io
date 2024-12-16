@@ -72,6 +72,7 @@
 
 ### GraphQL
 * [What is GraphQL?](https://donny-nguyen.github.io/2024/12/26/graphql.html)
+* [Key Components of GraphQL](https://donny-nguyen.github.io/2024/12/26/graphql-components.html)
 
 ### Testing
 * [Unit Test](https://donny-nguyen.github.io/2024/11/02/unit-test.html)
