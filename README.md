@@ -70,6 +70,9 @@
 * [Maintaining Versions](https://donny-nguyen.github.io/2024/09/25/maintaining-versions-of-restful-apis.html)
 * [Common HTTP Status Codes](https://donny-nguyen.github.io/2024/09/28/common-http-status-codes.html)
 
+### GraphQL
+* [What is GraphQL?](https://donny-nguyen.github.io/2024/12/26/graphql.html)
+
 ### Testing
 * [Unit Test](https://donny-nguyen.github.io/2024/11/02/unit-test.html)
 * [Integration Test](https://donny-nguyen.github.io/2024/11/02/integration-testing.html)
