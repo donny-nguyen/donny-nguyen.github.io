@@ -71,8 +71,8 @@
 * [Common HTTP Status Codes](https://donny-nguyen.github.io/2024/09/28/common-http-status-codes.html)
 
 ### GraphQL
-* [What is GraphQL?](https://donny-nguyen.github.io/2024/12/26/graphql.html)
-* [Key Components of GraphQL](https://donny-nguyen.github.io/2024/12/26/graphql-components.html)
+* [What is GraphQL?](https://donny-nguyen.github.io/2024/12/16/graphql.html)
+* [Key Components of GraphQL](https://donny-nguyen.github.io/2024/12/16/graphql-components.html)
 
 ### Testing
 * [Unit Test](https://donny-nguyen.github.io/2024/11/02/unit-test.html)
