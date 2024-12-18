@@ -172,6 +172,7 @@
 * [Procedural Language/Structured Query Language (PL/SQL)](https://donny-nguyen.github.io/2024/12/13/pl-sql.html)
   * [Comprehensive PL/SQL Example for an Online Game System](https://donny-nguyen.github.io/2024/12/13/pl-sql-for-online-game-system.html)
 * [Oracle DB Locks](https://donny-nguyen.github.io/2024/12/18/oracle-db-locks.html)
+  * [Locking Tables Manually](https://donny-nguyen.github.io/2024/12/18/locking-tables-manually.html)
 * [Oracle Database Backup and Recovery Strategy](https://donny-nguyen.github.io/2024/12/12/oracle-db-backup-and-recovery.html)
 * [Oracle Listener](https://donny-nguyen.github.io/2024/12/17/oracle-listener.html)
 * [Oracle Real Application Clusters (RAC)](https://donny-nguyen.github.io/2024/12/12/oracle-rac.html)
