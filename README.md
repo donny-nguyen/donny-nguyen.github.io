@@ -34,6 +34,7 @@
 * [Test Driven Development](https://donny-nguyen.github.io/2024/09/28/test-driven-development.html)
 * [Threads](https://donny-nguyen.github.io/2024/12/18/java-threads.html)
   * [Thread Lifecycle](https://donny-nguyen.github.io/2024/12/18/thread-lifecycle.html)
+  * [Thread Synchronization](https://donny-nguyen.github.io/2024/12/18/thread-synchronization.html)
 
 ### Spring Framework
 * [Spring Ecosystem](https://donny-nguyen.github.io/2024/09/16/spring-ecosystem.html)
