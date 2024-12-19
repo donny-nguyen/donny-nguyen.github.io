@@ -28,6 +28,7 @@
   * [Create a Stream](https://donny-nguyen.github.io/2024/09/19/create-a-stream.html)
   * [Intermediate Operations](https://donny-nguyen.github.io/2024/09/19/intermediate-operations.html)
   * [Terminal Methods](https://donny-nguyen.github.io/2024/09/20/terminal-methods.html)
+  * [Default Methods](https://donny-nguyen.github.io/2024/12/19/java8-default-methods.html)
   * [Optional](https://donny-nguyen.github.io/2024/12/19/java8-optional.html)
 * [4 Concepts of OOP](https://donny-nguyen.github.io/2024/09/09/4-concepts-of-oop.html)
 * [SOLID Principles](https://donny-nguyen.github.io/2024/09/16/solid-principles.html)
