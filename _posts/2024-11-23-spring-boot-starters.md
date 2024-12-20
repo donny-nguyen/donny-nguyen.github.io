@@ -138,10 +138,10 @@ Spring Boot Starters are a set of convenient dependency descriptors we can inclu
       <artifactId>spring-test</artifactId>
       <scope>test</scope>
   </dependency>
-  <!-- MockMvc -->
+  <!-- Spring Boot Test -->
   <dependency>
       <groupId>org.springframework</groupId>
-      <artifactId>spring-test</artifactId>
+      <artifactId>spring-boot-test</artifactId>
       <scope>test</scope>
   </dependency>
   ```
