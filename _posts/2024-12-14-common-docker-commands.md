@@ -14,11 +14,12 @@ Docker is a powerful tool for containerizing applications. Here's how to work wi
    - `docker ps -a` shows all containers, including stopped ones.
    - `docker start` restarts a stopped container.
    - `docker stop` halts a running container.
-   - `docker rm` removes a stopped container.
+   - `docker rm <container-id-or-name>` removes a stopped container.
 
 4. Work with images:
    - `docker pull` downloads an image from a registry.
    - `docker images` lists local images.
+   - `docker rmi <image-id>` remove an image.
    - Create a Dockerfile to build custom images.
 
 5. Build images:

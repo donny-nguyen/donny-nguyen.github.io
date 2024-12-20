@@ -165,9 +165,6 @@
 * [Backup and Recovery Strategies](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategies.html)
   * [Backup and Recovery Strategy for an Online Game Database System](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategy-for-online-game.html)
 
-#### PostgreSQL
-* [PostgreSQL Database](https://donny-nguyen.github.io/2024/12/14/postgresql.html)
-
 #### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
 * [Set up Oracle Database on a Mac using Docker](https://donny-nguyen.github.io/2024/12/09/setup-oracle-database-on-mac-using-docker.html)
@@ -199,6 +196,9 @@
   * [Setting Up Oracle Data Guard on AWS](https://donny-nguyen.github.io/2024/12/13/setting-up-oracle-data-guard-on-aws.html)
 * [Oracle RAC vs Data Guard](https://donny-nguyen.github.io/2024/12/13/oracle-rac-vs-data-guard.html)
 * [Migrating Database from SQL Server to Oracle](https://donny-nguyen.github.io/2024/12/16/migrate-database-sqlserver-to-oracle.html)
+
+#### PostgreSQL
+* [PostgreSQL Database](https://donny-nguyen.github.io/2024/12/14/postgresql.html)
 
 #### SQL Server
 * [Security of SQL Server Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-sql-server-dbms.html)
