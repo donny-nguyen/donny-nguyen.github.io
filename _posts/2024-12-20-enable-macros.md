@@ -82,4 +82,19 @@ This configuration ensures that when you run or debug your Dart CLI or Flutter a
 
 - For Dart CLI projects, you may need to adjust the `program` field in the launch configuration to point to your main Dart file, typically `bin/main.dart`.
 
+- In some recent Dart SDK versions, you might see this compiling error when using macros:
+
+    ```
+    The part-of directive must be the only directive in a part. Try removing the other directives, or moving them to the library for which this is a part.
+    ```
+
+    You can fix it by updating your `analysis_options.yaml` file in the project root to enable `enhanced-parts` flag along with `macros`:
+
+    ```yaml
+    analyzer:
+      enable-experiment:
+        - macros
+        - enhanced-parts
+    ```
+
 By following these steps, you'll have macros enabled in your Dart CLI or Flutter project, both for analysis and at runtime when launching from VS Code.
