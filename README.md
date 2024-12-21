@@ -187,6 +187,7 @@
 * [Security of Oracle Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-oracle-dbms.html)
   * [Oracle Database User Management](https://donny-nguyen.github.io/2024/12/12/oracle-database-user-management.html)
 * [Oracle Database Backup and Recovery Strategy](https://donny-nguyen.github.io/2024/12/12/oracle-db-backup-and-recovery.html)
+* [Upgrading an Oracle Database Running in a Docker Container](https://donny-nguyen.github.io/2024/12/21/upgrading-oracle-database-in-docker.html)
 * [Upgrading an Oracle Database on AWS RDS](https://donny-nguyen.github.io/2024/12/21/upgrading-oracle-database-on-aws-rds.html)
 * [Oracle Listener](https://donny-nguyen.github.io/2024/12/17/oracle-listener.html)
 * [Oracle Real Application Clusters (RAC)](https://donny-nguyen.github.io/2024/12/12/oracle-rac.html)
