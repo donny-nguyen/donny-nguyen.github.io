@@ -17,7 +17,8 @@ Docker is a powerful tool for containerizing applications. Here's how to work wi
    - `docker rm <container-id-or-name>` removes a stopped container.
 
 4. Work with images:
-   - `docker pull` downloads an image from a registry.
+   - `docker search <image_name>` search for images.
+   - `docker pull <image_name>` downloads an image from a registry.
    - `docker images` lists local images.
    - `docker rmi <image-id>` remove an image.
    - Create a Dockerfile to build custom images.
