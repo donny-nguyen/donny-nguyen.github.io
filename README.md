@@ -140,6 +140,7 @@
 * [Layered Architecture](https://donny-nguyen.github.io/2024/11/23/layered-architecture.html)
 * [Stateful vs. Stateless Applications](https://donny-nguyen.github.io/2024/10/22/stateful-vs-stateless-applications.html)
 * [Chaos Engineering](https://donny-nguyen.github.io/2024/10/30/chaos-engineering.html)
+* [Latency and Synchronization in Real-time Multiplayer Games](https://donny-nguyen.github.io/2024/12/21/real-time-multiplayer-games-problem.html)
 
 #### Microservices
 * [Microservices Architecture](https://donny-nguyen.github.io/2024/09/26/microservices-architecture.html)
