@@ -40,16 +40,16 @@ docker exec -it <container_name> bash
 sqlplus / as sysdba
 
 # Connect as specific user
-sqlplus username/password@//localhost:1521/ORCLPDB1
+sqlplus username/password@//localhost:1521/FREEPDB1
 ```
 
 ### Using SQLPlus from Host Machine
 ```bash
 # Format
-sqlplus username/password@//localhost:1521/ORCLPDB1
+sqlplus username/password@//localhost:1521/FREEPDB1
 
 # Example for system user
-sqlplus system/your_password@//localhost:1521/ORCLPDB1
+sqlplus system/your_password@//localhost:1521/FREEPDB1
 ```
 
 ## 3. Basic Database Operations
