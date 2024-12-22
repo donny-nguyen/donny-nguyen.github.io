@@ -168,7 +168,7 @@
 
 #### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
-* [Set up Oracle Database on a Mac using Docker](https://donny-nguyen.github.io/2024/12/09/setup-oracle-database-on-mac-using-docker.html)
+* [Set up Oracle Database on Docker](https://donny-nguyen.github.io/2024/12/09/setup-oracle-database-on-docker.html)
 * [Working with Oracle Database in Docker](https://donny-nguyen.github.io/2024/12/12/working-with-oracle-db-in-docker.html)
 * [Tablespaces](https://donny-nguyen.github.io/2024/12/12/tablespaces.html)
 * [Oracle DB Locks](https://donny-nguyen.github.io/2024/12/18/oracle-db-locks.html)
