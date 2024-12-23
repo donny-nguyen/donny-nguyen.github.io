@@ -84,8 +84,8 @@
 * [Unit Test](https://donny-nguyen.github.io/2024/11/02/unit-test.html)
 * [Integration Test](https://donny-nguyen.github.io/2024/11/02/integration-testing.html)
 * [Mockito](https://donny-nguyen.github.io/2024/11/20/mockito.html)
-* [Testing Controller Layer with Mockito](https://donny-nguyen.github.io/2024/11/30/testing-controller-layer-with-mockito.html)
-* [Testing Service Layer with Mockito](https://donny-nguyen.github.io/2024/11/23/testing-service-layer-with-mockito.html)
+  * [Testing Controller Layer with Mockito](https://donny-nguyen.github.io/2024/11/30/testing-controller-layer-with-mockito.html)
+  * [Testing Service Layer with Mockito](https://donny-nguyen.github.io/2024/11/23/testing-service-layer-with-mockito.html)
 * [Private Methods Testing](https://donny-nguyen.github.io/2024/12/07/private-methods-testing.html)
 
 ### Security
@@ -104,6 +104,7 @@
   * [S3 Transfer Acceleration](https://donny-nguyen.github.io/2024/09/17/aws-s3-transfer-acceleration.html)
   * [S3 Cross-Region Replication](https://donny-nguyen.github.io/2024/09/17/aws-s3-cross-region-replication.html)
 * [Lambda](https://donny-nguyen.github.io/2024/11/09/aws-lambda.html)
+  * [Monitoring AWS Lambda Functions Performance](https://donny-nguyen.github.io/2024/12/23/monitoring-aws-lambda-functions-performance.html)
 * [Elastic Compute Cloud (EC2)](https://donny-nguyen.github.io/2024/11/18/aws-ec2.html)
 * [Auto Scaling Group](https://donny-nguyen.github.io/2024/10/22/aws-auto-scaling-group.html)
 * [Load Balancer](https://donny-nguyen.github.io/2024/10/09/aws-load-balancer.html)
