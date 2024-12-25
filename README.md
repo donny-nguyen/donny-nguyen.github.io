@@ -175,6 +175,7 @@
 * [Oracle DB Locks](https://donny-nguyen.github.io/2024/12/18/oracle-db-locks.html)
   * [Locking Tables Manually](https://donny-nguyen.github.io/2024/12/18/locking-tables-manually.html)
   * [Monitor Blocked Sessions](https://donny-nguyen.github.io/2024/12/18/monitor-blocked-sessions.html)
+* [Oracle Undo Tablespace](https://donny-nguyen.github.io/2024/12/25/oracle-undo-tablespace.html)
 * [Procedural Language/Structured Query Language (PL/SQL)](https://donny-nguyen.github.io/2024/12/13/pl-sql.html)
   * [Comprehensive PL/SQL Example for an Online Game System](https://donny-nguyen.github.io/2024/12/13/pl-sql-for-online-game-system.html)
 * [Troubleshooting Performance Issues in Oracle Databases](https://donny-nguyen.github.io/2024/12/13/troubleshooting-performance-oracle-db.html)
