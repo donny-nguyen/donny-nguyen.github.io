@@ -263,7 +263,6 @@
   * [Either](https://donny-nguyen.github.io/2024/11/08/either-type.html)
   * [String Formatting in Dart](https://donny-nguyen.github.io/2024/11/29/format-string.html)
 * [Const and Final Keywords](https://donny-nguyen.github.io/2024/11/01/dart-const-and-final.html)
-  * [Final vs. Const Objects](https://donny-nguyen.github.io/2024/11/01/final-object-and-const-object.html)
   * [Assignment Between const and final Variables](https://donny-nguyen.github.io/2024/11/01/assignment-between-const-and-final.html)
 * [Common Operators](https://donny-nguyen.github.io/2024/11/04/common-operators-in-dart.html)
 * [Nullable](https://donny-nguyen.github.io/2024/11/04/nullable.html)

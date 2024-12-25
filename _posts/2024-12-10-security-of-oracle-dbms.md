@@ -79,4 +79,4 @@ Ensuring the security of Oracle database systems requires a multi-layered approa
 
 Implementing these measures will help you secure Oracle database systems against unauthorized access, data breaches, and other security threats.
 
-<em>Reference:</em> [Oracle RAC Patching Steps - opatchauto apply method || oracle 19c patching](https://youtu.be/pLt4ff3FeTk?si=YMRikfnoF9NiwpqG)
+<em>Reference:</em> [Oracle RAC Patching Steps](https://youtu.be/pLt4ff3FeTk?si=YMRikfnoF9NiwpqG)
