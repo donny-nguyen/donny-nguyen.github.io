@@ -28,6 +28,18 @@ In an Oracle database, a **tablespace** is a logical storage unit that groups re
 
 ### Example SQL Commands:
 
+- **List all tablespaces with DBA privileges**:
+  ```sql
+  SELECT tablespace_name 
+  FROM dba_tablespaces;
+  ```
+
+- **List all tablespaces with user-level privileges**:
+  ```sql
+  SELECT tablespace_name 
+  FROM user_tablespaces;
+  ```
+
 - **Create a Tablespace**:
   ```sql
   CREATE TABLESPACE mytablespace
