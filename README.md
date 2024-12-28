@@ -82,6 +82,7 @@
 * [What is GraphQL?](https://donny-nguyen.github.io/2024/12/16/graphql.html)
 * [Key Components of GraphQL](https://donny-nguyen.github.io/2024/12/16/graphql-components.html)
 * [Designing GraphQL Schema in Java](https://donny-nguyen.github.io/2024/12/28/designing-graphql-schema-in-java.html)
+* [Handling Data Fetching and Optimizing in GraphQL](https://donny-nguyen.github.io/2024/12/28/data-fetching-and-optimizing-in-graphql.html)
 
 ### Testing
 * [Unit Test](https://donny-nguyen.github.io/2024/11/02/unit-test.html)
