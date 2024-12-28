@@ -75,6 +75,13 @@ src/
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
+
+        <!-- Lombok for reducing boilerplate code -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
     </dependencies>
 </project>
 ```
@@ -101,41 +108,26 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 @Entity
+@Table(name = "Users")  // Avoid using "user" as a table name because it is a reserved keyword in SQL
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@ToString
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    
-    @NotBlank(message = "Name cannot be blank")
-    @Size(min = 2, max = 100, message = "Name must be between 2 and 100 characters")
     private String name;
-    
-    @NotBlank(message = "Email cannot be blank")
-    @Email(message = "Invalid email format")
     private String email;
-    
-    // Constructors
-    public User() {}
-    
-    public User(String name, String email) {
-        this.name = name;
-        this.email = email;
-    }
-    
-    // Getters and Setters
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
-    
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-    
-    public String getEmail() { return email; }
-    public void setEmail(String email) { this.email = email; }
 }
 ```
 
