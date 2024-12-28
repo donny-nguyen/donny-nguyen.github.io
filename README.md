@@ -174,6 +174,7 @@
 * [Security of Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-dbms.html)
 * [Backup and Recovery Strategies](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategies.html)
   * [Backup and Recovery Strategy for an Online Game Database System](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategy-for-online-game.html)
+* [Choosing the Right NoSQL Database](https://donny-nguyen.github.io/2024/12/28/choosing-right-nosql-database.html)
 
 #### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
