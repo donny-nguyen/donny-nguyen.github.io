@@ -35,6 +35,7 @@
 * [SOLID Principles](https://donny-nguyen.github.io/2024/09/16/solid-principles.html)
 * [Strategy Design Pattern](https://donny-nguyen.github.io/2024/09/16/strategy-design-pattern.html)
 * [Test Driven Development](https://donny-nguyen.github.io/2024/09/28/test-driven-development.html)
+* [Optimizing Java Code](https://donny-nguyen.github.io/2024/12/28/optimizing-java-code.html)
 * [Threads](https://donny-nguyen.github.io/2024/12/18/java-threads.html)
   * [Thread Lifecycle](https://donny-nguyen.github.io/2024/12/18/thread-lifecycle.html)
   * [Thread Synchronization](https://donny-nguyen.github.io/2024/12/18/thread-synchronization.html)
