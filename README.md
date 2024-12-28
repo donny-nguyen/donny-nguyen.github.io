@@ -123,6 +123,7 @@
 * [Relational Database Service (RDS)](https://donny-nguyen.github.io/2024/11/09/aws-rds.html)
   * [Connecting an Application to AWS RDS](https://donny-nguyen.github.io/2024/12/28/connecting-application-to-aws-rds.html)
   * [Best Practices for Connecting to AWS RDS](https://donny-nguyen.github.io/2024/12/28/best-practices-for-connecting-to-aws-rds.html)
+  * [Handling Scaling and Performance Optimization for AWS RDS](https://donny-nguyen.github.io/2024/12/28/scaling-and-optimization-for-aws-rds.html)
 * [DynamoDB](https://donny-nguyen.github.io/2024/11/16/aws-dynamodb.html)
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
 * [CloudWatch](https://donny-nguyen.github.io/2024/11/18/aws-cloudwatch.html)
