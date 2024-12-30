@@ -32,6 +32,7 @@
   * [Default Methods](https://donny-nguyen.github.io/2024/12/19/java8-default-methods.html)
   * [Optional](https://donny-nguyen.github.io/2024/12/19/java8-optional.html)
 * [4 Concepts of OOP](https://donny-nguyen.github.io/2024/09/09/4-concepts-of-oop.html)
+  * [Use Cases of Composition and Inheritance](https://donny-nguyen.github.io/2024/12/30/use-cases-of-composition-and-inheritance.html)
 * [SOLID Principles](https://donny-nguyen.github.io/2024/09/16/solid-principles.html)
 * [Strategy Design Pattern](https://donny-nguyen.github.io/2024/09/16/strategy-design-pattern.html)
 * [Optimizing Java Code](https://donny-nguyen.github.io/2024/12/28/optimizing-java-code.html)
