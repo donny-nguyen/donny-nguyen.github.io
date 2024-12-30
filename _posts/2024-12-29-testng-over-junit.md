@@ -66,7 +66,7 @@ public void testAddition(int a, int b, int result) {
 
 @DataProvider
 public Object[][] dataMethod() {
-    return new Object[][]{{1, 2, 3}, {3, 4, 7}};
+    return new Object[][]{ {1, 2, 3}, {3, 4, 7} };
 }
 ```
 

@@ -52,7 +52,7 @@ The Context API allows us to share state across multiple components without pass
   function CounterProvider({ children }) {
     const [count, setCount] = useState(0);
     return (
-      <CountContext.Provider value={{ count, setCount }}>
+      <CountContext.Provider value={ { count, setCount } }>
         {children}
       </CountContext.Provider>
     );
