@@ -22,6 +22,7 @@
 * [Class](https://donny-nguyen.github.io/2024/12/31/dart-class.html)
     * [Constructor](https://donny-nguyen.github.io/2024/12/31/dart-constructor.html)
 * [Inheritance](https://donny-nguyen.github.io/2024/12/31/dart-inheritance.html)
+  * [Calling Constructors and Methods of Parent Class](https://donny-nguyen.github.io/2024/12/31/calling-constructors-and-methods-of-parent-class.html)
 * [Library Augmentation](https://donny-nguyen.github.io/2024/12/05/library-augmentation.html)
 * [Enable `macros` for Dart and Flutter Projects](https://donny-nguyen.github.io/2024/12/20/enable-macros.html)
 * [Bad State: Future Already Completed](https://donny-nguyen.github.io/2024/11/29/future-already-completed.html)
