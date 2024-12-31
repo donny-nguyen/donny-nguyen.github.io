@@ -5,6 +5,7 @@
 
 ## Categories
 
+* [Spring Framework](https://donny-nguyen.github.io/spring-framework)
 * [Dart & Flutter](https://donny-nguyen.github.io/dart-flutter)
 
 ## Posts
@@ -43,27 +44,6 @@
 * [Threads](https://donny-nguyen.github.io/2024/12/18/java-threads.html)
   * [Thread Lifecycle](https://donny-nguyen.github.io/2024/12/18/thread-lifecycle.html)
   * [Thread Synchronization](https://donny-nguyen.github.io/2024/12/18/thread-synchronization.html)
-
-### Spring Framework
-* [Spring Ecosystem](https://donny-nguyen.github.io/2024/09/16/spring-ecosystem.html)
-* [Spring Framework](https://donny-nguyen.github.io/2024/09/16/spring-framework.html)
-  * [Inversion of Control](https://donny-nguyen.github.io/2024/09/24/inversion-of-control.html)
-  * [Bean](https://donny-nguyen.github.io/2024/09/24/bean.html)
-  * [Dependency Injection](https://donny-nguyen.github.io/2024/09/26/dependency-injection.html)
-  * [Types of Dependency Injection](https://donny-nguyen.github.io/2024/11/25/types-of-dependency-injection.html)
-  * [Immutability Promotion of Constructor Injection](https://donny-nguyen.github.io/2024/11/25/immutability-promotion-of-constructor-injection.html)
-  * [Qualifier](https://donny-nguyen.github.io/2024/09/26/qualifier.html)
-  * [Spring MVC](https://donny-nguyen.github.io/2024/09/20/spring-mvc.html)
-  * [Controller and RestController](https://donny-nguyen.github.io/2024/09/24/controller-and-restcontroller.html)
-* [Spring Boot](https://donny-nguyen.github.io/2024/09/16/spring-boot.html)
-  * [How Spring Boot Simplifies the Configuration Process](https://donny-nguyen.github.io/2024/11/23/spring-boot-simplifies-configuration.html)
-  * [Spring Boot Starters](https://donny-nguyen.github.io/2024/11/23/spring-boot-starters.html)
-  * [SpringBootApplication Annotation](https://donny-nguyen.github.io/2024/12/20/springbootapplication-annotation.html)
-* [Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)
-* [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
-* [Spring Cloud](https://donny-nguyen.github.io/2024/10/08/spring-cloud.html)
-  * [Spring Cloud and AWS](https://donny-nguyen.github.io/2024/10/08/spring-cloud-and-aws.html)
-* [Creating a RESTful API using Spring Boot](https://donny-nguyen.github.io/2024/11/25/creating-restful-api-using-spring-boot.html)
 
 ### Hibernate
 * [Hibernate](https://donny-nguyen.github.io/2024/11/30/hibernate.html)
