@@ -21,6 +21,7 @@
   * [Maps](https://donny-nguyen.github.io/2024/11/06/maps.html)
 * [Class](https://donny-nguyen.github.io/2024/12/31/dart-class.html)
     * [Constructor](https://donny-nguyen.github.io/2024/12/31/dart-constructor.html)
+* [Inheritance](https://donny-nguyen.github.io/2024/12/31/dart-inheritance.html)
 * [Library Augmentation](https://donny-nguyen.github.io/2024/12/05/library-augmentation.html)
 * [Enable `macros` for Dart and Flutter Projects](https://donny-nguyen.github.io/2024/12/20/enable-macros.html)
 * [Bad State: Future Already Completed](https://donny-nguyen.github.io/2024/11/29/future-already-completed.html)

@@ -28,7 +28,7 @@ Now, let's write a simple test to get started.
     ```java
     import static io.restassured.RestAssured.*;
     import static org.hamcrest.Matchers.*;
-    import org.junit.Test;
+    import org.junit.jupiter.api.Test;
     ```
 
 3. **Write a simple GET request test**:
