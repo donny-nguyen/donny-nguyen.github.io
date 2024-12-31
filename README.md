@@ -6,6 +6,7 @@
 ## Categories
 
 * [Spring Framework](https://donny-nguyen.github.io/spring-framework)
+* [Testing](https://donny-nguyen.github.io/testing)
 * [Dart & Flutter](https://donny-nguyen.github.io/dart-flutter)
 
 ## Posts
@@ -67,18 +68,6 @@
 * [Key Components of GraphQL](https://donny-nguyen.github.io/2024/12/16/graphql-components.html)
 * [Designing GraphQL Schema in Java](https://donny-nguyen.github.io/2024/12/28/designing-graphql-schema-in-java.html)
 * [Handling Data Fetching and Optimizing in GraphQL](https://donny-nguyen.github.io/2024/12/28/data-fetching-and-optimizing-in-graphql.html)
-
-### Testing
-* [Unit Test](https://donny-nguyen.github.io/2024/11/02/unit-test.html)
-* [Integration Test](https://donny-nguyen.github.io/2024/11/02/integration-testing.html)
-* [JUnit](https://donny-nguyen.github.io/2024/12/29/junit.html)
-* [Mockito](https://donny-nguyen.github.io/2024/11/20/mockito.html)
-  * [Testing Controller Layer with Mockito](https://donny-nguyen.github.io/2024/11/30/testing-controller-layer-with-mockito.html)
-  * [Testing Service Layer with Mockito](https://donny-nguyen.github.io/2024/11/23/testing-service-layer-with-mockito.html)
-* [TestNG](https://donny-nguyen.github.io/2024/12/29/testng.html)
-  * [How TestNG Improves upon JUnit](https://donny-nguyen.github.io/2024/12/29/testng-over-junit.html)
-* [Private Methods Testing](https://donny-nguyen.github.io/2024/12/07/private-methods-testing.html)
-* [Test Driven Development](https://donny-nguyen.github.io/2024/09/28/test-driven-development.html)
 
 ### Security
 * [JSON Web Token (JWT)](https://donny-nguyen.github.io/2024/11/22/jwt.html)
