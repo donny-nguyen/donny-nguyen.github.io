@@ -68,6 +68,8 @@ GRANT UNLIMITED TABLESPACE TO newuser;
 ALTER USER newuser IDENTIFIED BY new_password;
 ```
 
+[More User Management Commands](https://donny-nguyen.github.io/2024/12/12/oracle-database-user-management.html)
+
 ### Database Operations
 
 ```sql

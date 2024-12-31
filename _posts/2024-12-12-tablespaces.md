@@ -57,5 +57,28 @@ In an Oracle database, a **tablespace** is a logical storage unit that groups re
   DROP TABLESPACE mytablespace INCLUDING CONTENTS AND DATAFILES;
   ```
 
+- **Set a default tablespace for users**:
+```sql
+ALTER USER username DEFAULT TABLESPACE tablespace_name;
+```
+
+- **Assign quotas to allow users to create objects**:
+```sql
+ALTER USER username QUOTA unlimited ON tablespace_name;
+```
+
+- **Verify the tablespace is online and read-write**:
+```sql
+SELECT status, contents FROM dba_tablespaces 
+WHERE tablespace_name = 'your_tablespace';
+```
+
+- **For specific objects, you can explicitly specify the tablespace**:
+```sql
+CREATE TABLE table_name (
+    column1 datatype
+) TABLESPACE tablespace_name;
+```
+
 ### Summary
 Tablespaces are essential for logical storage management in Oracle databases. They help organize data, improve performance, and simplify database administration. By using tablespaces effectively, DBAs can ensure efficient storage allocation and maintenance.
