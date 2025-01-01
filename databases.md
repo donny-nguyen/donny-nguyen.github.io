@@ -14,6 +14,7 @@
 * [Types of Joins in SQL](https://donny-nguyen.github.io/2024/12/13/sql-joins.html)
 * [Detecting Duplicates](https://donny-nguyen.github.io/2025/01/01/detecting-duplicates.html)
 * [Normalization](https://donny-nguyen.github.io/2025/01/01/normalization.html)
+* [SQL Execution Plans](https://donny-nguyen.github.io/2025/01/01/sql-executions-plans.html)
 
 ### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
