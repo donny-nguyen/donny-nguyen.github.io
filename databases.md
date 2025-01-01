@@ -1,7 +1,6 @@
 # Databases
 
 ### General
-* [Types of Joins in SQL](https://donny-nguyen.github.io/2024/12/13/sql-joins.html)
 * [Read Phenomena](https://donny-nguyen.github.io/2024/09/23/read-phenomena.html)
 * [Isolation Levels](https://donny-nguyen.github.io/2024/09/23/isolation-levels.html)
 * [Database Administrator (DBA)](https://donny-nguyen.github.io/2024/12/10/dba.html)
@@ -9,6 +8,10 @@
 * [Backup and Recovery Strategies](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategies.html)
   * [Backup and Recovery Strategy for an Online Game Database System](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategy-for-online-game.html)
 * [Choosing the Right NoSQL Database](https://donny-nguyen.github.io/2024/12/28/choosing-right-nosql-database.html)
+
+### SQL
+* [Types of Joins in SQL](https://donny-nguyen.github.io/2024/12/13/sql-joins.html)
+* [Detecting Duplicates](https://donny-nguyen.github.io/2025/01/01/detecting-duplicates.html)
 
 ### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
