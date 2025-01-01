@@ -10,6 +10,7 @@
 * [Testing](https://donny-nguyen.github.io/testing)
 * [Databases](https://donny-nguyen.github.io/databases)
 * [Dart & Flutter](https://donny-nguyen.github.io/dart-flutter)
+* [Git](https://donny-nguyen.github.io/git)
 
 ## Posts
 
@@ -150,8 +151,5 @@
 * [React Hooks](https://donny-nguyen.github.io/2024/11/19/react-hooks.html)
 
 ### Other
-* [Git - Manage Username and Email](https://donny-nguyen.github.io/2024/10/01/git-manage-username-and-email.html)
-* [Git - Add More Remote Repositories](https://donny-nguyen.github.io/2024/12/30/git-add-more-remote.html)
-* [Managing Identities in SSH Agent](https://donny-nguyen.github.io/2024/10/01/managing-identities-in-ssh-agent.html)
 * [Staying Updated with New Knowledge](https://donny-nguyen.github.io/2024/11/27/staying-updated-with-new-knowledge.html)
 * [Self-awareness in Job Interviews](https://donny-nguyen.github.io/2024/10/30/self-awareness-in-job-interviews.html)
