@@ -9,6 +9,7 @@
 * [equals() and hashCode() methods](https://donny-nguyen.github.io/2024/09/12/equals-and-hashcode-methods.html)
 * [Differences between `==` Operator and `equals()` Method](https://donny-nguyen.github.io/2025/01/01/equal-operator-and-method.html)
 * [What happens if hashCode() method always returns the same value?](https://donny-nguyen.github.io/2024/09/12/if-hashcode-returns-the-same-value.html)
+* [`final`, `finally`, and `finalize`](https://donny-nguyen.github.io/2025/01/01/final-finally-finalize-in-java.html)
 * [The Java Collection Framework Hierarchy](https://donny-nguyen.github.io/2024/09/13/java-collection-hierarchy.html)
   * [ArrayList and LinkedList](https://donny-nguyen.github.io/2024/09/17/arraylist-and-linkedlist.html)
   * [ArrayList and Vector](https://donny-nguyen.github.io/2024/09/17/arraylist-and-vector.html)
