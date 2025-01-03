@@ -28,6 +28,7 @@
 * [Index in Oracle Database](https://donny-nguyen.github.io/2024/12/25/index-in-oracle-database.html)
 * [Procedural Language/Structured Query Language (PL/SQL)](https://donny-nguyen.github.io/2024/12/13/pl-sql.html)
   * [Comprehensive PL/SQL Example for an Online Game System](https://donny-nguyen.github.io/2024/12/13/pl-sql-for-online-game-system.html)
+* [SQL Execution Plan](https://donny-nguyen.github.io/2025/01/03/sql-execution-plan.html)
 * [Troubleshooting Performance Issues in Oracle Databases](https://donny-nguyen.github.io/2024/12/13/troubleshooting-performance-oracle-db.html)
   * [Automatic Workload Repository (AWR)](https://donny-nguyen.github.io/2024/12/16/oracle-awr.html)
   * [Oracle AWR Report](https://donny-nguyen.github.io/2024/12/16/oracle-awr-report.html)
