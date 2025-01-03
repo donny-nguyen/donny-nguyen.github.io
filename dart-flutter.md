@@ -14,7 +14,7 @@
 * [Nullable](https://donny-nguyen.github.io/2024/11/04/nullable.html)
 * [Late](https://donny-nguyen.github.io/2024/11/05/late.html)
 * [Functions](https://donny-nguyen.github.io/2024/11/05/functions.html)
-* [Function Parameters](https://donny-nguyen.github.io/2024/11/05/function-parameters.html)
+  * [Function Parameters](https://donny-nguyen.github.io/2024/11/05/function-parameters.html)
 * [Collections](https://donny-nguyen.github.io/2024/11/06/collections.html)
   * [Lists](https://donny-nguyen.github.io/2024/11/06/lists.html)
   * [Sets](https://donny-nguyen.github.io/2024/11/06/sets.html)

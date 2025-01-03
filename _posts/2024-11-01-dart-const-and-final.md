@@ -2,10 +2,9 @@
 
 In Dart, the `const` and `final` keywords are used to declare variables with specific immutability characteristics. These keywords help ensure type safety and optimize performance.However, there are some differences between `const` and `final`:
 
-1. Time of Initialization
+1. **Time of Initialization**
 - `final` variables are initialized at runtime, when they are first used
 - `const` variables are determined at compile time
-
 ```dart
 // final example - value determined at runtime
 final currentTime = DateTime.now(); // Works fine
@@ -14,10 +13,9 @@ final currentTime = DateTime.now(); // Works fine
 const currentTime = DateTime.now(); // Error!
 ```
 
-2. Object Mutability
+2. **Object Mutability**
 - `final` only makes the reference immutable, but the object itself can still be mutable
 - `const` makes the entire object and its deep contents immutable
-
 ```dart
 // final allows mutable objects
 final list = [1, 2, 3];
@@ -28,10 +26,9 @@ const list = [1, 2, 3];
 list.add(4); // Error! Cannot modify a const list
 ```
 
-3. Instance Variables
+3. **Instance Variables**
 - `final` can be used for instance variables in a class
 - `const` cannot be used for instance variables unless the class itself is const
-
 ```dart
 class Person {
   final String name;    // This works
@@ -41,10 +38,9 @@ class Person {
 }
 ```
 
-4. Memory Optimization
+4. **Memory Optimization**
 - `const` objects are canonicalized - identical const values share the same memory location
 - `final` objects get their own memory space even if their values are identical
-
 ```dart
 // These share the same memory location
 const a = [1, 2, 3];
@@ -57,10 +53,9 @@ final d = [1, 2, 3];
 print(identical(c, d)); // false
 ```
 
-5. Constructor Usage
+5. **Constructor Usage**
 - Classes can have `const` constructors only if all instance variables are final
 - Regular constructors can use both `final` and non-final variables
-
 ```dart
 class Point {
   final int x;
