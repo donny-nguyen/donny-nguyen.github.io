@@ -2,17 +2,17 @@
 
 DBAs may need to manually lock tables in Oracle in the following scenarios:
 
-1. Maintenance operations: When performing maintenance tasks that require exclusive access to a table, such as bulk data updates or schema changes.
+1. **Maintenance operations**: When performing maintenance tasks that require exclusive access to a table, such as bulk data updates or schema changes.
 
-2. Data consistency: To ensure data consistency during complex multi-step operations that span multiple transactions.
+2. **Data consistency**: To ensure data consistency during complex multi-step operations that span multiple transactions.
 
-3. Performance optimization: In rare cases, to optimize performance by preventing concurrent access to a table during resource-intensive operations.
+3. **Performance optimization**: In rare cases, to optimize performance by preventing concurrent access to a table during resource-intensive operations.
 
-4. Troubleshooting: When diagnosing concurrency issues or deadlocks, DBAs might manually lock tables to isolate the problem.
+4. **Troubleshooting**: When diagnosing concurrency issues or deadlocks, DBAs might manually lock tables to isolate the problem.
 
-5. Data migration: During data migration processes, to prevent modifications to the source table while data is being transferred.
+5. **Data migration**: During data migration processes, to prevent modifications to the source table while data is being transferred.
 
-6. Batch processing: To guarantee exclusive access during large batch operations that require consistent data throughout the process.
+6. **Batch processing**: To guarantee exclusive access during large batch operations that require consistent data throughout the process.
 
 To manually lock tables in Oracle, you can use the LOCK TABLE statement. Here's how to do it:
 

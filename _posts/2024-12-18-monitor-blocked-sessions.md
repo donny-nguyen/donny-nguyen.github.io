@@ -16,9 +16,9 @@ To detect and resolve blocked sessions caused by locks using monitoring tools:
 
 ### 4. Resolve the blocked session
    - Communicate with the application team to determine the appropriate action.
-   - Options for resolution include:
-     a. Waiting for the blocking session to complete its transaction.
-     b. Killing the blocking session using the ALTER SYSTEM KILL SESSION command.
+   - Options for resolution include:  
+     a. Waiting for the blocking session to complete its transaction.  
+     b. Killing the blocking session using the ALTER SYSTEM KILL SESSION command.  
      c. Killing the blocked session if it's less critical.
 
 ### 5. Implement preventive measures
