@@ -15,9 +15,7 @@ The `HashMap` uses a hash function to compute the index in the array where the k
 2. Apply a supplemental hash function to reduce collisions and distribute keys uniformly.
 
 ### 3. Index Calculation:
-The array index is calculated using the formula:
-\[ \text{index} = (\text{n - 1}) \& \text{hash} \]
-where `n` is the length of the array (initially 16) and `hash` is the hash code of the key.
+The array index is calculated using the formula: `index = (n - 1) & hash`, where `n` is the length of the array (initially 16) and `hash` is the hash code of the key.
 
 ### 4. Collision Handling:
 Collisions occur when two keys have the same hash index. `HashMap` handles collisions using separate chaining with linked lists:

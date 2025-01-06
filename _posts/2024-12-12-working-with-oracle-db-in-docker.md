@@ -73,8 +73,8 @@ ALTER USER newuser IDENTIFIED BY new_password;
 ### Database Operations
 
 ```sql
--- Determine the current database by selecting the database name from v$database
-SELECT name FROM v$database;
+-- Retrieves the names of all Pluggable Databases (PDBs) within a Container Database (CDB)
+SELECT name FROM v$pdbs;
 
 -- Determine the current database by querying the global_name
 SELECT * FROM global_name;
