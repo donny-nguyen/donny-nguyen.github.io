@@ -16,6 +16,7 @@
   * [SpringBootApplication Annotation](https://donny-nguyen.github.io/2024/12/20/springbootapplication-annotation.html)
 * [Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)
   * [Spring Data JPA](https://donny-nguyen.github.io/2025/01/06/spring-data-jpa.html)
+  * [Object-Relational Mapping (ORM)](https://donny-nguyen.github.io/2025/01/06/orm.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
 * [Spring Cloud](https://donny-nguyen.github.io/2024/10/08/spring-cloud.html)
   * [Spring Cloud and AWS](https://donny-nguyen.github.io/2024/10/08/spring-cloud-and-aws.html)
