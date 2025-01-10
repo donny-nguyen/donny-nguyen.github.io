@@ -21,6 +21,7 @@
   * [Maps](https://donny-nguyen.github.io/2024/11/06/maps.html)
 * [Class](https://donny-nguyen.github.io/2024/12/31/dart-class.html)
     * [Constructor](https://donny-nguyen.github.io/2024/12/31/dart-constructor.html)
+    * [Factory Constructor in Dart](https://donny-nguyen.github.io/2025/01/09/dart-factory-constructor.html)
     * [Abstract Class](https://donny-nguyen.github.io/2025/01/02/dart-abstract-class.html)
 * [Inheritance](https://donny-nguyen.github.io/2024/12/31/dart-inheritance.html)
   * [Calling Constructors and Methods of Parent Class](https://donny-nguyen.github.io/2024/12/31/calling-constructors-and-methods-of-parent-class.html)
