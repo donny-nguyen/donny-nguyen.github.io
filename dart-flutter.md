@@ -32,3 +32,4 @@
 ### Flutter
 * [Creating a Flutter Project](https://donny-nguyen.github.io/2024/12/10/creating-flutter-project.html)
 * [Use Dart Console Project as a Dependency in Flutter Project ](https://donny-nguyen.github.io/2024/12/16/dart-project-as-dependency.html)
+* [Debug the `Paused on exception` Issue](https://donny-nguyen.github.io/2025/01/10/debug-the-paused-on-exception-issue.html)
