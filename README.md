@@ -103,6 +103,7 @@
 * [Backends For Frontends Pattern](https://donny-nguyen.github.io/2024/09/21/backends-for-frontends-pattern.html)
 * [Service Discovery Pattern](https://donny-nguyen.github.io/2024/09/21/service-discovery-pattern.html)
 * [Circuit Breaker Pattern](https://donny-nguyen.github.io/2024/09/21/circuit-breaker-pattern.html)
+  * [When Should Not Use Circuit Breaker Pattern](https://donny-nguyen.github.io/2025/01/17/when-not-use-circuit-breaker.html)
 * [Bulkhead Pattern](https://donny-nguyen.github.io/2024/09/29/bulkhead-pattern.html)
 * [Retry Pattern](https://donny-nguyen.github.io/2024/09/29/retry-pattern.html)
 * [Event Driven Architecture](https://donny-nguyen.github.io/2024/09/27/event-driven-architecture.html)
