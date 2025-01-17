@@ -9,6 +9,7 @@
 * [Spring Framework](https://donny-nguyen.github.io/spring-framework)
 * [Testing](https://donny-nguyen.github.io/testing)
 * [Databases](https://donny-nguyen.github.io/databases)
+* [System Design](https://donny-nguyen.github.io/system-design)
 * [Dart & Flutter](https://donny-nguyen.github.io/dart-flutter)
 * [Git](https://donny-nguyen.github.io/git)
 
@@ -82,35 +83,6 @@
 * [Google Cloud SQL](https://donny-nguyen.github.io/2024/10/25/google-cloud-sql.html)
 * [Google Cloud Pub/Sub](https://donny-nguyen.github.io/2024/10/25/google-cloud-pub-sub.html)
 * [Google Cloud BigQuery](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigquery.html)
-
-### System Design
-* [System Design Process](https://donny-nguyen.github.io/2024/11/08/system-design-process.html)
-* [Non-Functional Requirements](https://donny-nguyen.github.io/2024/10/01/non-functional-requirements.html)
-* [As-a-Service Architecture](https://donny-nguyen.github.io/2024/09/27/as-a-service-architecture.html)
-  * [Infrastructure as a Service (IaaS)](https://donny-nguyen.github.io/2024/09/27/infrastructure-as-a-service.html)
-  * [Platform as a Service (PaaS)](https://donny-nguyen.github.io/2024/09/27/platform-as-a-service.html)
-  * [Software as a Service (SaaS)](https://donny-nguyen.github.io/2024/09/27/software-as-a-service.html)
-  * [Function as a Service (FaaS)](https://donny-nguyen.github.io/2024/09/27/function-as-a-service.html)
-* [Layered Architecture](https://donny-nguyen.github.io/2024/11/23/layered-architecture.html)
-* [Stateful vs. Stateless Applications](https://donny-nguyen.github.io/2024/10/22/stateful-vs-stateless-applications.html)
-* [Chaos Engineering](https://donny-nguyen.github.io/2024/10/30/chaos-engineering.html)
-* [Latency and Synchronization in Real-time Multiplayer Games](https://donny-nguyen.github.io/2024/12/21/real-time-multiplayer-games-problem.html)
-
-#### Microservices
-* [Microservices Architecture](https://donny-nguyen.github.io/2024/09/26/microservices-architecture.html)
-* [Strangler Fig Pattern](https://donny-nguyen.github.io/2024/09/19/strangler-fig-pattern.html)
-* [API Gateway Pattern](https://donny-nguyen.github.io/2024/09/19/api-gateway-pattern.html)
-* [Backends For Frontends Pattern](https://donny-nguyen.github.io/2024/09/21/backends-for-frontends-pattern.html)
-* [Service Discovery Pattern](https://donny-nguyen.github.io/2024/09/21/service-discovery-pattern.html)
-* [Circuit Breaker Pattern](https://donny-nguyen.github.io/2024/09/21/circuit-breaker-pattern.html)
-  * [When Should Not Use Circuit Breaker Pattern](https://donny-nguyen.github.io/2025/01/17/when-not-use-circuit-breaker.html)
-* [Bulkhead Pattern](https://donny-nguyen.github.io/2024/09/29/bulkhead-pattern.html)
-* [Retry Pattern](https://donny-nguyen.github.io/2024/09/29/retry-pattern.html)
-* [Event Driven Architecture](https://donny-nguyen.github.io/2024/09/27/event-driven-architecture.html)
-* [Saga Pattern](https://donny-nguyen.github.io/2024/10/30/saga-pattern.html)
-* [Domain-Driven Design (DDD)](https://donny-nguyen.github.io/2024/11/01/domain-driven-design.html)
-* [Replaceability Principle](https://donny-nguyen.github.io/2024/11/27/replaceability-principle.html)
-* [Communication Between Microservices](https://donny-nguyen.github.io/2024/09/26/communication-between-microservices.html)
 
 ### Node.js
 * [Node.js](https://donny-nguyen.github.io/2024/09/27/nodejs.html)
