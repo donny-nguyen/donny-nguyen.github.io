@@ -66,3 +66,6 @@
 * [Documents and Collections](https://donny-nguyen.github.io/2024/11/26/documents-and-collections.html)
 * [Differences between MongoDB and SQL Databases](https://donny-nguyen.github.io/2024/11/26/mongodb-and-sql.html)
 * [Querying](https://donny-nguyen.github.io/2024/11/26/querying.html)
+
+### Redis
+* [What is Redis?](https://donny-nguyen.github.io/2025/01/23/redis.html)
