@@ -69,3 +69,4 @@
 
 ### Redis
 * [What is Redis?](https://donny-nguyen.github.io/2025/01/23/redis.html)
+* [Installing Redis](https://donny-nguyen.github.io/2025/01/23/installing-redis.html)
