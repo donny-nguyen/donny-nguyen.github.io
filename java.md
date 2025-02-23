@@ -16,6 +16,7 @@
   * [HashSet](https://donny-nguyen.github.io/2024/09/17/hashset.html)
   * [HashMap](https://donny-nguyen.github.io/2024/09/17/hashmap.html)
     * [Internal Working of `HashMap`](https://donny-nguyen.github.io/2025/01/01/internal-working-of-hashmap.html)
+    * [Map.entry()](https://donny-nguyen.github.io/2025/02/23/map-entry.html)
   * [HashMap and Hashtable](https://donny-nguyen.github.io/2024/09/17/hashmap-and-hashtable.html)
 * [Handling Large Datasets in Java](https://donny-nguyen.github.io/2024/12/28/handling-large-datasets.html)
 * [Iterator](https://donny-nguyen.github.io/2024/09/17/iterator.html)
