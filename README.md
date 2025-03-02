@@ -107,6 +107,10 @@
 * [Events Handling](https://donny-nguyen.github.io/2024/11/19/events-handling.html)
 * [React Hooks](https://donny-nguyen.github.io/2024/11/19/react-hooks.html)
 
+### Python
+
+* [Error of checking the latest version of pip](https://donny-nguyen.github.io/2025/03/01/error-of-checking-pip-version.html)
+
 ### Other
 * [Code Review](https://donny-nguyen.github.io/2025/01/17/code-review.html)
 * [Staying Updated with New Knowledge](https://donny-nguyen.github.io/2024/11/27/staying-updated-with-new-knowledge.html)
