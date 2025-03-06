@@ -86,77 +86,113 @@ const resolvers = {
 };
 ```
 
-### Step 4: Make Queries and Mutations
-With your server running, you can start making queries and mutations to interact with your data. Use GraphQL clients like Apollo Client for the frontend or tools like GraphiQL or Postman for testing.
+### Step 4: Making Queries and Mutations with Axios
+
+First, make sure you have Axios installed:
+
+**Installation**:
+```bash
+npm install axios
+```
+
+Then, you can use Axios to make your GraphQL requests. Here’s an example of how you can query and mutate using Axios:
 
 **Example Query**:
-```graphql
-{
-  users {
-    id
-    name
-    posts {
-      title
-      content
+```javascript
+const axios = require('axios');
+
+const query = `
+  {
+    users {
+      id
+      name
+      posts {
+        title
+        content
+      }
     }
   }
-}
+`;
+
+axios.post('http://localhost:4000/graphql', { query })
+  .then(response => {
+    console.log(response.data.data);
+  })
+  .catch(error => {
+    console.error(error);
+  });
 ```
 
 **Example Mutation**:
-```graphql
-mutation {
-  addUser(name: "New User") {
-    id
-    name
-  }
-}
-```
-
-### Step 5: Integrate with Your Frontend
-Use GraphQL client libraries to integrate with your frontend. Apollo Client is a popular choice for React applications.
-
-**Install Apollo Client**:
-```bash
-npm install @apollo/client
-```
-
-**Basic Integration**:
 ```javascript
-import { ApolloClient, InMemoryCache, ApolloProvider, useQuery, gql } from '@apollo/client';
+const axios = require('axios');
 
-const client = new ApolloClient({
-  uri: 'http://localhost:4000',
-  cache: new InMemoryCache()
-});
+const mutation = `
+  mutation {
+    addUser(name: "New User") {
+      id
+      name
+    }
+  }
+`;
 
-function App() {
+axios.post('http://localhost:4000/graphql', { query: mutation })
+  .then(response => {
+    console.log(response.data.data);
+  })
+  .catch(error => {
+    console.error(error);
+  });
+```
+
+### Step 5: Integrate with Your Frontend Using Axios
+
+For frontend integration, you can use Axios in a similar way within your components. Here’s an example with React:
+
+**Example React Component**:
+```javascript
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+
+function MyComponent() {
+  const [users, setUsers] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const query = `
+      {
+        users {
+          id
+          name
+        }
+      }
+    `;
+
+    axios.post('http://localhost:4000/graphql', { query })
+      .then(response => {
+        setUsers(response.data.data.users);
+        setLoading(false);
+      })
+      .catch(error => {
+        setError(error);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error: {error.message}</p>;
+
   return (
-    <ApolloProvider client={client}>
-      <MyComponent />
-    </ApolloProvider>
+    <div>
+      {users.map(user => (
+        <div key={user.id}>
+          <p>{user.name}</p>
+        </div>
+      ))}
+    </div>
   );
 }
 
-function MyComponent() {
-  const { loading, error, data } = useQuery(gql`
-    {
-      users {
-        id
-        name
-      }
-    }
-  `);
-
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error :(</p>;
-
-  return data.users.map(({ id, name }) => (
-    <div key={id}>
-      <p>{name}</p>
-    </div>
-  ));
-}
-
-export default App;
+export default MyComponent;
 ```
