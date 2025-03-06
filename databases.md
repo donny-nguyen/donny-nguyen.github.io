@@ -69,6 +69,7 @@
 
 ### GraphQL
 * [Working with GraphQL](https://donny-nguyen.github.io/2025/03/06/working-with-graphql.html)
+* [Writing a GraphQL query](https://donny-nguyen.github.io/2025/03/06/writing-graphql-query.html)
 
 ### Redis
 * [What is Redis?](https://donny-nguyen.github.io/2025/01/23/redis.html)
