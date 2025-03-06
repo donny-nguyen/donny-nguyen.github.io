@@ -67,6 +67,9 @@
 * [Differences between MongoDB and SQL Databases](https://donny-nguyen.github.io/2024/11/26/mongodb-and-sql.html)
 * [Querying](https://donny-nguyen.github.io/2024/11/26/querying.html)
 
+### GraphQL
+* [Working with GraphQL](https://donny-nguyen.github.io/2025/03/06/working-with-graphql.html)
+
 ### Redis
 * [What is Redis?](https://donny-nguyen.github.io/2025/01/23/redis.html)
 * [Installing Redis](https://donny-nguyen.github.io/2025/01/23/installing-redis.html)
