@@ -34,7 +34,19 @@ To install a specific version of Python using Homebrew, follow these steps:
    ```
 
 ### 5. **Set Python 3.10 as the Default (Optional)**
-   If you want to make Python 3.10 the default version of Python on your system, you can add it to your PATH. You can do this by adding the following line to your shell configuration file (e.g., `.bashrc`, `.zshrc`, etc.):
+   If you want to make Python 3.10 the default version of Python on your system, you can add it to your PATH. You can do this by exporting the Python path to your shell configuration file (e.g., `.bashrc`, `.zshrc`, etc.).
+
+   You can find the path to the Python executable by running:
+   ```bash
+   which python3.10
+   ```
+
+   This should output like this:
+   ```bash
+   /opt/homebrew/bin/python3.10
+   ```
+
+   Then you can run the following command to add the path to your shell configuration file:
    ```bash
    echo 'export PATH="/usr/local/opt/python@3.10/bin:$PATH"' >> ~/.zshrc
    ```
