@@ -58,7 +58,18 @@ To install a specific version of Python using Homebrew, follow these steps:
 
    Now, when you run `python3 --version`, it should show Python 3.10.8.
 
-### 6. **Install pip (if not already installed)**
+### 6. Create a Symlink for python (Optional)
+   If you want to use the command `python` (instead of `python3`) to refer to Python 3.10, you can create a symlink:
+   ```bash
+   ln -s /opt/homebrew/bin/python3.10 /opt/homebrew/bin/python
+   ```
+
+   Then, verify it:
+   ```bash
+   python --version
+   ```
+
+### 7. **Install pip (if not already installed)**
    Python 3.10.8 should come with `pip` pre-installed. You can verify this by running:
    ```bash
    python3.10 -m ensurepip --upgrade
@@ -69,13 +80,13 @@ To install a specific version of Python using Homebrew, follow these steps:
    python3.10 -m ensurepip
    ```
 
-### 7. **Upgrade pip (Optional)**
+### 8. **Upgrade pip (Optional)**
    It's a good idea to upgrade `pip` to the latest version:
    ```bash
    python3.10 -m pip install --upgrade pip
    ```
 
-### 8. **Install Virtual Environment (Optional)**
+### 9. **Install Virtual Environment (Optional)**
    You can create a virtual environment using Python 3.10.8:
    ```bash
    python3.10 -m venv myenv
@@ -89,4 +100,4 @@ To install a specific version of Python using Homebrew, follow these steps:
    Now, you can install packages within this virtual environment.
 
 ### Conclusion
-You have successfully installed Python 3.10.8 using Homebrew. You can now use it for your projects, either globally or within a virtual environment.
+You have successfully installed Python 3.10 using Homebrew. You can now use it for your projects, either globally or within a virtual environment.
