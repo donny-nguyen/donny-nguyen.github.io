@@ -6,6 +6,7 @@
 ## Categories
 
 * [Node.js](https://donny-nguyen.github.io/nodejs)
+* [Python](https://donny-nguyen.github.io/python)
 * [Java](https://donny-nguyen.github.io/java)
 * [Spring Framework](https://donny-nguyen.github.io/spring-framework)
 * [Testing](https://donny-nguyen.github.io/testing)
@@ -87,10 +88,6 @@
 * [Virtual DOM](https://donny-nguyen.github.io/2024/11/18/virtual-dom.html)
 * [Events Handling](https://donny-nguyen.github.io/2024/11/19/events-handling.html)
 * [React Hooks](https://donny-nguyen.github.io/2024/11/19/react-hooks.html)
-
-### Python
-
-* [Error of checking the latest version of pip](https://donny-nguyen.github.io/2025/03/01/error-of-checking-pip-version.html)
 
 ### Other
 * [Code Review](https://donny-nguyen.github.io/2025/01/17/code-review.html)
