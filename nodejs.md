@@ -20,3 +20,4 @@
 
 ### Adonis.js
 * [Adonis.js Overview](https://donny-nguyen.github.io/2025/02/26/adonis-overview.html)
+* [Conventions for Naming Controller Methods](https://donny-nguyen.github.io/2025/03/24/conventions-naming-controller-methods.html)
