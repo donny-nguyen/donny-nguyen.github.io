@@ -3,11 +3,15 @@
 * [About Me](https://donny-nguyen.github.io/aboutme)
 * [Contact](https://donny-nguyen.github.io/contact)
 
-## Categories
+## Programming Languages
+
+* [TypeScript](https://donny-nguyen.github.io/typescript)
+* [Java](https://donny-nguyen.github.io/java)
+* [Python](https://donny-nguyen.github.io/python)
+
+## Technologies
 
 * [Node.js](https://donny-nguyen.github.io/nodejs)
-* [Python](https://donny-nguyen.github.io/python)
-* [Java](https://donny-nguyen.github.io/java)
 * [Spring Framework](https://donny-nguyen.github.io/spring-framework)
 * [Testing](https://donny-nguyen.github.io/testing)
 * [Databases](https://donny-nguyen.github.io/databases)
