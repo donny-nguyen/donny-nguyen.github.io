@@ -159,4 +159,17 @@ logger.info({ username, password }, 'user signup')
 // Output: {"username":"virk","password":"[redacted]"}
 ```
 
+## Serialize Objects
+
+To log the full internal data of an object with the Adonis logger, **you need to manually serialize the object to a string**, typically using `JSON.stringify()`.
+
+```ts
+import Logger from '@ioc:Adonis/Core/Logger'
+
+Logger.info('affiliate %s', JSON.stringify(affiliate, null, 2))
+```
+
+- `null, 2` adds indentation for readability (like pretty print).
+- If the object is deeply nested or has circular references, you might use a library like `util.inspect` instead (see below).
+
 This logging system provides a flexible, performant solution for application logging with support for multiple environments and sensitive data handling.
