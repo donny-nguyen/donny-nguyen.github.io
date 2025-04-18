@@ -36,6 +36,13 @@ export default defineConfig({
   }
 })
 ```
+- The `level` property accepts the following values in order of increasing severity:
+  - `trace` (most verbose)
+  - `debug`
+  - `info` (default)
+  - `warn`
+  - `error`
+  - `fatal` (least verbose)
 
 ## Transport Targets
 - Transports write logs to destinations
