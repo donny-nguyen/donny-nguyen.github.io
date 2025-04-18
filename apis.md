@@ -6,6 +6,7 @@
   * [Last-Modified Header](https://donny-nguyen.github.io/2024/10/09/last-modified-header.html)
 * [Common HTTP Status Codes](https://donny-nguyen.github.io/2024/09/28/common-http-status-codes.html)
 * [Connection Timeout and Response Timeout](https://donny-nguyen.github.io/2025/01/20/connection-timeout-and-response-timeout.html)
+* [Slug](https://donny-nguyen.github.io/2025/04/18/slug.html)
 
 ### RESTful APIs
 * [SOAP and REST](https://donny-nguyen.github.io/2024/09/21/soap-and-rest.html)
