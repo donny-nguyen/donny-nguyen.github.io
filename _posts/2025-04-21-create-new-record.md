@@ -50,8 +50,10 @@ This is functionally similar to setting properties individually but can be more 
 
 ## Conditional Creation: `firstOrCreate` and `updateOrCreate`
 
-- **firstOrCreate**: Finds the first record matching criteria or creates a new one if none is found.
-- **updateOrCreate**: Finds a record and updates it, or creates a new one if it doesn't exist.
+**firstOrCreate**:
+- Searches for a record matching the search criteria.
+- If found, simply returns that record without changing any data.
+- If not found, creates a new record using the provided payload.
 
 Example:
 
@@ -64,6 +66,13 @@ const user = await User.firstOrCreate(
 )
 ```
 
+**updateOrCreate**:
+- Searches for a record matching the search criteria.
+- If found, updates the record with the provided payload and returns it.
+- If not found, creates a new record using the provided payload.
+
+Example:
+
 ```javascript
 import User from 'App/Models/User'
 
@@ -72,6 +81,7 @@ const updateOrCreatePayload = { password: 'secret' }
 
 const user = await User.updateOrCreate(searchPayload, updateOrCreatePayload)
 ```
+
 These methods are useful for avoiding duplicates and handling upserts.
 
 ## Summary Table
