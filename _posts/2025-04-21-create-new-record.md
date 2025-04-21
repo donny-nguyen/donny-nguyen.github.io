@@ -63,6 +63,15 @@ const user = await User.firstOrCreate(
   { username: 'virk', password: 'secret' } // creation payload
 )
 ```
+
+```javascript
+import User from 'App/Models/User'
+
+const searchPayload = { email: 'virk@adonisjs.com' }
+const updateOrCreatePayload = { password: 'secret' }
+
+const user = await User.updateOrCreate(searchPayload, updateOrCreatePayload)
+```
 These methods are useful for avoiding duplicates and handling upserts.
 
 ## Summary Table
