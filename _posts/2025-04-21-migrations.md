@@ -23,13 +23,14 @@ Adonis.js migrations are a system for managing and version-controlling your data
 
 ## Migration Commands (Ace CLI)
 
-| Command                   | Description                                      |
-|---------------------------|--------------------------------------------------|
-| `make:migration`          | Create a new migration file                      |
-| `migration:run`           | Run all pending migrations                       |
-| `migration:rollback`      | Roll back the last batch of migrations           |
-| `migration:status`        | Show the status of all migrations                |
-| `migration:reset`         | Roll back all migrations                         |
+| Command                   | Description                                                                       |
+|---------------------------|-----------------------------------------------------------------------------------|
+| `make:migration`          | Create a new migration file                                                       |
+| `migration:run`           | Run all pending migrations                                                        |
+| `migration:rollback`      | Roll back the last batch of migrations                                            |
+| `migration:status`        | Show the status of all migrations                                                 |
+| `migration:reset`         | Roll back all migrations                                                          |
+| `migration:fresh`         | Drops all tables (without running the down methods), then runs all the up methods |
 
 ## Example Migration File Structure
 
