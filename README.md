@@ -5,6 +5,7 @@
 
 ## Programming Languages
 
+* [JavaScript](https://donny-nguyen.github.io/javascript)
 * [TypeScript](https://donny-nguyen.github.io/typescript)
 * [Java](https://donny-nguyen.github.io/java)
 * [Python](https://donny-nguyen.github.io/python)
@@ -75,9 +76,6 @@
 * [Google Cloud BigQuery](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigquery.html)
 
 ### Frontend
-
-#### JavaScript
-* [Compare Operators](https://donny-nguyen.github.io/2025/01/18/compare-operators.html)
 
 #### React.js
 
