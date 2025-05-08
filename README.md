@@ -13,6 +13,7 @@
 ## Technologies
 
 * [Node.js](https://donny-nguyen.github.io/nodejs)
+* [React.js](https://donny-nguyen.github.io/reactjs)
 * [Spring Framework](https://donny-nguyen.github.io/spring-framework)
 * [Testing](https://donny-nguyen.github.io/testing)
 * [Databases](https://donny-nguyen.github.io/databases)
@@ -74,22 +75,6 @@
 * [Google Cloud SQL](https://donny-nguyen.github.io/2024/10/25/google-cloud-sql.html)
 * [Google Cloud Pub/Sub](https://donny-nguyen.github.io/2024/10/25/google-cloud-pub-sub.html)
 * [Google Cloud BigQuery](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigquery.html)
-
-### Frontend
-
-#### React.js
-
-* [What is React.js?](https://donny-nguyen.github.io/2024/11/16/reactjs.html)
-* [JSX](https://donny-nguyen.github.io/2024/11/16/jsx.html)
-* [React Component](https://donny-nguyen.github.io/2024/11/16/react-component.html)
-  * [Creating Simple React component](https://donny-nguyen.github.io/2024/11/18/creating-simple-react-component.html)
-  * [Controlled and Uncontrolled Components](https://donny-nguyen.github.io/2024/11/19/controlled-and-uncontrolled-components.html)
-* [Props](https://donny-nguyen.github.io/2024/11/16/props.html)
-* [State](https://donny-nguyen.github.io/2024/11/16/state.html)
-  * [State Management](https://donny-nguyen.github.io/2024/11/19/state-managing.html)
-* [Virtual DOM](https://donny-nguyen.github.io/2024/11/18/virtual-dom.html)
-* [Events Handling](https://donny-nguyen.github.io/2024/11/19/events-handling.html)
-* [React Hooks](https://donny-nguyen.github.io/2024/11/19/react-hooks.html)
 
 ### Other
 * [Code Review](https://donny-nguyen.github.io/2025/01/17/code-review.html)
