@@ -22,3 +22,64 @@ Occurs when a component is removed from the DOM. Key lifecycle method:
 - `componentWillUnmount()`: Used for cleanup, such as removing event listeners or canceling API requests.
 
 For modern React, **functional components** with hooks (`useEffect`, `useState`) are preferred over class-based lifecycle methods. You can check out more details [here](https://www.w3schools.com/react/react_lifecycle.asp) and [here](https://www.freecodecamp.org/news/react-component-lifecycle-methods/).
+
+Here's an example of a **class-based React component** that demonstrates key lifecycle methods:
+
+```jsx
+import React from "react";
+
+class LifecycleDemo extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { count: 0 };
+    console.log("Constructor: Initializing state");
+  }
+
+  static getDerivedStateFromProps(props, state) {
+    console.log("getDerivedStateFromProps: Syncing state with props");
+    return null; // Typically used to update state based on props
+  }
+
+  componentDidMount() {
+    console.log("componentDidMount: Component mounted");
+    this.interval = setInterval(() => {
+      this.setState((prevState) => ({ count: prevState.count + 1 }));
+    }, 1000);
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    console.log("shouldComponentUpdate: Deciding whether to re-render");
+    return true; // Returning false prevents re-rendering
+  }
+
+  getSnapshotBeforeUpdate(prevProps, prevState) {
+    console.log("getSnapshotBeforeUpdate: Capturing state before update");
+    return null;
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    console.log("componentDidUpdate: Component updated");
+  }
+
+  componentWillUnmount() {
+    console.log("componentWillUnmount: Cleaning up before unmounting");
+    clearInterval(this.interval);
+  }
+
+  render() {
+    console.log("Render: Rendering component");
+    return <h1>Count: {this.state.count}</h1>;
+  }
+}
+
+export default LifecycleDemo;
+```
+
+### Explanation:
+- **Mounting Phase**: `constructor()`, `getDerivedStateFromProps()`, `componentDidMount()`
+- **Updating Phase**: `shouldComponentUpdate()`, `getSnapshotBeforeUpdate()`, `componentDidUpdate()`
+- **Unmounting Phase**: `componentWillUnmount()`
+
+This component starts with a count of `0` and increments it every second. When unmounted, it clears the interval to prevent memory leaks.
+
+For **functional components**, you'd use `useEffect()` instead of lifecycle methods. You can check out more examples [here](https://www.w3schools.com/react/react_lifecycle.asp) and [here](https://www.freecodecamp.org/news/react-component-lifecycle-methods/).
