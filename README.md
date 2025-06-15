@@ -23,6 +23,9 @@
 * [Dart & Flutter](https://donny-nguyen.github.io/dart-flutter)
 * [Git](https://donny-nguyen.github.io/git)
 
+##
+* [Others](https://donny-nguyen.github.io/others)
+
 ## Posts
 
 ### Hibernate
@@ -75,9 +78,3 @@
 * [Google Cloud SQL](https://donny-nguyen.github.io/2024/10/25/google-cloud-sql.html)
 * [Google Cloud Pub/Sub](https://donny-nguyen.github.io/2024/10/25/google-cloud-pub-sub.html)
 * [Google Cloud BigQuery](https://donny-nguyen.github.io/2024/10/25/google-cloud-bigquery.html)
-
-### Other
-* [Code Review](https://donny-nguyen.github.io/2025/01/17/code-review.html)
-* [Staying Updated with New Knowledge](https://donny-nguyen.github.io/2024/11/27/staying-updated-with-new-knowledge.html)
-* [Self-awareness in Job Interviews](https://donny-nguyen.github.io/2024/10/30/self-awareness-in-job-interviews.html)
-* [Software Engineer in the Era of AI](https://donny-nguyen.github.io/2025/05/30/software-enginner-in-era-of-ai.html)
