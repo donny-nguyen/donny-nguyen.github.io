@@ -7,3 +7,4 @@
   * [Differences in Tax Filing between F-1 OPT and H-1B](https://donny-nguyen.github.io/2025/06/14/differences-in-tax-filing-between-f1-and-h1b.html)
   * [Standard Deduction](https://donny-nguyen.github.io/2025/06/14/standard-deduction.html)
   * [Social Security & Medicare Taxes (FICA Taxes)](https://donny-nguyen.github.io/2025/06/14/fica-taxes.html)
+  * [Substantial Presence Test (SPT) – Explained Simply](https://donny-nguyen.github.io/2025/06/14/substantial-presence-test.html)
