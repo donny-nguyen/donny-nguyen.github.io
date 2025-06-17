@@ -12,6 +12,7 @@ You meet the **SPT** (and become a **resident alien for tax purposes**) if you w
    - **1/6 of days** from the year before that.  
 
 #### **Example Calculation (2024 Tax Year)**  
+
 | Year       | Days Present | Weighted Days |
 |------------|--------------|---------------|
 | **2024**   | 180 days     | 180 (full)    |
@@ -38,6 +39,7 @@ Some visa holders **don’t count days** toward the SPT, including:
 - **Nonresident (SPT failed)**: Pay taxes only on **U.S. income** (e.g., wages). File **Form 1040-NR**.  
 
 #### **Common Scenarios**  
+
 | Visa       | First Years | Later Years |
 |------------|-------------|-------------|
 | **F-1 OPT** | Nonresident (exempt) | Resident (if SPT passed after 5 years) |
