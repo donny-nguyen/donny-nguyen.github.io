@@ -28,5 +28,6 @@
 * [DynamoDB](https://donny-nguyen.github.io/2024/11/16/aws-dynamodb.html)
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
 * [CloudWatch](https://donny-nguyen.github.io/2024/11/18/aws-cloudwatch.html)
+* [Glue](https://donny-nguyen.github.io/2025/06/22/aws-glue.html)
 * [Deploying from GitHub to AWS ECS using AWS Pipelines](https://donny-nguyen.github.io/2024/11/22/deployment.html)
 * [Scaling Application in AWS ECS](https://donny-nguyen.github.io/2024/11/22/scaling.html)
