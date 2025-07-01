@@ -24,6 +24,7 @@
 * [Parsing Request Parameters in a Controller Method](https://donny-nguyen.github.io/2025/03/26/parse-request-params-in-controller.html)
 * [Create New Database Records](https://donny-nguyen.github.io/2025/04/21/create-new-record.html)
 * [Search for Records with Lucid ORM](https://donny-nguyen.github.io/2025/06/20/search-for-records-with-lucid-orm.html)
+* [Working with Floating Point Columns](https://donny-nguyen.github.io/2025/07/01/work-with-floating-point-columns.html)
 * [Migrations](https://donny-nguyen.github.io/2025/04/21/migrations.html)
 * [Seed Data](https://donny-nguyen.github.io/2025/04/22/2025-04-22-adonis-seed-data.html)
 * [AdonisJS Logger](https://donny-nguyen.github.io/2025/04/11/adonisjs-logger.html)
