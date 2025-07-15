@@ -11,6 +11,7 @@
 | 401 | Unauthorized | The client must authenticate itself to get the requested response |
 | 403 | Forbidden | The client does not have access rights to the content |
 | 404 | Not Found | The server cannot find the requested resource |
+| 409 | Conflict | The request could not be completed due to a conflict with the current state of the resource |
 | 410 | Gone | The requested resource is no longer available on the server and has been permanently removed |
 | 500 | Internal Server Error | The server encountered an unexpected condition that prevented it from fulfilling the request |
 | 502 | Bad Gateway | The server, while acting as a gateway or proxy, received an invalid response from the upstream server |
