@@ -1,6 +1,6 @@
 # Node.js
 * [Node.js](https://donny-nguyen.github.io/2024/09/27/nodejs.html)
-* [Managing Node.js Versions](2025-07-15-managing-nodejs-versions)
+* [Managing Node.js Versions](https://donny-nguyen.github.io/2025/07/15/managing-nodejs-versions.html)
 * [Node.js and Concurrency](https://donny-nguyen.github.io/2024/11/02/nodejs-concurrency.html)
   * [Event Loop](https://donny-nguyen.github.io/2024/09/27/event-loop-in-nodejs.html)
   * [Asynchronous Operations](https://donny-nguyen.github.io/2024/10/31/asynchronous-operations.html)
