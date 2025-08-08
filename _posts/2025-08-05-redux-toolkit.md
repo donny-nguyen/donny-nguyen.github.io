@@ -10,6 +10,7 @@
 - **Opinionated but Flexible**: It provides best practices out of the box but still lets you customize as needed.
 
 ### 🧪 Key Features
+
 | Feature            | Description                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
 | `configureStore()` | Sets up the store with good defaults                                        |
