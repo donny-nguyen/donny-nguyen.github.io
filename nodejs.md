@@ -33,7 +33,4 @@
 ### Others
 * [Yarn](https://donny-nguyen.github.io/2025/04/17/yarn.html)
   * [Manage Yarn Versions](https://donny-nguyen.github.io/2025/05/05/manage-yarn-versions.html)
-* [Redux Toolkit](https://donny-nguyen.github.io/2025/08/05/redux-toolkit.html)
-  * [RTK Query](https://donny-nguyen.github.io/2025/08/05/rtk-query.html)
-    * [Endpoints Injection](https://donny-nguyen.github.io/2025/08/05/endpoints-injection.html)
 * [Working with date-fns](https://donny-nguyen.github.io/2025/03/27/working-with-date-fns.html)
