@@ -56,6 +56,7 @@ There are key differences in tax filing between **F-1 OPT** (a nonresident alien
 ---
 
 ### **Key Takeaways**  
+
 | Factor               | F-1 OPT (Nonresident) | H-1B (Resident) |
 |----------------------|----------------------|----------------|
 | **Tax Form**         | 1040-NR              | 1040           |
