@@ -2,6 +2,7 @@
 
 * [Regions and Availability Zones](https://donny-nguyen.github.io/2024/11/06/regions-and-availability-zones.html)
 * [Identity and Access Management (IAM)](https://donny-nguyen.github.io/2024/11/06/iam.html)
+  * [IAM Permissions Evaluations](https://donny-nguyen.github.io/2025/08/12/iam-permissions-evaluations.html)
 * [Simple Storage Service (S3)](https://donny-nguyen.github.io/2024/09/17/aws-s3.html)
   * [S3 Transfer Acceleration](https://donny-nguyen.github.io/2024/09/17/aws-s3-transfer-acceleration.html)
   * [S3 Cross-Region Replication](https://donny-nguyen.github.io/2024/09/17/aws-s3-cross-region-replication.html)
