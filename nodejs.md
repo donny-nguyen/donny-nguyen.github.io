@@ -27,7 +27,8 @@
 * [Search for Records with Lucid ORM](https://donny-nguyen.github.io/2025/06/20/search-for-records-with-lucid-orm.html)
 * [Working with Floating Point Columns](https://donny-nguyen.github.io/2025/07/01/work-with-floating-point-columns.html)
 * [Migrations](https://donny-nguyen.github.io/2025/04/21/migrations.html)
-* [Seed Data](https://donny-nguyen.github.io/2025/04/22/2025-04-22-adonis-seed-data.html)
+* [Seed Data](https://donny-nguyen.github.io/2025/04/22/adonis-seed-data.html)
+* [Singleton](https://donny-nguyen.github.io/2025/08/12/singleton-in-adonisjs.html)
 * [AdonisJS Logger](https://donny-nguyen.github.io/2025/04/11/adonisjs-logger.html)
 
 ### Others
