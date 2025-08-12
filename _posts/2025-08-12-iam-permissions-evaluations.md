@@ -42,3 +42,5 @@ Imagine you have an IAM user named "Alice" who needs to access a specific S3 buc
     * Because there's no `Allow` and no `Deny`, the **default deny** rule applies, and her request is **denied**.
 
 This simple but strict logic ensures that you can grant broad permissions and then use explicit denies to create "security holes" to prevent specific dangerous actions, providing a robust security framework.
+
+<em>References:</em> [Comprehensive Guide of AWS IAM Policy evaluation logic](https://builder.aws.com/content/2d1bIioM3UgQZqyaYquu3kTaWAg/comprehensive-guide-of-aws-iam-policy-evaluation-logic)
