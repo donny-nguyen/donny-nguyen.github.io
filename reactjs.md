@@ -16,4 +16,5 @@
   * [useEffect](https://donny-nguyen.github.io/2025/05/08/react-use-effect.html)
 * [Redux Toolkit](https://donny-nguyen.github.io/2025/08/05/redux-toolkit.html)
   * [RTK Query](https://donny-nguyen.github.io/2025/08/05/rtk-query.html)
+    * [Auto-generated React Hooks](https://donny-nguyen.github.io/2025/08/05/auto-generated-react-hooks.html)
     * [Endpoints Injection](https://donny-nguyen.github.io/2025/08/05/endpoints-injection.html)
