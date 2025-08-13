@@ -12,6 +12,7 @@
 * [Stateful vs. Stateless Applications](https://donny-nguyen.github.io/2024/10/22/stateful-vs-stateless-applications.html)
 * [Chaos Engineering](https://donny-nguyen.github.io/2024/10/30/chaos-engineering.html)
 * [Latency and Synchronization in Real-time Multiplayer Games](https://donny-nguyen.github.io/2024/12/21/real-time-multiplayer-games-problem.html)
+* [Semantic search](https://donny-nguyen.github.io/2025/08/13/semantic-search.html)
 
 ### Microservices
 * [Microservices Architecture](https://donny-nguyen.github.io/2024/09/26/microservices-architecture.html)
