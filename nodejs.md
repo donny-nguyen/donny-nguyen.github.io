@@ -32,6 +32,7 @@
 * [Seed Data](https://donny-nguyen.github.io/2025/04/22/adonis-seed-data.html)
 * [Singleton](https://donny-nguyen.github.io/2025/08/12/singleton-in-adonisjs.html)
 * [AdonisJS Logger](https://donny-nguyen.github.io/2025/04/11/adonisjs-logger.html)
+* [Custom Exception Classes](https://donny-nguyen.github.io/2025/09/02/custom-exception-classes.html)
 
 ### Others
 * [Yarn](https://donny-nguyen.github.io/2025/04/17/yarn.html)
