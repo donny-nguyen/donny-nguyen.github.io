@@ -35,7 +35,8 @@
 * [AdonisJS Logger](https://donny-nguyen.github.io/2025/04/11/adonisjs-logger.html)
 * [Custom Exception Classes](https://donny-nguyen.github.io/2025/09/02/custom-exception-classes.html)
 * [Setup Redis for AdonisJS Applications](https://donny-nguyen.github.io/2025/09/03/setup-redis-for-adonisjs-applications.html)
-* [Working with Jobs using The `@rlanz/bull-queue` Package](https://donny-nguyen.github.io/2025/09/03/working-with-jobs.html)
+* [Working with Jobs using Bull Queue Package](https://donny-nguyen.github.io/2025/09/03/working-with-jobs.html)
+  * [Job Priority in Bull Queues](https://donny-nguyen.github.io/2025/09/03/job-priority-in-bull-queues.html)
 
 ### Others
 * [Yarn](https://donny-nguyen.github.io/2025/04/17/yarn.html)
