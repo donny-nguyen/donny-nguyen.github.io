@@ -39,6 +39,7 @@
   * [Job Priority in Bull Queues](https://donny-nguyen.github.io/2025/09/03/job-priority-in-bull-queues.html)
   * [Job Queue Best Practices](https://donny-nguyen.github.io/2025/09/03/job-queue-best-practices.html)
 * [Measure Performance of Adonis.js Application](https://donny-nguyen.github.io/2025/09/04/measure-performance-of-adonijs-application.html)
+  * [Using Apitally for Performance and Request Analytics in an Adonis.js Application](https://donny-nguyen.github.io/2025/09/04/using-apitally-for-adonis.html)
 
 ### Others
 * [Yarn](https://donny-nguyen.github.io/2025/04/17/yarn.html)
