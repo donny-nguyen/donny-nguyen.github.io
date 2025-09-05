@@ -77,3 +77,6 @@
 * [Installing Redis](https://donny-nguyen.github.io/2025/01/23/installing-redis.html)
 * [Basic Redis Commands](https://donny-nguyen.github.io/2025/01/23/basic-redis-commands.html)
 * [Setup Redis for AdonisJS Applications](https://donny-nguyen.github.io/2025/09/03/setup-redis-for-adonisjs-applications.html)
+
+### Pinecone
+* [Overview](https://donny-nguyen.github.io/2025/09/05/pinecone-overview.html)
