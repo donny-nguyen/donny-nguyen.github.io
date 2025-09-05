@@ -30,6 +30,7 @@
   * [Best Practices](https://donny-nguyen.github.io/2025/08/14/adonis-migration-best-practices.html)
   * [Schema Helpers](https://donny-nguyen.github.io/2025/08/14/schema-helpers.html)
 * [Seed Data](https://donny-nguyen.github.io/2025/04/22/adonis-seed-data.html)
+* [Database Transactions](https://donny-nguyen.github.io/2025/09/05/database-transactions.html)
 * [Jobs Parameters Serialization](https://donny-nguyen.github.io/2025/09/02/jobs-parameters-serialization.html)
 * [Singleton](https://donny-nguyen.github.io/2025/08/12/singleton-in-adonisjs.html)
 * [AdonisJS Logger](https://donny-nguyen.github.io/2025/04/11/adonisjs-logger.html)
