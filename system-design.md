@@ -29,3 +29,4 @@
 * [Domain-Driven Design (DDD)](https://donny-nguyen.github.io/2024/11/01/domain-driven-design.html)
 * [Replaceability Principle](https://donny-nguyen.github.io/2024/11/27/replaceability-principle.html)
 * [Communication Between Microservices](https://donny-nguyen.github.io/2024/09/26/communication-between-microservices.html)
+* [Design Scalable Database System](https://donny-nguyen.github.io/2025/09/08/design-scalable-database-system.html)
