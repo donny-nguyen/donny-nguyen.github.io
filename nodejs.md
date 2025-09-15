@@ -23,6 +23,7 @@
 * [Adonis.js Overview](https://donny-nguyen.github.io/2025/02/26/adonis-overview.html)
 * [Conventions for Naming Controller Methods](https://donny-nguyen.github.io/2025/03/24/conventions-naming-controller-methods.html)
 * [Parsing Request Parameters in a Controller Method](https://donny-nguyen.github.io/2025/03/26/parse-request-params-in-controller.html)
+* [Building APIs with Progress Updates](https://donny-nguyen.github.io/2025/09/15/building-apis-with-progress-updates.html)
 * [Create New Database Records](https://donny-nguyen.github.io/2025/04/21/create-new-record.html)
 * [Search for Records with Lucid ORM](https://donny-nguyen.github.io/2025/06/20/search-for-records-with-lucid-orm.html)
 * [Working with Floating Point Columns](https://donny-nguyen.github.io/2025/07/01/work-with-floating-point-columns.html)
