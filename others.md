@@ -3,6 +3,8 @@
 * [Staying Updated with New Knowledge](https://donny-nguyen.github.io/2024/11/27/staying-updated-with-new-knowledge.html)
 * [Self-awareness in Job Interviews](https://donny-nguyen.github.io/2024/10/30/self-awareness-in-job-interviews.html)
 * [Software Engineer in the Era of AI](https://donny-nguyen.github.io/2025/05/30/software-enginner-in-era-of-ai.html)
+* [View Text File in Linux Terminal](https://donny-nguyen.github.io/2025/09/15/view-text-file-in-linux-terminal.html)
+* [Editing Text File in Linux Terminal](https://donny-nguyen.github.io/2025/09/15/editing-text-file-in-linux-terminal.html)
 * Taxes
   * [Taxable Income](https://donny-nguyen.github.io/2025/06/14/taxable-income.html)
   * [Standard Deduction](https://donny-nguyen.github.io/2025/06/14/standard-deduction.html)
