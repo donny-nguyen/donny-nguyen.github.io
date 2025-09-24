@@ -27,6 +27,7 @@
 * [Create New Database Records](https://donny-nguyen.github.io/2025/04/21/create-new-record.html)
 * [Search for Records with Lucid ORM](https://donny-nguyen.github.io/2025/06/20/search-for-records-with-lucid-orm.html)
 * [Working with Floating Point Columns](https://donny-nguyen.github.io/2025/07/01/work-with-floating-point-columns.html)
+* [Manage Extra Columns of Pivot Table](https://donny-nguyen.github.io/2025/09/24/manage-extra-columns-of-pivot-table.html)
 * [Migrations](https://donny-nguyen.github.io/2025/04/21/migrations.html)
   * [Best Practices](https://donny-nguyen.github.io/2025/08/14/adonis-migration-best-practices.html)
   * [Schema Helpers](https://donny-nguyen.github.io/2025/08/14/schema-helpers.html)
