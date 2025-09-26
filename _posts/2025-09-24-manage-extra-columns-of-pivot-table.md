@@ -50,9 +50,11 @@ await user.related('projects').attach({
 To update the `role` for an existing pivot record:
 
 ```ts
-await user.related('projects').updatePivot(projectId, {
-  role: 'editor',
-})
+await user.related('projects').pivotQuery()
+  .where('projectId', projectId)
+  .update({
+    role: 'editor',
+  })
 ```
 
 ---
