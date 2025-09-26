@@ -5,6 +5,7 @@
 * [Software Engineer in the Era of AI](https://donny-nguyen.github.io/2025/05/30/software-enginner-in-era-of-ai.html)
 * [View Text File in Linux Terminal](https://donny-nguyen.github.io/2025/09/15/view-text-file-in-linux-terminal.html)
 * [Editing Text File in Linux Terminal](https://donny-nguyen.github.io/2025/09/15/editing-text-file-in-linux-terminal.html)
+* [Useful Topics about GitHub Copilot](https://donny-nguyen.github.io/2025/09/25/useful-topics-about-github-copilot.html)
 * Taxes
   * [Taxable Income](https://donny-nguyen.github.io/2025/06/14/taxable-income.html)
   * [Standard Deduction](https://donny-nguyen.github.io/2025/06/14/standard-deduction.html)
