@@ -44,6 +44,7 @@
   * [Job Queue Best Practices](https://donny-nguyen.github.io/2025/09/03/job-queue-best-practices.html)
 * [Measure Performance of Adonis.js Application](https://donny-nguyen.github.io/2025/09/04/measure-performance-of-adonijs-application.html)
   * [Using Apitally for Performance and Request Analytics in an Adonis.js Application](https://donny-nguyen.github.io/2025/09/04/using-apitally-for-adonis.html)
+* [Multi-Party Video Conferencing with Adonis.js and AWS](https://donny-nguyen.github.io/2025/09/25/multi-party-video-conferencing-with-adonis-and-aws.html)
 
 ### Others
 * [Yarn](https://donny-nguyen.github.io/2025/04/17/yarn.html)
