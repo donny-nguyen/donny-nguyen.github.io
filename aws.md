@@ -31,5 +31,6 @@
 * [CloudWatch](https://donny-nguyen.github.io/2024/11/18/aws-cloudwatch.html)
 * [Glue](https://donny-nguyen.github.io/2025/06/22/aws-glue.html)
 * [Chime SDK](https://donny-nguyen.github.io/2025/09/29/aws-chime-sdk.html)
+* [EventBridge](https://donny-nguyen.github.io/2025/10/02/aws-eventbridge.html)
 * [Deploying from GitHub to AWS ECS using AWS Pipelines](https://donny-nguyen.github.io/2024/11/22/deployment.html)
 * [Scaling Application in AWS ECS](https://donny-nguyen.github.io/2024/11/22/scaling.html)
