@@ -17,6 +17,7 @@
 * [Beanstalk](https://donny-nguyen.github.io/2024/10/22/aws-elastic-beanstalk.html)
 * [API Gateway](https://donny-nguyen.github.io/2024/10/22/aws-api-gateway.html)
   * [Set up API Gateway for Lambda Function](https://donny-nguyen.github.io/2025/10/13/setup-apigateway-for-lambda-function.html)
+  * [Lambda Proxy Integration](https://donny-nguyen.github.io/2025/10/13/lambda-proxy-integration.html)
 * [NAT Gateway](https://donny-nguyen.github.io/2024/10/09/nat-gateway.html)
 * [Simple Queue Service (SQS)](https://donny-nguyen.github.io/2024/09/28/aws-sqs.html)
 * [Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
