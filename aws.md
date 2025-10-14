@@ -37,3 +37,4 @@
 * [EventBridge](https://donny-nguyen.github.io/2025/10/02/aws-eventbridge.html)
 * [Deploying from GitHub to AWS ECS using AWS Pipelines](https://donny-nguyen.github.io/2024/11/22/deployment.html)
 * [Scaling Application in AWS ECS](https://donny-nguyen.github.io/2024/11/22/scaling.html)
+* [Cross-Origin Resource Sharing (CORS)](https://donny-nguyen.github.io/2025/10/14/cors.html)
