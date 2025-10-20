@@ -53,3 +53,4 @@
   * [Manage Yarn Versions](https://donny-nguyen.github.io/2025/05/05/manage-yarn-versions.html)
 * [Working with date-fns](https://donny-nguyen.github.io/2025/03/27/working-with-date-fns.html)
 * [Socket.IO](https://donny-nguyen.github.io/2025/10/20/socket-io.html)
+  * [Namespaces and Rooms](https://donny-nguyen.github.io/2025/10/20/namespaces-and-rooms.html)
