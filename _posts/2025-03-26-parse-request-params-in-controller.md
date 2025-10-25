@@ -26,7 +26,7 @@ Here, `params.id` retrieves the value of the `id` segment from the URL (e.g., `/
 ---
 
 ### 2. **Accessing Query Parameters**
-Query parameters (e.g., `/users?name=John`) can be accessed using `request.input()` or `request.get()`.
+Query parameters (e.g., `/users?name=John`) can be accessed using `request.input('key')`.
 
 #### Example URL
 ```
@@ -41,20 +41,6 @@ class UserController {
     const age = request.input('age')   // Get 'age' query param
     console.log(name, age)
     return `Name: ${name}, Age: ${age}`
-  }
-}
-```
-
-- `request.input('key')`: Retrieves a single query parameter by its key.
-- `request.get()`: Returns all query parameters as an object.
-
-#### Using `request.get()`
-```javascript
-class UserController {
-  async index({ request }) {
-    const queryParams = request.get() // Get all query params
-    console.log(queryParams) // { name: 'John', age: '25' }
-    return queryParams
   }
 }
 ```
@@ -131,6 +117,6 @@ class UserController {
 ### Summary of Methods
 - `params`: For route parameters (e.g., `:id`).
 - `request.input('key')`: For query params or body fields.
-- `request.get()`: For all query params.
 - `request.all()`: For all body fields.
 - `request.only(['key1', 'key2'])`: For specific fields from the body.
+- `request.qs()`: For query string object by reference
