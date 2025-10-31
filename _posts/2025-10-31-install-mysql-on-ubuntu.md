@@ -45,7 +45,26 @@ Here’s a step-by-step guide to get MySQL up and running on Ubuntu (works for v
 
 ---
 
-### 🔐 Optional: Create a MySQL User and Database
+### 🔐 Optional 1: Set or reset the MySQL root password
+1. **Log into MySQL as root**
+   ```bash
+   sudo mysql
+   ```
+
+2. **Run the following SQL commands**
+   ```sql
+   ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_new_password';
+   FLUSH PRIVILEGES;
+   ```
+
+3. **Exit MySQL**
+   ```sql
+   EXIT;
+   ```
+
+---
+
+### 🔐 Optional 2: Create a MySQL User and Database
 ```sql
 CREATE DATABASE myapp;
 CREATE USER 'myuser'@'localhost' IDENTIFIED BY 'mypassword';
