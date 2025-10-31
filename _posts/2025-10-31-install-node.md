@@ -83,3 +83,34 @@ This method is good for installing a specific version system-wide.
 - Use `nvm ls` to list installed versions.
 - Use `nvm alias default <version>` to set a default version.
 - For production environments, stick to LTS versions like Node.js 20.
+
+### Install Yarn
+- If you already use NPM:
+  ```bash
+  npm install --global yarn
+  ```
+- Run this to find where NPM installed Yarn:
+  ```bash
+  which yarn
+  ```
+  You’ll get something like:
+    ```
+    /home/dung-nguyen/.nvm/versions/node/v24.11.0/bin/yarn
+    ```
+- Edit your shell config file (depending on your shell):
+
+  For Bash:
+  ```bash
+  echo 'export PATH="$PATH:/home/dung-nguyen/.nvm/versions/node/v24.11.0/bin/yarn"' >> ~/.bashrc
+  source ~/.bashrc
+  ```
+
+  For Zsh:
+  ```bash
+  echo 'export PATH="$PATH:/home/dung-nguyen/.nvm/versions/node/v24.11.0/bin/yarn"' >> ~/.zshrc
+  source ~/.zshrc
+  ```
+- Verify Yarn is accessible:
+  ```bash
+  yarn --version
+  ```
