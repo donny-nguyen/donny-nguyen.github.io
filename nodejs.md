@@ -1,5 +1,6 @@
 # Node.js
 * [Node.js](https://donny-nguyen.github.io/2024/09/27/nodejs.html)
+* [Install Node.js on Ubuntu](https://donny-nguyen.github.io/2025/10/31/install-node.html)
 * [Managing Node.js Versions](https://donny-nguyen.github.io/2025/07/15/managing-nodejs-versions.html)
 * [Node.js and Concurrency](https://donny-nguyen.github.io/2024/11/02/nodejs-concurrency.html)
   * [Event Loop](https://donny-nguyen.github.io/2024/09/27/event-loop-in-nodejs.html)
