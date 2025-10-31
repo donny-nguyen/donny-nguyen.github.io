@@ -22,6 +22,7 @@
 
 ### MySQL
 * [Install MySQL on Ubuntu](https://donny-nguyen.github.io/2025/10/31/install-mysql-on-ubuntu.html)
+* [Import Database into MySQL](https://donny-nguyen.github.io/2025/10/31/import-database-into-mysql.html)
 
 ### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)

@@ -45,7 +45,7 @@ Here’s a step-by-step guide to get MySQL up and running on Ubuntu (works for v
 
 ---
 
-### 🔐 Optional 1: Set or reset the MySQL root password
+### 🔐 Optional 1: Set the MySQL root password
 1. **Log into MySQL as root**
    ```bash
    sudo mysql
