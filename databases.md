@@ -20,6 +20,9 @@
 * [Normalization](https://donny-nguyen.github.io/2025/01/01/normalization.html)
 * [SQL Execution Plans](https://donny-nguyen.github.io/2025/01/01/sql-executions-plans.html)
 
+### MySQL
+* [Install MySQL on Ubuntu](https://donny-nguyen.github.io/2025/10/31/install-mysql-on-ubuntu.html)
+
 ### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
 * [Set up Oracle Database on Docker](https://donny-nguyen.github.io/2024/12/09/setup-oracle-database-on-docker.html)
