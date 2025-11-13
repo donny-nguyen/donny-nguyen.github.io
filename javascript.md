@@ -11,3 +11,4 @@
 * [Automatic Semicolon Insertion (ASI)](https://donny-nguyen.github.io/2025/05/08/asi.html)
 * [Measure the Executable Time](https://donny-nguyen.github.io/2025/09/18/measure-executable-time.html)
 * [ECMAScript 2015 (ES6)](https://donny-nguyen.github.io/2025/10/16/es6.html)
+  * [JavaScript ES5 vs ES6: A Comparative Overview](https://donny-nguyen.github.io/2025/11/13/es5-vs-es6.html)
