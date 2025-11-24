@@ -21,8 +21,8 @@
 * [SQL Execution Plans](https://donny-nguyen.github.io/2025/01/01/sql-executions-plans.html)
 
 ### MySQL
-* [Install MySQL](https://donny-nguyen.github.io/2025/10/31/install-mysql-workbench.html)
-* [Install MySQL Workbench](https://donny-nguyen.github.io/2025/10/31/install-mysql-on-ubuntu.html)
+* [Install MySQL](https://donny-nguyen.github.io/2025/10/31/install-mysql-on-ubuntu.html)
+* [Install MySQL Workbench](https://donny-nguyen.github.io/2025/10/31/install-mysql-workbench.html)
 * [Import Database into MySQL](https://donny-nguyen.github.io/2025/10/31/import-database-into-mysql.html)
 
 ### Oracle
