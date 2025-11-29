@@ -1,5 +1,6 @@
 # Node.js
 * [Node.js](https://donny-nguyen.github.io/2024/09/27/nodejs.html)
+* [Install Node.js on Ubuntu](https://donny-nguyen.github.io/2025/10/31/install-node.html)
 * [Managing Node.js Versions](https://donny-nguyen.github.io/2025/07/15/managing-nodejs-versions.html)
 * [Node.js and Concurrency](https://donny-nguyen.github.io/2024/11/02/nodejs-concurrency.html)
   * [Event Loop](https://donny-nguyen.github.io/2024/09/27/event-loop-in-nodejs.html)
@@ -34,6 +35,7 @@
 * [Seed Data](https://donny-nguyen.github.io/2025/04/22/adonis-seed-data.html)
 * [Database Transactions](https://donny-nguyen.github.io/2025/09/05/database-transactions.html)
 * [Knex](https://donny-nguyen.github.io/2025/10/13/knex.html)
+* [Lucid ORM](https://donny-nguyen.github.io/2025/11/20/lucid-orm.html)
 * [Jobs Parameters Serialization](https://donny-nguyen.github.io/2025/09/02/jobs-parameters-serialization.html)
 * [Singleton](https://donny-nguyen.github.io/2025/08/12/singleton-in-adonisjs.html)
 * [AdonisJS Logger](https://donny-nguyen.github.io/2025/04/11/adonisjs-logger.html)

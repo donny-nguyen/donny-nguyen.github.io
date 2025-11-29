@@ -12,12 +12,18 @@
 * [How I applied Redis to The Project](https://donny-nguyen.github.io/2025/01/15/how-i-applied-redis.html)
 
 ### SQL
+* [Common SQL Commands Cheat Sheet](https://donny-nguyen.github.io/2025/10/29/common-sql-commands-cheat-sheet.html)
 * [Aggregate functions in SQL](https://donny-nguyen.github.io/2025/01/01/aggregate-functions-in-sql.html)
 * [Types of Joins in SQL](https://donny-nguyen.github.io/2024/12/13/sql-joins.html)
 * [Detecting Duplicates](https://donny-nguyen.github.io/2025/01/01/detecting-duplicates.html)
 * [Improving SQL Query Performance](https://donny-nguyen.github.io/2025/01/20/improving-sql-query-performance.html)
 * [Normalization](https://donny-nguyen.github.io/2025/01/01/normalization.html)
 * [SQL Execution Plans](https://donny-nguyen.github.io/2025/01/01/sql-executions-plans.html)
+
+### MySQL
+* [Install MySQL](https://donny-nguyen.github.io/2025/10/31/install-mysql-on-ubuntu.html)
+* [Install MySQL Workbench](https://donny-nguyen.github.io/2025/10/31/install-mysql-workbench.html)
+* [Import Database into MySQL](https://donny-nguyen.github.io/2025/10/31/import-database-into-mysql.html)
 
 ### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
