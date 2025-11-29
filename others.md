@@ -13,4 +13,3 @@
   * [Social Security & Medicare Taxes (FICA Taxes)](https://donny-nguyen.github.io/2025/06/14/fica-taxes.html)
   * [Substantial Presence Test (SPT) – Explained Simply](https://donny-nguyen.github.io/2025/06/14/substantial-presence-test.html)
   * [Differences in Tax Filing between F-1 OPT and H-1B](https://donny-nguyen.github.io/2025/06/14/differences-in-tax-filing-between-f1-and-h1b.html)
-  * [ITIN](https://donny-nguyen.github.io/2025/08/09/itin.html)
