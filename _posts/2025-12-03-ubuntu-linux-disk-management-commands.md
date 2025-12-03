@@ -18,10 +18,10 @@ df -h
 du -sh /path/to/directory
 ```
 
-### **3. Show usage of all folders (sorted)**
+### **3. Show usage of root folder (sorted)**
 
 ```bash
-du -sh * | sort -h
+sudo du -xh / | grep '[0-9\.]\+G' | sort -hr | head -30
 ```
 
 ---
