@@ -24,9 +24,9 @@
 
 **Types:**
 
-  * Method overriding: When a subclass provides a different implementation of a method inherited from the superclass. It uses static binding and can be checked at compile time.
+  * Method overriding: When a subclass provides a different implementation of a method inherited from the superclass. It uses dynamic binding and can be checked at run time.
 
-  * Method overloading: when a class has multiple methods with the same name but different parameters. It uses static binding and can be checked at run time.
+  * Method overloading: when a class has multiple methods with the same name but different parameters. It uses static binding and can be checked at compile time.
 
 **Example:** A ```Dog``` object and a ```Cat``` object both responding to the ```makeSound()``` method, but each producing a different sound.
 
