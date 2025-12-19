@@ -10,6 +10,7 @@
   * [Backup and Recovery Strategy for an Online Game Database System](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategy-for-online-game.html)
 * [Choosing the Right NoSQL Database](https://donny-nguyen.github.io/2024/12/28/choosing-right-nosql-database.html)
 * [How I applied Redis to The Project](https://donny-nguyen.github.io/2025/01/15/how-i-applied-redis.html)
+* [Using Enum Types in Databases](https://donny-nguyen.github.io/2025/12/19/using-enum-types-in-databases.html)
 
 ### SQL
 * [Common SQL Commands Cheat Sheet](https://donny-nguyen.github.io/2025/10/29/common-sql-commands-cheat-sheet.html)
