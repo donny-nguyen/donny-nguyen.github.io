@@ -57,3 +57,4 @@
 * [Socket.IO](https://donny-nguyen.github.io/2025/10/20/socket-io.html)
   * [Namespaces and Rooms](https://donny-nguyen.github.io/2025/10/20/namespaces-and-rooms.html)
   * [Server-side Room Join/Leave Patterns](https://donny-nguyen.github.io/2025/10/20/server-side-room-join-leave-patterns.html)
+* [Working with PM2](https://donny-nguyen.github.io/2026/01/05/working-with-pm2.html)
