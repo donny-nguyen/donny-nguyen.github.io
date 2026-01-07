@@ -59,4 +59,5 @@
   * [Server-side Room Join/Leave Patterns](https://donny-nguyen.github.io/2025/10/20/server-side-room-join-leave-patterns.html)
 * [Working with PM2](https://donny-nguyen.github.io/2026/01/05/working-with-pm2.html)
 * [Nginx Overview](https://donny-nguyen.github.io/2026/01/07/nginx-overview.html)
+  * [Reverse Proxy](https://donny-nguyen.github.io/2026/01/07/reverse-proxy.html)
   * [Setting up Nginx as a Reverse Proxy with SSL](https://donny-nguyen.github.io/2026/01/07/setting-up-nginx-as-reverse-proxy-with-ssl.html)
