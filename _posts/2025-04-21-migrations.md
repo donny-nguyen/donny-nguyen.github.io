@@ -32,6 +32,16 @@ Adonis.js migrations are a system for managing and version-controlling your data
 | `migration:reset`         | Roll back all migrations                                                          |
 | `migration:fresh`         | Drops all tables (without running the down methods), then runs all the up methods |
 
+## Migration on Different Connections
+
+You can specify which database connection to use when running migrations by using the `--connection` flag with migration commands. This is useful if your application uses multiple databases.
+
+Example:
+
+```bash
+node ace migration:run --connection=mysql
+```
+
 ## Example Migration File Structure
 
 A migration file typically contains two methods:
