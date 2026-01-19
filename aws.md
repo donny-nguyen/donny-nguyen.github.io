@@ -31,6 +31,8 @@
   * [Best Practices for Connecting to AWS RDS](https://donny-nguyen.github.io/2024/12/28/best-practices-for-connecting-to-aws-rds.html)
   * [Handling Scaling and Performance Optimization for AWS RDS](https://donny-nguyen.github.io/2024/12/28/scaling-and-optimization-for-aws-rds.html)
 * [DynamoDB](https://donny-nguyen.github.io/2024/11/16/aws-dynamodb.html)
+  * [Creating a DynamoDB Table with Sort Key](https://donny-nguyen.github.io/2026/01/19/creating-dynamodb-table-with-sort-key.html)
+  * [Inserting and Querying with Partition Key and Sort Key](https://donny-nguyen.github.io/2026/01/19/inserting-querying-with-partition-key-and-sort-key.html)
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
 * [CloudWatch](https://donny-nguyen.github.io/2024/11/18/aws-cloudwatch.html)
 * [Glue](https://donny-nguyen.github.io/2025/06/22/aws-glue.html)
