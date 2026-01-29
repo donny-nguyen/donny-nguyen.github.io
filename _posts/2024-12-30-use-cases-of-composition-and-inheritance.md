@@ -24,3 +24,5 @@
 * **Flexibility and Maintainability:** Composition often provides greater flexibility and is easier to maintain, especially in complex systems.
 
 By carefully considering the relationships between classes and the desired level of flexibility, you can choose the most appropriate approach (composition or inheritance) for your specific design needs.
+
+<em>Reference:</em> [The Flaws of Inheritance](https://youtu.be/hxGOiiR9ZKg?si=t4ccb4CzfjV_RI3A)
