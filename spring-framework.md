@@ -17,6 +17,7 @@
 * [Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)
   * [Spring Data JPA](https://donny-nguyen.github.io/2025/01/06/spring-data-jpa.html)
   * [Object-Relational Mapping (ORM)](https://donny-nguyen.github.io/2025/01/06/orm.html)
+  * [Spring Boot Dynamic DataSource Routing with AWS RDS](https://donny-nguyen.github.io/2026/02/02/spring-boot-dynamic-datasource-routing-with-aws-rds.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
 * [Spring Cloud](https://donny-nguyen.github.io/2024/10/08/spring-cloud.html)
   * [Spring Cloud and AWS](https://donny-nguyen.github.io/2024/10/08/spring-cloud-and-aws.html)
