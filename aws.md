@@ -7,6 +7,7 @@
   * [Fast global uploads to Amazon S3](https://donny-nguyen.github.io/2025/10/04/fast-global-uploads-to-aws-s3.html)
   * [S3 Transfer Acceleration](https://donny-nguyen.github.io/2024/09/17/aws-s3-transfer-acceleration.html)
   * [S3 Cross-Region Replication](https://donny-nguyen.github.io/2024/09/17/aws-s3-cross-region-replication.html)
+  * [S3 File Gateway](https://donny-nguyen.github.io/2026/02/04/aws-s3-file-gateway.html)
   * [Athena](https://donny-nguyen.github.io/2025/06/22/aws-athena.html)
 * [Lambda](https://donny-nguyen.github.io/2024/11/09/aws-lambda.html)
   * [Cold Start in AWS Lambda](https://donny-nguyen.github.io/2024/12/26/cold-start-in-aws-lambda.html)
