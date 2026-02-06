@@ -43,3 +43,5 @@
 * [Scaling Application in AWS ECS](https://donny-nguyen.github.io/2024/11/22/scaling.html)
 * [Cross-Origin Resource Sharing (CORS)](https://donny-nguyen.github.io/2025/10/14/cors.html)
 * [Elastic File System (EFS)](https://donny-nguyen.github.io/2026/02/05/aws-efs.html)
+* [Elastic File System (EFS)](https://donny-nguyen.github.io/2026/02/05/aws-efs.html)
+* [Direct Connect](https://donny-nguyen.github.io/2026/02/05/aws-direct-connect.html)
