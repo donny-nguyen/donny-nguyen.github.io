@@ -13,7 +13,7 @@
 * [Chaos Engineering](https://donny-nguyen.github.io/2024/10/30/chaos-engineering.html)
 * [Latency and Synchronization in Real-time Multiplayer Games](https://donny-nguyen.github.io/2024/12/21/real-time-multiplayer-games-problem.html)
 * [Semantic search](https://donny-nguyen.github.io/2025/08/13/semantic-search.html)
-* [Optimizing Content Loading for First Launch](https://donny-nguyen.github.io/2025/08/28/optimize-content-loading-for-first-launch.html)
+* [Optimizing Content Loading for First Launch](https://donny-nguyen.github.io/2025/10/28/optimize-content-loading-for-first-launch.html)
 
 ### Microservices
 * [Microservices Architecture](https://donny-nguyen.github.io/2024/09/26/microservices-architecture.html)
