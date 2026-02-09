@@ -8,6 +8,7 @@
 * [Nullish Coalescing Assignment](https://donny-nguyen.github.io/2025/08/06/nullish-coalescing-assignment.html)
 * [Array Destructuring](https://donny-nguyen.github.io/2025/11/05/array-destructuring.html)
 * [Object Destructuring](https://donny-nguyen.github.io/2025/11/05/object-destructuring.html)
+* [Understanding `&&` in React JSX: Conditional Rendering and Common Pitfalls](https://donny-nguyen.github.io/2026/02/09/and-operator-in-react.html)
 * [Automatic Semicolon Insertion (ASI)](https://donny-nguyen.github.io/2025/05/08/asi.html)
 * [Measure the Executable Time](https://donny-nguyen.github.io/2025/09/18/measure-executable-time.html)
 * [ECMAScript 2015 (ES6)](https://donny-nguyen.github.io/2025/10/16/es6.html)
