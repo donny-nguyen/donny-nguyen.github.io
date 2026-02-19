@@ -3,17 +3,20 @@
 * [Staying Updated with New Knowledge](https://donny-nguyen.github.io/2024/11/27/staying-updated-with-new-knowledge.html)
 * [Self-awareness in Job Interviews](https://donny-nguyen.github.io/2024/10/30/self-awareness-in-job-interviews.html)
 * [Software Engineer in the Era of AI](https://donny-nguyen.github.io/2025/05/30/software-enginner-in-era-of-ai.html)
-* [View Text File in Linux Terminal](https://donny-nguyen.github.io/2025/09/15/view-text-file-in-linux-terminal.html)
-* [Editing Text File in Linux Terminal](https://donny-nguyen.github.io/2025/09/15/editing-text-file-in-linux-terminal.html)
 * [Useful Topics about GitHub Copilot](https://donny-nguyen.github.io/2025/09/25/useful-topics-about-github-copilot.html)
 * [Semantic Versioning](https://donny-nguyen.github.io/2025/10/25/semantic-versioning.html)
+
+## Linux
 * [Install Vietnamese Keyboard Input Method in Ubuntu](https://donny-nguyen.github.io/2025/10/31/install-vietnamese-keyboard-in-ubuntu.html)
+* [View Text File in Linux Terminal](https://donny-nguyen.github.io/2025/09/15/view-text-file-in-linux-terminal.html)
+* [Editing Text File in Linux Terminal](https://donny-nguyen.github.io/2025/09/15/editing-text-file-in-linux-terminal.html)
 * [Backup Ubuntu using rsync](https://donny-nguyen.github.io/2025/11/24/backup-ubuntu-using-rsync.html)
 * [Ubuntu/Linux disk management commands](https://donny-nguyen.github.io/2025/12/03/ubuntu-linux-disk-management-commands.html)
 * [Linux File Permissions Guide](https://donny-nguyen.github.io/2026/02/19/linux-file-permissions-guide.html)
-* Taxes
-  * [Taxable Income](https://donny-nguyen.github.io/2025/06/14/taxable-income.html)
-  * [Standard Deduction](https://donny-nguyen.github.io/2025/06/14/standard-deduction.html)
-  * [Social Security & Medicare Taxes (FICA Taxes)](https://donny-nguyen.github.io/2025/06/14/fica-taxes.html)
-  * [Substantial Presence Test (SPT) – Explained Simply](https://donny-nguyen.github.io/2025/06/14/substantial-presence-test.html)
-  * [Differences in Tax Filing between F-1 OPT and H-1B](https://donny-nguyen.github.io/2025/06/14/differences-in-tax-filing-between-f1-and-h1b.html)
+
+## Taxes
+* [Taxable Income](https://donny-nguyen.github.io/2025/06/14/taxable-income.html)
+* [Standard Deduction](https://donny-nguyen.github.io/2025/06/14/standard-deduction.html)
+* [Social Security & Medicare Taxes (FICA Taxes)](https://donny-nguyen.github.io/2025/06/14/fica-taxes.html)
+* [Substantial Presence Test (SPT) – Explained Simply](https://donny-nguyen.github.io/2025/06/14/substantial-presence-test.html)
+* [Differences in Tax Filing between F-1 OPT and H-1B](https://donny-nguyen.github.io/2025/06/14/differences-in-tax-filing-between-f1-and-h1b.html)
