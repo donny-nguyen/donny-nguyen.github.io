@@ -14,6 +14,7 @@
 
 ### SQL
 * [Common SQL Commands Cheat Sheet](https://donny-nguyen.github.io/2025/10/29/common-sql-commands-cheat-sheet.html)
+* [SQL Operators](https://donny-nguyen.github.io/2025/02/23/sql-operators.html)
 * [Aggregate functions in SQL](https://donny-nguyen.github.io/2025/01/01/aggregate-functions-in-sql.html)
 * [Types of Joins in SQL](https://donny-nguyen.github.io/2024/12/13/sql-joins.html)
 * [Detecting Duplicates](https://donny-nguyen.github.io/2025/01/01/detecting-duplicates.html)
