@@ -9,6 +9,7 @@
   * [Function Components vs Class Components](https://donny-nguyen.github.io/2025/05/07/function-and-class-components.html)
   * [Fragment Tag](https://donny-nguyen.github.io/2025/08/18/fragment-tag.html)
 * [Props](https://donny-nguyen.github.io/2024/11/16/props.html)
+  * [Prop Drilling](https://donny-nguyen.github.io/2026/04/14/prop-drilling.html)
 * [State](https://donny-nguyen.github.io/2024/11/16/state.html)
   * [State Management](https://donny-nguyen.github.io/2024/11/19/state-managing.html)
 * [Virtual DOM](https://donny-nguyen.github.io/2024/11/18/virtual-dom.html)
