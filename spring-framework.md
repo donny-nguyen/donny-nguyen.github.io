@@ -23,5 +23,6 @@
 * [Spring Cloud](https://donny-nguyen.github.io/2024/10/08/spring-cloud.html)
   * [Spring Cloud and AWS](https://donny-nguyen.github.io/2024/10/08/spring-cloud-and-aws.html)
 * [Spring Framework with Maven](https://donny-nguyen.github.io/2026/04/15/spring-framework-with-maven.html)
+* [Spring Boot Annotations Cheat Sheet](https://donny-nguyen.github.io/2026/04/20/annotations-cheat-sheet.html)
 * [Creating a RESTful API using Spring Boot](https://donny-nguyen.github.io/2024/11/25/creating-restful-api-using-spring-boot.html)
 * [Spring Boot Roadmap (2026): From Basics to Cloud-Native Microservices](https://donny-nguyen.github.io/2026/04/20/spring-boot-roadmap.html)
