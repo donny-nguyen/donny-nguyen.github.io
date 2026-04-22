@@ -21,3 +21,4 @@
     * [Auto-generated React Hooks](https://donny-nguyen.github.io/2025/08/05/auto-generated-react-hooks.html)
     * [Endpoints Injection](https://donny-nguyen.github.io/2025/08/05/endpoints-injection.html)
 * [Understanding `&&` in React JSX: Conditional Rendering and Common Pitfalls](https://donny-nguyen.github.io/2026/02/09/and-operator-in-react.html)
+* [The Ultimate React Learning Roadmap (2025-2026)](https://donny-nguyen.github.io/2026/04/22/react-learningroadmap.html)
