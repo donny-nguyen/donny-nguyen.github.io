@@ -17,6 +17,7 @@
 * [React Hooks](https://donny-nguyen.github.io/2024/11/19/react-hooks.html)
   * [useEffect](https://donny-nguyen.github.io/2025/05/08/react-use-effect.html)
 * [Redux](https://donny-nguyen.github.io/2026/04/22/redux.html)
+  * [Redux Example](https://donny-nguyen.github.io/2026/04/22/redux-example.html)
   * [Redux Toolkit](https://donny-nguyen.github.io/2025/08/05/redux-toolkit.html)
     * [RTK Query](https://donny-nguyen.github.io/2025/08/05/rtk-query.html)
       * [Auto-generated React Hooks](https://donny-nguyen.github.io/2025/08/05/auto-generated-react-hooks.html)
