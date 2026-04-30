@@ -19,6 +19,7 @@
 * [Redux](https://donny-nguyen.github.io/2026/04/22/redux.html)
   * [Redux Example](https://donny-nguyen.github.io/2026/04/22/redux-example.html)
   * [Redux Toolkit](https://donny-nguyen.github.io/2025/08/05/redux-toolkit.html)
+    * [Core Concepts Explained](https://donny-nguyen.github.io/2026/04/30/redux-toolkit-core-concepts.html)
     * [RTK Query](https://donny-nguyen.github.io/2025/08/05/rtk-query.html)
       * [Auto-generated React Hooks](https://donny-nguyen.github.io/2025/08/05/auto-generated-react-hooks.html)
       * [Endpoints Injection](https://donny-nguyen.github.io/2025/08/05/endpoints-injection.html)
