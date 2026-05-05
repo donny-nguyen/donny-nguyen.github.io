@@ -24,6 +24,7 @@
 * [Simple Notification Service (SNS)](https://donny-nguyen.github.io/2026/02/14/aws-sns.html)
 * [Simple Queue Service (SQS)](https://donny-nguyen.github.io/2024/09/28/aws-sqs.html)
 * [Fanout Pattern with AWS SNS + SQS](https://donny-nguyen.github.io/2026/02/14/fanout-pattern.html)
+* [Kinesis](https://donny-nguyen.github.io/2026/05/05/aws-kinesis.html)
 * [Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
 * [Elastic Block Store (EBS)](https://donny-nguyen.github.io/2024/09/20/aws-ebs.html)
 * [Elastic Container Service (ECS)](https://donny-nguyen.github.io/2024/11/09/aws-ecs.html)
