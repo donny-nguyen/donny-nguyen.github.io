@@ -59,3 +59,11 @@ While both are AWS services for handling data, they serve different purposes:
 * **Handle errors gracefully:** Implement error handling and retry logic in your consumer applications.
 
 AWS Kinesis is a powerful service for organizations that need to process and analyze streaming data in real-time. It provides the scalability, durability, and performance needed for modern data-driven applications, from real-time analytics to IoT data processing.
+
+References:
+* [AWS Kinesis Documentation](https://aws.amazon.com/kinesis/)
+* [AWS Kinesis Data Streams](https://aws.amazon.com/kinesis/data-streams/)
+* [AWS Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/)
+* [AWS Kinesis Data Analytics](https://aws.amazon.com/kinesis/data-analytics/)
+* [AWS Kinesis Video Streams](https://aws.amazon.com/kinesis/video-streams/)
+* [Amazon Kinesis Introduction and Overview (with SNS, SQS, Eventbridge Comparisons!)](https://youtu.be/_bRTlb9b59Y?si=8DdqoFvrM7Q7S0yW)
