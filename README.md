@@ -12,6 +12,7 @@
 
 ## Technologies
 
+* [Artificial Intelligence](https://donny-nguyen.github.io/ai)
 * [Node.js](https://donny-nguyen.github.io/nodejs)
 * [React.js](https://donny-nguyen.github.io/reactjs)
 * [Spring Framework](https://donny-nguyen.github.io/spring-framework)
