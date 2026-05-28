@@ -22,6 +22,7 @@
 
 ### Adonis.js
 * [Adonis.js Overview](https://donny-nguyen.github.io/2025/02/26/adonis-overview.html)
+* [Testing in Adonis.js](https://donny-nguyen.github.io/2026/05/28/testing-in-adonisjs.html)
 * [Conventions for Naming Controller Methods](https://donny-nguyen.github.io/2025/03/24/conventions-naming-controller-methods.html)
 * [Parsing Request Parameters in a Controller Method](https://donny-nguyen.github.io/2025/03/26/parse-request-params-in-controller.html)
 * [Building APIs with Progress Updates](https://donny-nguyen.github.io/2025/09/15/building-apis-with-progress-updates.html)
