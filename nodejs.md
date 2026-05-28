@@ -49,6 +49,7 @@
   * [Using Apitally for Performance and Request Analytics in an Adonis.js Application](https://donny-nguyen.github.io/2025/09/04/using-apitally-for-adonis.html)
 * [Multi-Party Video Conferencing with Adonis.js and AWS](https://donny-nguyen.github.io/2025/09/25/multi-party-video-conferencing-with-adonis-and-aws.html)
 * [Integrating AWS IVS Real-Time Streaming into Adonis.js](https://donny-nguyen.github.io/2025/09/30/integrating-aws-ivs-real-time-streaming-into-adonis.html)
+* [Node Ace REPL](https://donny-nguyen.github.io/2026/05/28/node-ace-repl.html)
 
 ### Others
 * [Yarn](https://donny-nguyen.github.io/2025/04/17/yarn.html)
