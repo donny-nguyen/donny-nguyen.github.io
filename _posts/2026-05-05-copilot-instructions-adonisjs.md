@@ -1,10 +1,3 @@
----
-layout: post
-title: "Copilot Instruction File Example for Adonis.js Backend"
-date: 2026-05-05
-categories: [AI, Backend Development]
----
-
 # Copilot Instruction File Example for Adonis.js Backend
 
 When building backend applications with TypeScript and Adonis.js, having a well-defined Copilot instruction file helps maintain code quality and consistency across your team. This article provides a comprehensive example of a `.github/copilot-instructions.md` file tailored for an Adonis.js project.

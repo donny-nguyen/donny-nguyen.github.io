@@ -1,10 +1,3 @@
----
-layout: post
-title: "React useRef Hook"
-date: 2026-05-13
-categories: react hooks
----
-
 # React useRef Hook
 
 ## What is useRef?

@@ -1,10 +1,3 @@
----
-layout: post
-title: "Working with Strings and Characters in TypeScript"
-date: 2026-05-16
-categories: [TypeScript]
----
-
 # Working with Strings and Characters in TypeScript
 
 Strings are one of the most fundamental data types in TypeScript, used to represent textual data. TypeScript provides powerful features for working with strings and individual characters, offering both primitive string operations and modern ES6+ capabilities.

@@ -1,9 +1,4 @@
----
-layout: post
-title: "Node Ace REPL in Adonis.js"
-date: 2026-05-28
-categories: [Node.js, Adonis.js]
----
+# Exploring the `node ace repl` Command in Adonis.js: An Interactive REPL for Real-Time Application Testing and Debugging
 
 The `node ace repl` command in Adonis.js provides an interactive Read-Eval-Print Loop (REPL) environment that allows developers to interact with their application in real-time. This powerful tool is invaluable for testing code snippets, debugging, querying databases, and experimenting with application features without creating temporary scripts.
 
