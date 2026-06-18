@@ -53,6 +53,36 @@ mysqldump -h 127.0.0.1 -P 3307 -u username -p database_name > database_name.sql
 
 In this example, `3307` is the local port forwarded to the remote MySQL server's `3306` port.
 
+#### Export Using a Readonly User
+
+When exporting with a readonly user, `mysqldump` may fail because some default operations require extra privileges. For example, you might see warnings about GTIDs, missing `PROCESS` privileges for tablespaces, or missing `LOCK TABLES` privileges:
+
+```text
+Warning: A partial dump from a server that has GTIDs will by default include the GTIDs of all transactions, even those that changed suppressed parts of the database. If you don't want to restore GTIDs, pass --set-gtid-purged=OFF.
+mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privilege(s) for this operation' when trying to dump tablespaces
+mysqldump: Got error: 1044: Access denied for user 'readonly_user'@'%' to database 'database_name' when using LOCK TABLES
+```
+
+For an InnoDB database, use `--single-transaction`, disable table locks, skip tablespace metadata, and turn off GTID purging if you do not need to restore GTID information:
+
+```bash
+mysqldump -h remote_host -P 3306 -u readonly_user -p \
+	--single-transaction \
+	--skip-lock-tables \
+	--no-tablespaces \
+	--set-gtid-purged=OFF \
+	database_name > database_name.sql
+```
+
+These options help because:
+
+- `--single-transaction` creates a consistent snapshot for InnoDB tables without locking them.
+- `--skip-lock-tables` avoids `LOCK TABLES`, which readonly users often do not have permission to run.
+- `--no-tablespaces` avoids dumping tablespace metadata, which can require the `PROCESS` privilege.
+- `--set-gtid-purged=OFF` prevents GTID statements from being written to the dump file when you only need the schema and data.
+
+If the database contains MyISAM tables, `--single-transaction` cannot guarantee a fully consistent dump for those tables. In that case, ask a database administrator for a backup user with the required privileges or run the export during a maintenance window.
+
 ### Method 2: Using MySQL Workbench
 
 1. Open MySQL Workbench and connect to your MySQL server.
