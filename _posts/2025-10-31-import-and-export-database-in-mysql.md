@@ -29,6 +29,30 @@ To export all databases:
 mysqldump -u username -p --all-databases > all_databases.sql
 ```
 
+To export a database from a remote MySQL server, add the remote host and port:
+
+```bash
+mysqldump -h remote_host -P 3306 -u username -p database_name > database_name.sql
+```
+
+- Replace `remote_host` with the remote database hostname or IP address.
+- Replace `3306` with the MySQL port if your server uses a different one.
+- Make sure your local machine is allowed to connect to the remote MySQL server.
+
+If the remote database is only accessible through SSH, create an SSH tunnel first:
+
+```bash
+ssh -L 3307:127.0.0.1:3306 ssh_user@remote_server
+```
+
+Then export through the tunnel from another terminal:
+
+```bash
+mysqldump -h 127.0.0.1 -P 3307 -u username -p database_name > database_name.sql
+```
+
+In this example, `3307` is the local port forwarded to the remote MySQL server's `3306` port.
+
 ### Method 2: Using MySQL Workbench
 
 1. Open MySQL Workbench and connect to your MySQL server.
