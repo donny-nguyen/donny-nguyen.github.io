@@ -25,7 +25,7 @@
 ### MySQL
 * [Install MySQL](https://donny-nguyen.github.io/2025/10/31/install-mysql-on-ubuntu.html)
 * [Install MySQL Workbench](https://donny-nguyen.github.io/2025/10/31/install-mysql-workbench.html)
-* [Import Database into MySQL](https://donny-nguyen.github.io/2025/10/31/import-database-into-mysql.html)
+* [Import and Export Database in MySQL](https://donny-nguyen.github.io/2025/10/31/import-and-export-database-in-mysql.html)
 
 ### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
