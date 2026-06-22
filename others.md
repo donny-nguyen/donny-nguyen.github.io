@@ -13,6 +13,7 @@
 * [Backup Ubuntu using rsync](https://donny-nguyen.github.io/2025/11/24/backup-ubuntu-using-rsync.html)
 * [Ubuntu/Linux disk management commands](https://donny-nguyen.github.io/2025/12/03/ubuntu-linux-disk-management-commands.html)
 * [Linux File Permissions Guide](https://donny-nguyen.github.io/2026/02/19/linux-file-permissions-guide.html)
+* [Common File and Folder Commands in Ubuntu](https://donny-nguyen.github.io/2026/06/22/common-file-and-folder-commands-in-ubuntu.html)
 
 ## Taxes
 * [Taxable Income](https://donny-nguyen.github.io/2025/06/14/taxable-income.html)
