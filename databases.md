@@ -27,6 +27,7 @@
 * [Install MySQL Workbench](https://donny-nguyen.github.io/2025/10/31/install-mysql-workbench.html)
 * [Import and Export Database in MySQL](https://donny-nguyen.github.io/2025/10/31/import-and-export-database-in-mysql.html)
 * [Managing Users for MySQL](https://donny-nguyen.github.io/2026/06/22/managing-users-for-mysql.html)
+* [Connect to a Remote MySQL Database](https://donny-nguyen.github.io/2026/06/22/connect-to-remote-mysql-database.html)
 
 ### Oracle
 * [Oracle Database](https://donny-nguyen.github.io/2024/12/09/oracle-database.html)
