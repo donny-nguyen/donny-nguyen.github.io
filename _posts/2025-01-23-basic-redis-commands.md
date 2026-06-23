@@ -27,6 +27,14 @@ Here are some basic Redis commands to get you started:
   ```redis
   TTL key
   ```
+- **KEYS**: Get all keys that match a pattern. Use `*` to list all keys.
+  ```redis
+  KEYS *
+  ```
+- **SCAN**: Incrementally iterate through keys. This is safer than `KEYS` for large databases.
+  ```redis
+  SCAN 0 MATCH * COUNT 100
+  ```
 
 ### List Commands:
 - **LPUSH**: Push a value onto a list from the left side.
