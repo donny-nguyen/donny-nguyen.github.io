@@ -21,6 +21,7 @@
   * [Lambda Proxy Integration](https://donny-nguyen.github.io/2025/10/13/lambda-proxy-integration.html)
 * [NAT Gateway](https://donny-nguyen.github.io/2024/10/09/nat-gateway.html)
 * [VPC Gateway Endpoint](https://donny-nguyen.github.io/2026/04/30/aws-vpc-gateway-endpoint.html)
+* [Network Firewall](https://donny-nguyen.github.io/2026/06/25/aws-network-firewall.html)
 * [Simple Notification Service (SNS)](https://donny-nguyen.github.io/2026/02/14/aws-sns.html)
 * [Simple Queue Service (SQS)](https://donny-nguyen.github.io/2024/09/28/aws-sqs.html)
 * [Fanout Pattern with AWS SNS + SQS](https://donny-nguyen.github.io/2026/02/14/fanout-pattern.html)
