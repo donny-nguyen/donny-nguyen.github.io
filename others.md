@@ -5,6 +5,7 @@
 * [Software Engineer in the Era of AI](https://donny-nguyen.github.io/2025/05/30/software-enginner-in-era-of-ai.html)
 * [Useful Topics about GitHub Copilot](https://donny-nguyen.github.io/2025/09/25/useful-topics-about-github-copilot.html)
 * [Semantic Versioning](https://donny-nguyen.github.io/2025/10/25/semantic-versioning.html)
+* [Setup Bitbucket Pipelines for Deployment](https://donny-nguyen.github.io/2026/06/25/bitbucket-pipeline-setup.html)
 
 ## Linux
 * [Install Vietnamese Keyboard Input Method in Ubuntu](https://donny-nguyen.github.io/2025/10/31/install-vietnamese-keyboard-in-ubuntu.html)
