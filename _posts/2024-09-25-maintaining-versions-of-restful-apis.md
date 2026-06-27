@@ -26,7 +26,7 @@ Each method has its pros and cons, and the choice depends on our specific requir
 
 <em>References:</em>
 * [What is REST API Versioning and How to Create Versions? - REST API Tutorial](https://restfulapi.net/versioning/)
-* [How to version REST APIs? [5] | Complete guide on Versioning - Josip Misko](https://josipmisko.com/posts/rest-api-versioning)
+* [How to version REST APIs? - Complete guide on Versioning - Josip Misko](https://josipmisko.com/posts/rest-api-versioning)
 * [What Is A RESTful API? Explanation of REST & HTTP](https://www.youtube.com/watch?v=Q-BpqyOT3a8)
 * [Versioning a REST API - Baeldung](https://www.baeldung.com/rest-versioning)
 * [Best Practices For Our API Versioning Strategy - Akana](https://www.akana.com/blog/api-versioning)
