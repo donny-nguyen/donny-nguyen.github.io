@@ -18,7 +18,7 @@
 * [Spring Framework](https://donny-nguyen.github.io/spring-framework)
 * [Testing](https://donny-nguyen.github.io/testing)
 * [Databases](https://donny-nguyen.github.io/databases)
-* [APIs](https://donny-nguyen.github.io/apis)
+* [Web Services](https://donny-nguyen.github.io/web-services)
 * [System Design](https://donny-nguyen.github.io/system-design)
 * [AWS](https://donny-nguyen.github.io/aws)
 * [Docker](https://donny-nguyen.github.io/docker)
