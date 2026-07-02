@@ -39,6 +39,7 @@
   * [Creating a DynamoDB Table with Sort Key](https://donny-nguyen.github.io/2026/01/19/creating-dynamodb-table-with-sort-key.html)
   * [Inserting and Querying with Partition Key and Sort Key](https://donny-nguyen.github.io/2026/01/19/inserting-querying-with-partition-key-and-sort-key.html)
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
+* [QuickSight](https://donny-nguyen.github.io/2026/07/01/aws-quicksight.html)
 * [CloudWatch](https://donny-nguyen.github.io/2024/11/18/aws-cloudwatch.html)
 * [Glue](https://donny-nguyen.github.io/2025/06/22/aws-glue.html)
 * [Chime SDK](https://donny-nguyen.github.io/2025/09/29/aws-chime-sdk.html)
