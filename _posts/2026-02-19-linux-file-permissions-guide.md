@@ -39,7 +39,7 @@ chmod -R 755 folder/     # Recursive (applies to contents)
 **Common permission combos:**
 | Octal | Symbolic | Use case |
 |-------|----------|----------|
-| 777 | rwxrwxrwx | Full access for all (avoid!) |
+| 777 | rwxrwxrwx | Full access for all (should avoid) |
 | 755 | rwxr-xr-x | Public directories |
 | 644 | rw-r--r-- | Regular files |
 | 600 | rw------- | Private files |
