@@ -1,4 +1,4 @@
-# Understanding `&&` in React JSX: Conditional Rendering and Common Pitfalls
+# Conditional Rendering
 
 ## 1. `&&` operator in JavaScript (logical AND)
 
