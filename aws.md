@@ -19,6 +19,7 @@
 * [API Gateway](https://donny-nguyen.github.io/2024/10/22/aws-api-gateway.html)
   * [Set up API Gateway for Lambda Function](https://donny-nguyen.github.io/2025/10/13/setup-apigateway-for-lambda-function.html)
   * [Lambda Proxy Integration](https://donny-nguyen.github.io/2025/10/13/lambda-proxy-integration.html)
+  * [Invoke Lambda Aliases Using Stage Variables](https://donny-nguyen.github.io/2026/07/11/invoke-lambda-aliases-using-stage-variables.html)
 * [NAT Gateway](https://donny-nguyen.github.io/2024/10/09/nat-gateway.html)
 * [VPC Gateway Endpoint](https://donny-nguyen.github.io/2026/04/30/aws-vpc-gateway-endpoint.html)
 * [Network Firewall](https://donny-nguyen.github.io/2026/06/25/aws-network-firewall.html)
