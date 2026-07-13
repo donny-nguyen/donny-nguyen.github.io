@@ -43,6 +43,7 @@
 * [QuickSight](https://donny-nguyen.github.io/2026/07/01/aws-quicksight.html)
 * [CloudWatch](https://donny-nguyen.github.io/2024/11/18/aws-cloudwatch.html)
 * [Glue](https://donny-nguyen.github.io/2025/06/22/aws-glue.html)
+* [SageMaker](https://donny-nguyen.github.io/2026/07/13/aws-sagemaker.html)
 * [Chime SDK](https://donny-nguyen.github.io/2025/09/29/aws-chime-sdk.html)
 * [Interactive Video Service (IVS)](https://donny-nguyen.github.io/2026/06/19/aws-ivs.html)
   * [Integrating AWS IVS Real-Time Streaming into Adonis.js](https://donny-nguyen.github.io/2025/09/30/integrating-aws-ivs-real-time-streaming-into-adonis.html)
