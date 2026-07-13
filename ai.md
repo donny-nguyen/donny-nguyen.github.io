@@ -1,5 +1,6 @@
 # Artificial Intelligence
 
+* [Core Machine Learning Concepts](https://donny-nguyen.github.io/2026/07/13/core-ml-concepts.html)
 * [Learning Path to Become an AI Engineer](https://donny-nguyen.github.io/2026/07/11/learning-path-to-ai-engineer.html)
 * [How to Prepare for the AWS Certified Machine Learning Engineer – Associate Exam](https://donny-nguyen.github.io/2026/07/11/aws-certified-machine-learning-engineer-associate.html)
 * [How to Prepare for an AI Agent Interview](https://donny-nguyen.github.io/2026/07/02/prepare-for-ai-agent-interview.html)
