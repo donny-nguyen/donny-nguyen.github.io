@@ -220,6 +220,48 @@ Use a wildcard path (`*`) as the last route to catch any unmatched URL.
 - **Lazy-load routes** with `React.lazy` and `Suspense` to reduce the initial bundle size.
 - **Always include a catch-all `*` route** to handle invalid URLs gracefully.
 
+## Common Interview Questions
+
+**1. What is the difference between `BrowserRouter` and `HashRouter`?**
+
+`BrowserRouter` uses the HTML5 History API and produces clean URLs like `/about`, but it requires the server to be configured to serve `index.html` for all routes. `HashRouter` stores the route in the URL hash (`/#/about`), so it works without server configuration but produces less clean URLs. Prefer `BrowserRouter` for most production apps.
+
+**2. Why should you use `Link` instead of a regular `<a>` tag?**
+
+A regular `<a>` tag triggers a full page reload, which destroys the SPA experience and application state. `Link` intercepts the click, updates the URL through the History API, and re-renders only the matching route, keeping navigation fast and preserving state.
+
+**3. What is the purpose of `<Outlet />`?**
+
+`<Outlet />` is a placeholder in a parent (layout) route where the matching child route is rendered. It enables nested routing so shared UI—headers, sidebars, footers—can wrap the dynamic child content.
+
+**4. What is an `index` route?**
+
+An `index` route is the default child that renders when the parent's path matches exactly, with no additional segment. For example, an index route under `/dashboard` renders at `/dashboard` itself.
+
+**5. How do you read URL parameters, and how do they differ from query parameters?**
+
+Path parameters are declared with a colon (`/users/:userId`) and read with `useParams`; they identify a specific resource and are part of the route pattern. Query parameters (`/products?page=2`) are read with `useSearchParams` and are typically optional, used for filtering, sorting, or pagination.
+
+**6. How do you navigate programmatically?**
+
+Use the `useNavigate` hook, which returns a function you can call with a path (`navigate('/dashboard')`) or a number to move through history (`navigate(-1)` to go back). This is useful after events like form submission or login.
+
+**7. How do you handle a 404 / unmatched route?**
+
+Add a `Route` with a wildcard path (`path="*"`) as the last route. `Routes` selects the best match, so the wildcard catches any URL that no other route matches.
+
+**8. What is the difference between `Link` and `NavLink`?**
+
+Both navigate without reloading, but `NavLink` also exposes an `isActive` state (via a function for `className` or `style`), making it ideal for navigation menus that need to highlight the current page.
+
+**9. How can you protect routes that require authentication?**
+
+Wrap the protected element in a guard component that checks auth state and either renders the child (often via `<Outlet />`) or redirects using the `<Navigate />` component (e.g., `<Navigate to="/login" replace />`).
+
+**10. How do you optimize routing performance in large apps?**
+
+Use code splitting with `React.lazy` and `Suspense` to lazy-load route components, so each route's bundle is fetched only when needed. This reduces the initial bundle size and improves load time.
+
 ## Conclusion
 
 React Router is the backbone of navigation in most React applications. By combining basic routing, nested routes with `<Outlet />`, and dynamic routes with URL parameters, you can build well-structured, deep-linkable SPAs. Once you are comfortable with these fundamentals, features like programmatic navigation, query parameters, and lazy loading make it easy to scale routing as your application grows.
