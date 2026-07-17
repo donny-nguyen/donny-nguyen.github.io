@@ -23,6 +23,7 @@
 * [Virtual DOM](https://donny-nguyen.github.io/2024/11/18/virtual-dom.html)
 
 ## Intermediate React
+* [React Router: Routing, Nested Routes, and Dynamic Routes](https://donny-nguyen.github.io/2026/07/15/react-router.html)
 
 ## Advanced React
 * [Redux](https://donny-nguyen.github.io/2026/04/22/redux.html)
