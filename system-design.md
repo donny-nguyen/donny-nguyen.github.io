@@ -40,3 +40,6 @@
 * [Event Driven Architecture](https://donny-nguyen.github.io/2024/09/27/event-driven-architecture.html)
   * [What Should Know for a Technical Interview](https://donny-nguyen.github.io/2026/07/09/event-driven-architecture-interview.html)
 * [Saga Pattern](https://donny-nguyen.github.io/2024/10/30/saga-pattern.html)
+
+### Projects
+* [Live-streaming Architecture for Shoppable Streams](https://donny-nguyen.github.io/2026/07/22/live-streaming-architecture.html)
