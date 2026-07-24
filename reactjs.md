@@ -35,4 +35,5 @@
       * [Endpoints Injection](https://donny-nguyen.github.io/2025/08/05/endpoints-injection.html)
 
 ## Others
+* [Why Use React.js Instead of Pure HTML & JavaScript?](https://donny-nguyen.github.io/2026/07/24/why-use-react-instead-of-pure-html-javascript.html)
 * [The Ultimate React Learning Roadmap (2025-2026)](https://donny-nguyen.github.io/2026/04/22/react-learningroadmap.html)
