@@ -43,3 +43,4 @@
 
 ### Projects
 * [Live-streaming Architecture for Shoppable Streams](https://donny-nguyen.github.io/2026/07/22/live-streaming-architecture.html)
+* [Interactive Class Live-Stream Architecture](https://donny-nguyen.github.io/2026/07/28/interactive-class-live-stream-architecture.html)
