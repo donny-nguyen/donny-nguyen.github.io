@@ -36,5 +36,5 @@
 
 ## Others
 * [Why Use React.js Instead of Pure HTML & JavaScript?](https://donny-nguyen.github.io/2026/07/24/why-use-react-instead-of-pure-html-javascript.html)
-* [Ember.js and How It Compares with React.js](https://donny-nguyen.github.io/2026/07/27/emberjs-and-reactjs.html)
+* [Ember.js, React.js, and Next.js Compared](https://donny-nguyen.github.io/2026/07/27/emberjs-reactjs-and-nextjs.html)
 * [The Ultimate React Learning Roadmap (2025-2026)](https://donny-nguyen.github.io/2026/04/22/react-learningroadmap.html)
