@@ -24,6 +24,7 @@
 
 ## Intermediate React
 * [React Router: Routing, Nested Routes, and Dynamic Routes](https://donny-nguyen.github.io/2026/07/15/react-router.html)
+* [Context API](https://donny-nguyen.github.io/2026/07/29/context-api.html)
 
 ## Advanced React
 * [Redux](https://donny-nguyen.github.io/2026/04/22/redux.html)
