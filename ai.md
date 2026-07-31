@@ -1,5 +1,6 @@
 # Artificial Intelligence
 
+* [The Benefits of Using Multiple Agents in GitHub Copilot for VS Code](https://donny-nguyen.github.io/2026/07/31/benefit-of-using-multiple-agents.html)
 * [Core Machine Learning Concepts](https://donny-nguyen.github.io/2026/07/13/core-ml-concepts.html)
 * [Learning Path to Become an AI Engineer](https://donny-nguyen.github.io/2026/07/11/learning-path-to-ai-engineer.html)
 * [How to Prepare for the AWS Certified Machine Learning Engineer – Associate Exam](https://donny-nguyen.github.io/2026/07/11/aws-certified-machine-learning-engineer-associate.html)
