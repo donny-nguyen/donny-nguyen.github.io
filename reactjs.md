@@ -21,6 +21,7 @@
   * [useEffect](https://donny-nguyen.github.io/2025/05/08/react-use-effect.html)
   * [useRef](https://donny-nguyen.github.io/2026/05/13/react-use-ref.html)
   * [useCallback](https://donny-nguyen.github.io/2026/07/29/react-use-callback.html)
+  * [useMemo](https://donny-nguyen.github.io/2026/08/04/react-use-memo.html)
 * [Conditional Rendering](https://donny-nguyen.github.io/2026/02/09/conditional-rendering.html)
 * [Virtual DOM](https://donny-nguyen.github.io/2024/11/18/virtual-dom.html)
 
