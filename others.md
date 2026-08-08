@@ -7,6 +7,9 @@
 * [Semantic Versioning](https://donny-nguyen.github.io/2025/10/25/semantic-versioning.html)
 * [Setup Bitbucket Pipelines for Deployment](https://donny-nguyen.github.io/2026/06/25/bitbucket-pipeline-setup.html)
 * [Infrastructure as Code (IaC)](https://donny-nguyen.github.io/2026/08/08/infrastructure-as-code.html)
+  * [Terraform](https://donny-nguyen.github.io/2026/08/08/terraform.html)
+  * [AWS CloudFormation](https://donny-nguyen.github.io/2026/08/08/aws-cloudformation.html)
+  * [AWS Cloud Development Kit (CDK)](https://donny-nguyen.github.io/2026/08/08/aws-cdk.html)
 
 ## Linux
 * [Install Vietnamese Keyboard Input Method in Ubuntu](https://donny-nguyen.github.io/2025/10/31/install-vietnamese-keyboard-in-ubuntu.html)
