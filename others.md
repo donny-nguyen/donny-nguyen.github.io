@@ -10,6 +10,7 @@
   * [Terraform](https://donny-nguyen.github.io/2026/08/08/terraform.html)
   * [AWS CloudFormation](https://donny-nguyen.github.io/2026/08/08/aws-cloudformation.html)
   * [AWS Cloud Development Kit (CDK)](https://donny-nguyen.github.io/2026/08/08/aws-cdk.html)
+    * [AWS CDK Full Life-Cycle Example](https://donny-nguyen.github.io/2026/08/08/aws-cdk-full-life-cycle.html)
 
 ## Linux
 * [Install Vietnamese Keyboard Input Method in Ubuntu](https://donny-nguyen.github.io/2025/10/31/install-vietnamese-keyboard-in-ubuntu.html)
