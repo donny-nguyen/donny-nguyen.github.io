@@ -6,7 +6,7 @@ GitHub Copilot's agent mode can autonomously plan and execute multi-step coding 
 
 ### What Are Multiple Agents?
 
-In VS Code, an *agent* (sometimes called a custom chat mode) is a configurable persona for Copilot. Each agent can define:
+In VS Code, an *agent* (formerly called a custom chat mode) is a configurable persona for Copilot. Each agent can define:
 
 - A **specific role and expertise** (e.g., a test writer, a security reviewer, a documentation author).
 - A **restricted set of tools** it is allowed to use.
@@ -43,36 +43,39 @@ When an agent misbehaves, you only need to adjust that agent's focused instructi
 
 ### How to Set Up Multiple Agents in VS Code
 
-GitHub Copilot supports custom agents through **custom chat mode files** (`.chatmode.md` or `.agent.md`) and supporting **instruction files**.
+GitHub Copilot supports custom agents through **custom agent files** (`.agent.md`) and supporting **instruction files**.
 
-#### Step 1: Enable Agent Mode
+> **Note:** Custom agents were previously known as *custom chat modes*. If you have older `.chatmode.md` files, rename them to `.agent.md` and move them into the `.github/agents/` folder to keep using them.
+
+#### Step 1: Open Agent Mode
 
 1. Open the **Chat** view (`Ctrl+Alt+I` / `Cmd+Ctrl+I`).
-2. Use the mode selector at the top of the chat input to switch between **Ask**, **Edit**, and **Agent**.
+2. Use the agent picker at the top of the chat input to choose between the built-in agents and any custom agents you create.
 
 #### Step 2: Create a Custom Agent
 
-You can create a custom agent from the Command Palette:
+The simplest way is from the Chat view or the Command Palette:
 
-1. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`).
-2. Run **Chat: New Mode File** (or **Configure Chat Modes**).
-3. Choose whether to store it in your **workspace** (`.github/chatmodes/`) or your **user profile**.
-4. Give the agent a name, such as `test-engineer`.
+1. In the Chat view, select **Configure Chat** (the gear icon) to open the **Agent Customizations** editor, then open the **Agents** tab. (You can also type `/agents` in the chat input, or run **Chat: Open Customizations** from the Command Palette.)
+2. Select **New Agent (Workspace)** or **New Agent (User)** from the dropdown, depending on where you want to store the agent. Alternatively, run **Chat: New Custom Agent** from the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`).
+3. Choose the location and enter a name, such as `test-engineer`.
 
-This creates a file like:
+Workspace agents are stored in `.github/agents/`, and user-level agents are available across all your workspaces. This creates a file like:
 
 ```
 your-repo/
 └── .github/
-    └── chatmodes/
-        └── test-engineer.chatmode.md
+    └── agents/
+        └── test-engineer.agent.md
 ```
+
+> **Tip:** VS Code detects any `.md` file in the `.github/agents/` folder as a custom agent. You can also generate one with AI by typing `/create-agent` in Agent mode and describing the persona you want.
 
 #### Step 3: Define the Agent
 
 A custom agent file uses YAML front matter for configuration, followed by Markdown instructions.
 
-**Example `test-engineer.chatmode.md`:**
+**Example `test-engineer.agent.md`:**
 
 ```markdown
 ---
@@ -94,15 +97,16 @@ You are a specialized test-writing assistant.
 
 Key front matter fields:
 
-- **`description`** – A short summary shown in the mode picker.
-- **`tools`** – The list of tools the agent is allowed to use. Omit powerful tools to restrict the agent.
+- **`description`** – A short summary shown as placeholder text in the chat input and in the agent picker.
+- **`name`** – The agent's display name (optional; defaults to the file name).
+- **`tools`** – The list of tools or tool sets the agent is allowed to use. Omit powerful tools to restrict the agent.
 - **`model`** – The model the agent should use (optional).
 
 #### Step 4: Create Additional Specialized Agents
 
 Repeat the process to build a small team. For example:
 
-**`code-reviewer.chatmode.md`** (read-only):
+**`code-reviewer.agent.md`** (read-only):
 
 ```markdown
 ---
@@ -119,7 +123,7 @@ You review code without modifying it.
 - Suggest concrete fixes, but do not edit files.
 ```
 
-**`doc-writer.chatmode.md`:**
+**`doc-writer.agent.md`:**
 
 ```markdown
 ---
@@ -150,7 +154,7 @@ This file is automatically included as context. Agent-specific files then layer 
 
 #### Step 6: Switch Between Agents
 
-Once created, your custom agents appear in the mode selector at the top of the Chat view. Select the agent that matches your current task—`test-engineer`, `code-reviewer`, or `doc-writer`—and Copilot adopts that persona, tools, and instructions.
+Once created, your custom agents appear in the agent picker at the top of the Chat view. Select the agent that matches your current task—`test-engineer`, `code-reviewer`, or `doc-writer`—and Copilot adopts that persona, tools, and instructions. You can also use **handoffs** to move from one agent to the next in a guided workflow (for example, planning → implementation → review).
 
 ### Best Practices
 
