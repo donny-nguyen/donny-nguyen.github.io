@@ -63,6 +63,50 @@ A differentiator worth mentioning: before a product can be sold live, we **dry-r
 - **Cache invalidation** of post/feed lists on state changes so the feed reflects reality instantly.
 - **Idempotent webhook handling** (guarded by `webhookStatus = PENDING`) so duplicate IVS webhooks don't double-process.
 
+## 8. Trade-offs in this design
+
+Every choice above bought interactivity, scale, or resilience at a cost. Here are the ones worth calling out.
+
+**1. Two-tier streaming (Stage + Channel via Composition)**
+
+Splitting a low-latency Stage from a scalable broadcast channel gives sub-second interaction for on-stage people and cheap delivery to unlimited viewers — but it means orchestrating and syncing two systems (stage ARN, composition ARN, channel), composition adds latency and cost, and it creates a latency gap where on-stage guests are seconds ahead of what viewers see, which can confuse timing and Q&A.
+
+**2. Custom Socket.IO fan-out with no Redis adapter**
+
+The custom main-hub fan-out avoids adding a Redis adapter and still works across PM2 cluster workers, but it's the riskiest choice in the design. It reimplements what the battle-tested Redis adapter already does, the central hub becomes a single point of failure and a bottleneck, every event takes an extra hop (worker → hub → workers → clients) that adds latency, and routing all events through the `liveStream` queue delays updates that are supposed to feel real-time.
+
+**3. AWS IVS dependency (vendor lock-in)**
+
+Leaning on IVS Stages, Channels, Chat, and Composition means no WebRTC SFU, media mixing, or HLS infrastructure to build — but it locks me into IVS pricing and limits, a single IVS outage can take down interaction, broadcast, and chat at once, and migrating providers would require rewriting all four integrations.
+
+**4. Channel pooling**
+
+Pooling reuses a limited, expensive resource and avoids provisioning latency at go-live, but the pool is a finite ceiling. A spike in concurrent streams can exhaust it and block hosts from going live, and a leaked channel from a failed release permanently shrinks capacity until it's reconciled.
+
+**5. Short-lived participant tokens + single active session**
+
+Revocable tokens and evicting existing connections keep on-stage access secure and free of ghost sessions, but token expiry mid-session risks dropping a legitimate participant, and single-session eviction means a reconnect (say, a network blip on the same account) can knock a user off their own stream. It's also more moving parts to mint, bind, and revoke.
+
+**6. Async and eventual consistency**
+
+Committing DB writes before external side-effects and pushing work onto queues keeps the go-live path fast and resilient, but viewers see `LIVE`, notifications, and product updates with a lag. Failures hide in the queue, and the system depends on queue reliability with proper retry and dead-letter handling.
+
+**7. Redis caching + 10s rate-limited viewer-list rebuild**
+
+Caching product-variant lists and rate-limiting the expensive viewer-list rebuild survives read storms, but the viewer list and counts can be up to 10 seconds behind reality, Redis becomes critical infrastructure, and cache invalidation adds complexity.
+
+**8. Product verification via full purchase dry-run**
+
+Dry-running the entire purchase path catches broken or out-of-stock products before buyers see them, but it's slow, expensive, and side-effect-heavy (it creates real Shopify draft orders). It couples product readiness to Shopify's availability and adds latency before a product can go live.
+
+**9. IVS metadata for product highlights (1KB cap)**
+
+Pushing product highlights as IVS metadata reuses the media pipeline to deliver perfectly-timed events into the recording, but the 1KB cap forces truncation logic. Payloads must stay minimal — you can't send rich product data this way, only references that clients resolve separately.
+
+**The core tension**
+
+The design trades consistency, operational simplicity, and dependency independence for low-latency interaction, broadcast scalability, and rich real-time commerce. The single biggest risk is the custom socket fan-out — it's the one place the design rebuilds infrastructure that a standard tool (the Redis adapter) solves more reliably, and it becomes a scaling and availability bottleneck as viewer and worker counts grow.
+
 ## Conclusion
 
 So the design separates a **low-latency interactive Stage** from a **scalable broadcast channel**, uses a **request/approval model** to safely bring viewers on-stage with revocable tokens, layers **live chat, real-time socket events, and in-stream commerce** on top, and handles the operational realities — resource pooling, multi-worker socket fan-out, idempotent webhooks, and cleanup-on-failure — that make it reliable in production.
