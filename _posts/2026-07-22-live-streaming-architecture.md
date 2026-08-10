@@ -41,6 +41,42 @@ Products can be attached to a stream and shown as timestamped overlays (`VideoTi
 - **Orphaned streams**: a `cleanStreams` job reconciles DB state against IVS reality and force-stops streams that died without a proper stop event.
 - **Concurrency**: lucky-number assignment uses a row-level `FOR UPDATE` lock inside a transaction, with a fast-path read to avoid the transaction when possible — prevents duplicate assignments under concurrent viewer requests.
 
+## Trade-offs in this design
+
+Every choice above bought scalability and resilience at a cost. Here are the ones worth calling out.
+
+**1. AWS IVS dependency (vendor lock-in)**
+
+Letting AWS own the media means no video infrastructure to build and automatic scaling — but it locks me into IVS pricing and service limits, ties my uptime to IVS availability, and means migrating providers would require rewriting `IvsService`/`IvschatService` despite the thin-wrapper isolation.
+
+**2. Heavy async and eventual consistency**
+
+Pushing slow work onto queues keeps the API fast and stateless, but state becomes eventually consistent. A viewer may not see `LIVE` or receive a notification for seconds — the deliberate 10s notification delay is itself a UX trade-off. Failures now hide in queues, debugging is harder, and the system depends on Bull/Redis reliability with proper retry and dead-letter handling.
+
+**3. Channel pooling**
+
+Pooling avoids per-stream provisioning latency and cost, but the pool is a finite capacity ceiling. A traffic spike can exhaust channels and reject streamers, and a leaked or unreleased channel (an orphaned stream) permanently shrinks capacity until the `cleanStreams` reconciler recovers it.
+
+**4. Redis caching on read-heavy paths**
+
+Caching product variants and interaction counts survives read storms, but introduces stale reads (cached counts lag reality), added invalidation complexity, and makes Redis a critical single dependency for both cache *and* queues.
+
+**5. Webhook-driven lifecycle**
+
+Reacting to real IVS state via webhooks is accurate when it works, but webhooks are unreliable and out-of-order. Compensating for that forces extra machinery — the channel-name + `PENDING` fallback lookup and the reconciliation job — that exists purely to work around an unreliable signal.
+
+**6. `FOR UPDATE` row locks for assignment**
+
+Row-level locks guarantee correctness under concurrency (no duplicate lucky-number or channel assignment), but they serialize contended writes and can become a throughput bottleneck or cause lock contention and timeouts at high concurrency. The fast-path read mitigates this but doesn't eliminate it.
+
+**7. Product verification via full purchase simulation**
+
+Simulating a full purchase gives a strong guarantee that a product is actually buyable, but it's expensive, slow, and side-effect-heavy (it creates real Shopify draft orders). It couples product health to Shopify's availability and adds latency before a product can go live.
+
+**The core tension**
+
+The design optimizes for availability and scalability under bursty load at the expense of consistency, operational complexity, and external-dependency risk. For a consumer live-shopping product — where "the stream stays up" matters more than "every count is instantly exact" — that's the right call, but it pushes significant complexity into reconciliation, retries, and cache invalidation that has to be maintained.
+
 ## Closing point to land
 
 The guiding principle was: let AWS do what it's good at (media), keep my services focused and stateless, and make every expensive or bursty operation asynchronous and idempotent so the system degrades gracefully instead of falling over during a popular stream.
