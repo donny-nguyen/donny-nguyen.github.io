@@ -20,6 +20,9 @@
 * [Bulkhead Pattern](https://donny-nguyen.github.io/2024/09/29/bulkhead-pattern.html)
 * [Retry Pattern](https://donny-nguyen.github.io/2024/09/29/retry-pattern.html)
 
+### Deployment & Release
+* [Blue-Green Deployment](https://donny-nguyen.github.io/2026/08/11/blue-green-deployment.html)
+
 ### Scalability & Performance
 * [Design Scalable Database System](https://donny-nguyen.github.io/2025/09/08/design-scalable-database-system.html)
 * [Optimizing Content Loading for First Launch](https://donny-nguyen.github.io/2025/10/28/optimize-content-loading-for-first-launch.html)
