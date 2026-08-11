@@ -90,3 +90,7 @@
 ## Management & Monitoring
 
 * [CloudWatch](https://donny-nguyen.github.io/2024/11/18/aws-cloudwatch.html)
+
+## Developer Tools & Deployment
+
+* [Deploying an Application on AWS Using Blue-Green Deployment](https://donny-nguyen.github.io/2026/08/11/blue-green-deployment-on-aws.html)
