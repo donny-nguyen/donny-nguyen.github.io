@@ -1,21 +1,45 @@
 # Amazon Web Services
 
+## Global Infrastructure
+
 * [Regions and Availability Zones](https://donny-nguyen.github.io/2024/11/06/regions-and-availability-zones.html)
+
+## Security, Identity & Compliance
+
 * [Identity and Access Management (IAM)](https://donny-nguyen.github.io/2024/11/06/iam.html)
   * [IAM Permissions Evaluations](https://donny-nguyen.github.io/2025/08/12/iam-permissions-evaluations.html)
+* [Cognito](https://donny-nguyen.github.io/2024/11/01/aws-cognito.html)
+  * [Implementing AWS Cognito Authentication in Web Apps](https://donny-nguyen.github.io/2024/11/01/implementing-cognito-in-web-apps.html)
+  * [Cognito Demo](https://github.com/donny-nguyen/aws-cognito-demo)
+
+## Compute
+
+* [Elastic Compute Cloud (EC2)](https://donny-nguyen.github.io/2024/11/18/aws-ec2.html)
+* [Auto Scaling Group](https://donny-nguyen.github.io/2024/10/22/aws-auto-scaling-group.html)
+* [Lambda](https://donny-nguyen.github.io/2024/11/09/aws-lambda.html)
+  * [Cold Start in AWS Lambda](https://donny-nguyen.github.io/2024/12/26/cold-start-in-aws-lambda.html)
+  * [Monitoring AWS Lambda Functions Performance](https://donny-nguyen.github.io/2024/12/23/monitoring-aws-lambda-functions-performance.html)
+* [Elastic Beanstalk](https://donny-nguyen.github.io/2024/10/22/aws-elastic-beanstalk.html)
+
+## Containers
+
+* [Elastic Container Service (ECS)](https://donny-nguyen.github.io/2024/11/09/aws-ecs.html)
+  * [Deploying from GitHub to AWS ECS using AWS Pipelines](https://donny-nguyen.github.io/2024/11/22/deployment.html)
+  * [Scaling Application in AWS ECS](https://donny-nguyen.github.io/2024/11/22/scaling.html)
+
+## Storage
+
 * [Simple Storage Service (S3)](https://donny-nguyen.github.io/2024/09/17/aws-s3.html)
   * [Fast global uploads to Amazon S3](https://donny-nguyen.github.io/2025/10/04/fast-global-uploads-to-aws-s3.html)
   * [S3 Transfer Acceleration](https://donny-nguyen.github.io/2024/09/17/aws-s3-transfer-acceleration.html)
   * [S3 Cross-Region Replication](https://donny-nguyen.github.io/2024/09/17/aws-s3-cross-region-replication.html)
   * [S3 File Gateway](https://donny-nguyen.github.io/2026/02/05/aws-s3-file-gateway.html)
-  * [Athena](https://donny-nguyen.github.io/2025/06/22/aws-athena.html)
-* [Lambda](https://donny-nguyen.github.io/2024/11/09/aws-lambda.html)
-  * [Cold Start in AWS Lambda](https://donny-nguyen.github.io/2024/12/26/cold-start-in-aws-lambda.html)
-  * [Monitoring AWS Lambda Functions Performance](https://donny-nguyen.github.io/2024/12/23/monitoring-aws-lambda-functions-performance.html)
-* [Elastic Compute Cloud (EC2)](https://donny-nguyen.github.io/2024/11/18/aws-ec2.html)
-* [Auto Scaling Group](https://donny-nguyen.github.io/2024/10/22/aws-auto-scaling-group.html)
+* [EBS vs EFS: Understanding the Differences](https://donny-nguyen.github.io/2026/05/28/ebs-vs-efs.html)
+* [Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
+
+## Networking & Content Delivery
+
 * [Load Balancer](https://donny-nguyen.github.io/2024/10/09/aws-load-balancer.html)
-* [Beanstalk](https://donny-nguyen.github.io/2024/10/22/aws-elastic-beanstalk.html)
 * [API Gateway](https://donny-nguyen.github.io/2024/10/22/aws-api-gateway.html)
   * [Set up API Gateway for Lambda Function](https://donny-nguyen.github.io/2025/10/13/setup-apigateway-for-lambda-function.html)
   * [Lambda Proxy Integration](https://donny-nguyen.github.io/2025/10/13/lambda-proxy-integration.html)
@@ -23,15 +47,11 @@
 * [NAT Gateway](https://donny-nguyen.github.io/2024/10/09/nat-gateway.html)
 * [VPC Gateway Endpoint](https://donny-nguyen.github.io/2026/04/30/aws-vpc-gateway-endpoint.html)
 * [Network Firewall](https://donny-nguyen.github.io/2026/06/25/aws-network-firewall.html)
-* [Simple Notification Service (SNS)](https://donny-nguyen.github.io/2026/02/14/aws-sns.html)
-* [Simple Queue Service (SQS)](https://donny-nguyen.github.io/2024/09/28/aws-sqs.html)
-* [Fanout Pattern with AWS SNS + SQS](https://donny-nguyen.github.io/2026/02/14/fanout-pattern.html)
-* [Kinesis](https://donny-nguyen.github.io/2026/05/05/aws-kinesis.html)
-* [Snowball](https://donny-nguyen.github.io/2024/09/13/aws-snowball.html)
-* [Elastic Container Service (ECS)](https://donny-nguyen.github.io/2024/11/09/aws-ecs.html)
-* [Cognito](https://donny-nguyen.github.io/2024/11/01/aws-cognito.html)
-  * [Implementing AWS Cognito Authentication in Web Apps](https://donny-nguyen.github.io/2024/11/01/implementing-cognito-in-web-apps.html)
-  * [Cognito Demo](https://github.com/donny-nguyen/aws-cognito-demo)
+* [Direct Connect](https://donny-nguyen.github.io/2026/02/05/aws-direct-connect.html)
+* [Cross-Origin Resource Sharing (CORS)](https://donny-nguyen.github.io/2025/10/14/cors.html)
+
+## Database
+
 * [Relational Database Service (RDS)](https://donny-nguyen.github.io/2024/11/09/aws-rds.html)
   * [Connecting an Application to AWS RDS](https://donny-nguyen.github.io/2024/12/28/connecting-application-to-aws-rds.html)
   * [Best Practices for Connecting to AWS RDS](https://donny-nguyen.github.io/2024/12/28/best-practices-for-connecting-to-aws-rds.html)
@@ -40,18 +60,33 @@
   * [Creating a DynamoDB Table with Sort Key](https://donny-nguyen.github.io/2026/01/19/creating-dynamodb-table-with-sort-key.html)
   * [Inserting and Querying with Partition Key and Sort Key](https://donny-nguyen.github.io/2026/01/19/inserting-querying-with-partition-key-and-sort-key.html)
   * [Improving Read Performance for Large DynamoDB Partitions](https://donny-nguyen.github.io/2026/07/17/improve-read-for-large-dynamodb-partitions.html)
+
+## Analytics
+
+* [Athena](https://donny-nguyen.github.io/2025/06/22/aws-athena.html)
 * [Redshift](https://donny-nguyen.github.io/2024/09/20/aws-redshift.html)
-* [QuickSight](https://donny-nguyen.github.io/2026/07/01/aws-quicksight.html)
-* [CloudWatch](https://donny-nguyen.github.io/2024/11/18/aws-cloudwatch.html)
+* [Kinesis](https://donny-nguyen.github.io/2026/05/05/aws-kinesis.html)
 * [Glue](https://donny-nguyen.github.io/2025/06/22/aws-glue.html)
+* [QuickSight](https://donny-nguyen.github.io/2026/07/01/aws-quicksight.html)
+
+## Application Integration
+
+* [Simple Notification Service (SNS)](https://donny-nguyen.github.io/2026/02/14/aws-sns.html)
+* [Simple Queue Service (SQS)](https://donny-nguyen.github.io/2024/09/28/aws-sqs.html)
+* [Fanout Pattern with AWS SNS + SQS](https://donny-nguyen.github.io/2026/02/14/fanout-pattern.html)
+* [EventBridge](https://donny-nguyen.github.io/2025/10/02/aws-eventbridge.html)
+
+## Machine Learning
+
 * [SageMaker](https://donny-nguyen.github.io/2026/07/13/aws-sagemaker.html)
+
+## Media Services
+
 * [Chime SDK](https://donny-nguyen.github.io/2025/09/29/aws-chime-sdk.html)
 * [Interactive Video Service (IVS)](https://donny-nguyen.github.io/2026/06/19/aws-ivs.html)
   * [Integrating AWS IVS Real-Time Streaming into Adonis.js](https://donny-nguyen.github.io/2025/09/30/integrating-aws-ivs-real-time-streaming-into-adonis.html)
 * [MediaConvert](https://donny-nguyen.github.io/2026/07/15/aws-mediaconvert.html)
-* [EventBridge](https://donny-nguyen.github.io/2025/10/02/aws-eventbridge.html)
-* [Deploying from GitHub to AWS ECS using AWS Pipelines](https://donny-nguyen.github.io/2024/11/22/deployment.html)
-* [Scaling Application in AWS ECS](https://donny-nguyen.github.io/2024/11/22/scaling.html)
-* [Cross-Origin Resource Sharing (CORS)](https://donny-nguyen.github.io/2025/10/14/cors.html)
-* [EBS vs EFS: Understanding the Differences](https://donny-nguyen.github.io/2026/05/28/ebs-vs-efs.html)
-* [Direct Connect](https://donny-nguyen.github.io/2026/02/05/aws-direct-connect.html)
+
+## Management & Monitoring
+
+* [CloudWatch](https://donny-nguyen.github.io/2024/11/18/aws-cloudwatch.html)
