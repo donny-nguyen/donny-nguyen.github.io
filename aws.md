@@ -24,6 +24,7 @@
 ## Containers
 
 * [Elastic Container Service (ECS)](https://donny-nguyen.github.io/2024/11/09/aws-ecs.html)
+  * [Fargate and EC2 in AWS ECS](https://donny-nguyen.github.io/2026/08/14/fargate-and-ec2-in-aws-ecs.html)
   * [Deploying from GitHub to AWS ECS using AWS Pipelines](https://donny-nguyen.github.io/2024/11/22/deployment.html)
   * [Scaling Application in AWS ECS](https://donny-nguyen.github.io/2024/11/22/scaling.html)
 * [Elastic Kubernetes Service (EKS)](https://donny-nguyen.github.io/2026/08/12/aws-eks.html)
