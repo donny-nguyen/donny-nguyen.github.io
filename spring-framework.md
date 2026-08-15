@@ -14,6 +14,7 @@
   * [Types of Dependency Injection](https://donny-nguyen.github.io/2024/11/25/types-of-dependency-injection.html)
   * [Immutability Promotion of Constructor Injection](https://donny-nguyen.github.io/2024/11/25/immutability-promotion-of-constructor-injection.html)
 * [Qualifier](https://donny-nguyen.github.io/2024/09/26/qualifier.html)
+* [Core Annotations](https://donny-nguyen.github.io/2026/08/15/spring-boot-core-annotations.html)
 * [SpringBootApplication Annotation](https://donny-nguyen.github.io/2024/12/20/springbootapplication-annotation.html)
 * [Spring Boot Annotations Cheat Sheet](https://donny-nguyen.github.io/2026/04/20/annotations-cheat-sheet.html)
 * [Spring Boot Starters](https://donny-nguyen.github.io/2024/11/23/spring-boot-starters.html)
