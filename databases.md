@@ -12,6 +12,11 @@
 * [How I applied Redis to The Project](https://donny-nguyen.github.io/2025/01/15/how-i-applied-redis.html)
 * [Using Enum Types in Databases](https://donny-nguyen.github.io/2025/12/19/using-enum-types-in-databases.html)
 
+### Hibernate
+* [Hibernate](https://donny-nguyen.github.io/2024/11/30/hibernate.html)
+* [Hibernate over JDBC](https://donny-nguyen.github.io/2024/11/30/hibernate-over-jdbc.html)
+* [HQL and SQL](https://donny-nguyen.github.io/2024/11/30/hql-and-sql.html)
+
 ### SQL
 * [Common SQL Commands Cheat Sheet](https://donny-nguyen.github.io/2025/10/29/common-sql-commands-cheat-sheet.html)
 * [SQL Operators](https://donny-nguyen.github.io/2025/02/23/sql-operators.html)

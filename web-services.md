@@ -9,6 +9,10 @@
 * [Connection Timeout and Response Timeout](https://donny-nguyen.github.io/2025/01/20/connection-timeout-and-response-timeout.html)
 * [Slug](https://donny-nguyen.github.io/2025/04/18/slug.html)
 
+### Security
+* [JSON Web Token (JWT)](https://donny-nguyen.github.io/2024/11/22/jwt.html)
+* [Signed JWTs and Encrypted JWTs](https://donny-nguyen.github.io/2024/11/22/signed-jwt-and-encrypted-jwt.html)
+
 ### RESTful APIs
 * [SOAP and REST](https://donny-nguyen.github.io/2024/09/21/soap-and-rest.html)
 * [PUT and PATCH](https://donny-nguyen.github.io/2024/09/25/put-and-patch.html)
