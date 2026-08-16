@@ -9,5 +9,6 @@
   * [How TestNG Improves upon JUnit](https://donny-nguyen.github.io/2024/12/29/testng-over-junit.html)
 * [REST Assured](https://donny-nguyen.github.io/2024/12/31/rest-assured.html)
     * [Getting Started](https://donny-nguyen.github.io/2024/12/31/get-started-with-rest-assured.html)
+* [Playwright](https://donny-nguyen.github.io/2026/08/16/playwright.html)
 * [Private Methods Testing](https://donny-nguyen.github.io/2024/12/07/private-methods-testing.html)
 * [Test Driven Development](https://donny-nguyen.github.io/2024/09/28/test-driven-development.html)
