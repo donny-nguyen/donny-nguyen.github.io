@@ -34,5 +34,6 @@
 
 ### Phase 3 — Advanced & Cloud-Ready
 * [Spring Boot Dynamic DataSource Routing with AWS RDS](https://donny-nguyen.github.io/2026/02/02/spring-boot-dynamic-datasource-routing.html)
+* [Aggregating Data from Multiple Services for a Single REST API Request](https://donny-nguyen.github.io/2026/08/18/aggregating-data-from-multiple-services.html)
 * [Spring Cloud](https://donny-nguyen.github.io/2024/10/08/spring-cloud.html)
   * [Spring Cloud and AWS](https://donny-nguyen.github.io/2024/10/08/spring-cloud-and-aws.html)
