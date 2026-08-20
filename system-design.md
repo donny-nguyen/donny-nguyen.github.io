@@ -44,6 +44,9 @@
   * [What Should Know for a Technical Interview](https://donny-nguyen.github.io/2026/07/09/event-driven-architecture-interview.html)
 * [Saga Pattern](https://donny-nguyen.github.io/2024/10/30/saga-pattern.html)
 
+### Messaging & Event Streaming
+* [Apache Kafka](https://donny-nguyen.github.io/2026/08/20/apache-kafka.html)
+
 ### Projects
 * [Live-streaming Architecture for Shoppable Streams](https://donny-nguyen.github.io/2026/07/22/live-streaming-architecture.html)
 * [Interactive Class Live-Stream Architecture](https://donny-nguyen.github.io/2026/07/28/interactive-class-live-stream-architecture.html)
