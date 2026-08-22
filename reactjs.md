@@ -37,6 +37,7 @@
 * [Advanced Patterns](https://donny-nguyen.github.io/2026/08/12/advanced-patterns.html)
 * [Performance Optimization](https://donny-nguyen.github.io/2026/08/13/performance-optimization.html)
 * [Testing](https://donny-nguyen.github.io/2026/08/19/testing-in-react.html)
+* [TypeScript with React](https://donny-nguyen.github.io/2026/08/22/typescript-with-react.html)
 * [Redux](https://donny-nguyen.github.io/2026/04/22/redux.html)
   * [Redux Example](https://donny-nguyen.github.io/2026/04/22/redux-example.html)
   * [Redux Toolkit](https://donny-nguyen.github.io/2025/08/05/redux-toolkit.html)
