@@ -50,6 +50,7 @@
 ## Deployment & Ecosystem
 * [Build Tools](https://donny-nguyen.github.io/2026/08/24/build-tools.html)
 * [CI/CD](https://donny-nguyen.github.io/2026/08/24/ci-cd.html)
+* [Monitoring](https://donny-nguyen.github.io/2026/08/25/monitoring.html)
 
 ## Others
 * [Why Use React.js Instead of Pure HTML & JavaScript?](https://donny-nguyen.github.io/2026/07/24/why-use-react-instead-of-pure-html-javascript.html)
