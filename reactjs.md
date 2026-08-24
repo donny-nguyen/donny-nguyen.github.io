@@ -47,6 +47,9 @@
       * [Auto-generated React Hooks](https://donny-nguyen.github.io/2025/08/05/auto-generated-react-hooks.html)
       * [Endpoints Injection](https://donny-nguyen.github.io/2025/08/05/endpoints-injection.html)
 
+## Deployment & Ecosystem
+* [Build Tools](https://donny-nguyen.github.io/2026/08/24/build-tools.html)
+
 ## Others
 * [Why Use React.js Instead of Pure HTML & JavaScript?](https://donny-nguyen.github.io/2026/07/24/why-use-react-instead-of-pure-html-javascript.html)
 * [React.js, Next.js, and Ember.js Compared](https://donny-nguyen.github.io/2026/07/27/reactjs-nextjs-and-emberjs.html)
