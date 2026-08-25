@@ -24,10 +24,7 @@
 * [Controller and RestController](https://donny-nguyen.github.io/2024/09/24/controller-and-restcontroller.html)
 * [Bean Validation](https://donny-nguyen.github.io/2026/08/19/bean-validation.html)
 * [Database Integration](https://donny-nguyen.github.io/2026/08/20/database-integration.html)
-* [Spring Data](https://donny-nguyen.github.io/2024/09/16/spring-data.html)
-  * [Spring Data JPA](https://donny-nguyen.github.io/2025/01/06/spring-data-jpa.html)
-    * [Repository Interfaces](https://donny-nguyen.github.io/2026/03/27/spring-data-jpa-repository-interfaces.html)
-  * [Object-Relational Mapping (ORM)](https://donny-nguyen.github.io/2025/01/06/orm.html)
+* [Spring Data JPA](https://donny-nguyen.github.io/2025/01/06/spring-data-jpa.html)
 
 ### Phase 2 — Building Real APIs
 * [REST APIs in Spring Framework](https://donny-nguyen.github.io/2026/08/16/rest-apis-in-spring-framework.html)
