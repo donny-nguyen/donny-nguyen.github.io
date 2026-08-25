@@ -5,17 +5,17 @@
 
 ## Programming Languages
 
+* [Java](https://donny-nguyen.github.io/java)
 * [JavaScript](https://donny-nguyen.github.io/javascript)
 * [TypeScript](https://donny-nguyen.github.io/typescript)
-* [Java](https://donny-nguyen.github.io/java)
 * [Python](https://donny-nguyen.github.io/python)
 
 ## Technologies
 
 * [Artificial Intelligence](https://donny-nguyen.github.io/ai)
+* [Spring Framework](https://donny-nguyen.github.io/spring-framework)
 * [Node.js](https://donny-nguyen.github.io/nodejs)
 * [React.js](https://donny-nguyen.github.io/reactjs)
-* [Spring Framework](https://donny-nguyen.github.io/spring-framework)
 * [Testing](https://donny-nguyen.github.io/testing)
 * [Databases](https://donny-nguyen.github.io/databases)
 * [Web Services](https://donny-nguyen.github.io/web-services)
