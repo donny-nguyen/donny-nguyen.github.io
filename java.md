@@ -4,6 +4,7 @@
 
 ## Stage 1: Programming Fundamentals
 
+* [Setting Up JDK, PATH, and VS Code](https://donny-nguyen.github.io/2026/08/26/setting-up-jdk-path-and-vscode.html)
 * [JDK, JRE, and JVM](https://donny-nguyen.github.io/2024/09/10/jdk-jre-and-jvm.html)
 
 ## Stage 2: Object-Oriented Programming
