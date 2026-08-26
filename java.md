@@ -8,6 +8,7 @@
 * [JDK, JRE, and JVM](https://donny-nguyen.github.io/2024/09/10/jdk-jre-and-jvm.html)
 * [Java Syntax Basics](https://donny-nguyen.github.io/2026/08/26/java-syntax-basics.html)
 * [Java Control Flow](https://donny-nguyen.github.io/2026/08/26/java-control-flow.html)
+* [Java Methods](https://donny-nguyen.github.io/2026/08/26/java-methods.html)
 
 ## Stage 2: Object-Oriented Programming
 
