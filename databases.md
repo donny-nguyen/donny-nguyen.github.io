@@ -1,33 +1,27 @@
 # Databases
 
-### General
 * [Databases Learning Road Map](https://donny-nguyen.github.io/2026/08/28/databases-learning-road-map.html)
-* [Referential Integrity Constraints](https://donny-nguyen.github.io/2025/05/14/referential-integrity-constraints.html)
-* [Read Phenomena](https://donny-nguyen.github.io/2024/09/23/read-phenomena.html)
-* [Isolation Levels](https://donny-nguyen.github.io/2024/09/23/isolation-levels.html)
-* [Database Administrator (DBA)](https://donny-nguyen.github.io/2024/12/10/dba.html)
-* [Security of Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-dbms.html)
-* [Backup and Recovery Strategies](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategies.html)
-  * [Backup and Recovery Strategy for an Online Game Database System](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategy-for-online-game.html)
-* [Choosing the Right NoSQL Database](https://donny-nguyen.github.io/2024/12/28/choosing-right-nosql-database.html)
-* [How I applied Redis to The Project](https://donny-nguyen.github.io/2025/01/15/how-i-applied-redis.html)
-* [Using Enum Types in Databases](https://donny-nguyen.github.io/2025/12/19/using-enum-types-in-databases.html)
 
-### Hibernate
-* [Hibernate](https://donny-nguyen.github.io/2024/11/30/hibernate.html)
-* [Hibernate over JDBC](https://donny-nguyen.github.io/2024/11/30/hibernate-over-jdbc.html)
-* [HQL and SQL](https://donny-nguyen.github.io/2024/11/30/hql-and-sql.html)
-
-### SQL
+## SQL Fundamentals
 * [Common SQL Commands Cheat Sheet](https://donny-nguyen.github.io/2025/10/29/common-sql-commands-cheat-sheet.html)
 * [SQL Operators](https://donny-nguyen.github.io/2025/02/23/sql-operators.html)
-* [Aggregate functions in SQL](https://donny-nguyen.github.io/2025/01/01/aggregate-functions-in-sql.html)
 * [Types of Joins in SQL](https://donny-nguyen.github.io/2024/12/13/sql-joins.html)
+* [Aggregate functions in SQL](https://donny-nguyen.github.io/2025/01/01/aggregate-functions-in-sql.html)
 * [Filtering a Table by the Result of Another Query in MySQL](https://donny-nguyen.github.io/2026/08/03/filter-by-subquery-result-in-mysql.html)
 * [Detecting Duplicates](https://donny-nguyen.github.io/2025/01/01/detecting-duplicates.html)
-* [Improving SQL Query Performance](https://donny-nguyen.github.io/2025/01/20/improving-sql-query-performance.html)
+
+## Relational Database Design
 * [Normalization](https://donny-nguyen.github.io/2025/01/01/normalization.html)
+* [Referential Integrity Constraints](https://donny-nguyen.github.io/2025/05/14/referential-integrity-constraints.html)
+* [Using Enum Types in Databases](https://donny-nguyen.github.io/2025/12/19/using-enum-types-in-databases.html)
+
+## Intermediate Topics (Transactions & Optimization)
+* [Read Phenomena](https://donny-nguyen.github.io/2024/09/23/read-phenomena.html)
+* [Isolation Levels](https://donny-nguyen.github.io/2024/09/23/isolation-levels.html)
 * [SQL Execution Plans](https://donny-nguyen.github.io/2025/01/01/sql-executions-plans.html)
+* [Improving SQL Query Performance](https://donny-nguyen.github.io/2025/01/20/improving-sql-query-performance.html)
+
+## Working with Relational Databases
 
 ### MySQL
 * [Install MySQL](https://donny-nguyen.github.io/2025/10/31/install-mysql-on-ubuntu.html)
@@ -79,21 +73,40 @@
 ### SQL Server
 * [Security of SQL Server Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-sql-server-dbms.html)
 
+## Object-Relational Mapping (ORM)
+
+### Hibernate
+* [Hibernate](https://donny-nguyen.github.io/2024/11/30/hibernate.html)
+* [Hibernate over JDBC](https://donny-nguyen.github.io/2024/11/30/hibernate-over-jdbc.html)
+* [HQL and SQL](https://donny-nguyen.github.io/2024/11/30/hql-and-sql.html)
+
+## NoSQL Databases
+* [Choosing the Right NoSQL Database](https://donny-nguyen.github.io/2024/12/28/choosing-right-nosql-database.html)
+
 ### MongoDB
 * [MongoDB](https://donny-nguyen.github.io/2024/11/26/mongodb.html)
 * [Documents and Collections](https://donny-nguyen.github.io/2024/11/26/documents-and-collections.html)
 * [Differences between MongoDB and SQL Databases](https://donny-nguyen.github.io/2024/11/26/mongodb-and-sql.html)
 * [Querying](https://donny-nguyen.github.io/2024/11/26/querying.html)
 
-### GraphQL
-* [Working with GraphQL](https://donny-nguyen.github.io/2025/03/06/working-with-graphql.html)
-* [Writing a GraphQL query](https://donny-nguyen.github.io/2025/03/06/writing-graphql-query.html)
-
 ### Redis
 * [What is Redis?](https://donny-nguyen.github.io/2025/01/23/redis.html)
 * [Installing Redis](https://donny-nguyen.github.io/2025/01/23/installing-redis.html)
 * [Basic Redis Commands](https://donny-nguyen.github.io/2025/01/23/basic-redis-commands.html)
 * [Setup Redis for AdonisJS Applications](https://donny-nguyen.github.io/2025/09/03/setup-redis-for-adonisjs-applications.html)
+* [How I applied Redis to The Project](https://donny-nguyen.github.io/2025/01/15/how-i-applied-redis.html)
 
 ### Pinecone
 * [Overview](https://donny-nguyen.github.io/2025/09/05/pinecone-overview.html)
+
+## Query Languages & APIs
+
+### GraphQL
+* [Working with GraphQL](https://donny-nguyen.github.io/2025/03/06/working-with-graphql.html)
+* [Writing a GraphQL query](https://donny-nguyen.github.io/2025/03/06/writing-graphql-query.html)
+
+## Administration and Operations
+* [Database Administrator (DBA)](https://donny-nguyen.github.io/2024/12/10/dba.html)
+* [Security of Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-dbms.html)
+* [Backup and Recovery Strategies](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategies.html)
+  * [Backup and Recovery Strategy for an Online Game Database System](https://donny-nguyen.github.io/2024/12/11/backup-recovery-strategy-for-online-game.html)
