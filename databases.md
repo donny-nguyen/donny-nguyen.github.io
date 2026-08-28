@@ -2,6 +2,9 @@
 
 * [Databases Learning Road Map](https://donny-nguyen.github.io/2026/08/28/databases-learning-road-map.html)
 
+## Foundations
+* [Relational and Non-Relational Databases](https://donny-nguyen.github.io/2026/08/28/relational-and-non-relational-databases.html)
+
 ## SQL Fundamentals
 * [Common SQL Commands Cheat Sheet](https://donny-nguyen.github.io/2025/10/29/common-sql-commands-cheat-sheet.html)
 * [SQL Operators](https://donny-nguyen.github.io/2025/02/23/sql-operators.html)
