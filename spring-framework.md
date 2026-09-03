@@ -31,6 +31,7 @@
 ### Phase 2 — Building Real APIs
 * [REST APIs in Spring Framework](https://donny-nguyen.github.io/2026/08/16/rest-apis-in-spring-framework.html)
 * [Creating a RESTful API using Spring Boot](https://donny-nguyen.github.io/2024/11/25/creating-restful-api-using-spring-boot.html)
+* [Global Exception Handling](https://donny-nguyen.github.io/2026/09/03/global-exception-handling.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
 
 ### Phase 3 — Advanced & Cloud-Ready
