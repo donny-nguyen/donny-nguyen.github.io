@@ -33,6 +33,7 @@
 * [Creating a RESTful API using Spring Boot](https://donny-nguyen.github.io/2024/11/25/creating-restful-api-using-spring-boot.html)
 * [Global Exception Handling](https://donny-nguyen.github.io/2026/09/03/global-exception-handling.html)
 * [Custom Error Responses](https://donny-nguyen.github.io/2026/09/05/custom-error-responses.html)
+* [API Versioning Strategies](https://donny-nguyen.github.io/2026/09/05/api-versioning-strategies-in-spring-boot.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
 
 ### Phase 3 — Advanced & Cloud-Ready
