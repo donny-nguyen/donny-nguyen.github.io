@@ -10,6 +10,7 @@
 * [Java Control Flow](https://donny-nguyen.github.io/2026/08/26/java-control-flow.html)
 * [Java Methods](https://donny-nguyen.github.io/2026/08/26/java-methods.html)
 * [Arrays and Strings](https://donny-nguyen.github.io/2026/08/26/arrays-and-strings.html)
+* [Input/Output in Java](https://donny-nguyen.github.io/2026/08/26/input-output-in-java.html)
 
 ## Stage 2: Object-Oriented Programming
 
