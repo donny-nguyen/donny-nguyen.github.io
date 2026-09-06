@@ -27,6 +27,7 @@
   * [Key Components of GraphQL](https://donny-nguyen.github.io/2024/12/16/graphql-components.html)
   * [Writing a GraphQL Query](https://donny-nguyen.github.io/2025/03/06/writing-graphql-query.html)
 * **Schema Design**
+  * [Schema and Types](https://donny-nguyen.github.io/2026/09/06/graphql-schema-and-types.html)
   * [Designing GraphQL Schema in Java](https://donny-nguyen.github.io/2024/12/28/designing-graphql-schema-in-java.html)
 * **Building a GraphQL Server**
   * [Working with GraphQL](https://donny-nguyen.github.io/2025/03/06/working-with-graphql.html)
