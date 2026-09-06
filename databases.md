@@ -102,12 +102,6 @@
 ### Pinecone
 * [Overview](https://donny-nguyen.github.io/2025/09/05/pinecone-overview.html)
 
-## Query Languages & APIs
-
-### GraphQL
-* [Working with GraphQL](https://donny-nguyen.github.io/2025/03/06/working-with-graphql.html)
-* [Writing a GraphQL query](https://donny-nguyen.github.io/2025/03/06/writing-graphql-query.html)
-
 ## Administration and Operations
 * [Database Administrator (DBA)](https://donny-nguyen.github.io/2024/12/10/dba.html)
 * [Security of Database Systems](https://donny-nguyen.github.io/2024/12/10/security-of-dbms.html)

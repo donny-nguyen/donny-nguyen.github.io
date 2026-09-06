@@ -21,7 +21,14 @@
 * [Maintaining Versions](https://donny-nguyen.github.io/2024/09/25/maintaining-versions-of-restful-apis.html)
 
 ### GraphQL
-* [What is GraphQL?](https://donny-nguyen.github.io/2024/12/16/graphql.html)
-* [Key Components of GraphQL](https://donny-nguyen.github.io/2024/12/16/graphql-components.html)
-* [Designing GraphQL Schema in Java](https://donny-nguyen.github.io/2024/12/28/designing-graphql-schema-in-java.html)
-* [Handling Data Fetching and Optimizing in GraphQL](https://donny-nguyen.github.io/2024/12/28/data-fetching-and-optimizing-in-graphql.html)
+* [GraphQL Learning Roadmap](https://donny-nguyen.github.io/2026/09/06/graphql-learning-roadmap.html)
+* **Fundamentals**
+  * [What is GraphQL?](https://donny-nguyen.github.io/2024/12/16/graphql.html)
+  * [Key Components of GraphQL](https://donny-nguyen.github.io/2024/12/16/graphql-components.html)
+  * [Writing a GraphQL Query](https://donny-nguyen.github.io/2025/03/06/writing-graphql-query.html)
+* **Schema Design**
+  * [Designing GraphQL Schema in Java](https://donny-nguyen.github.io/2024/12/28/designing-graphql-schema-in-java.html)
+* **Building a GraphQL Server**
+  * [Working with GraphQL](https://donny-nguyen.github.io/2025/03/06/working-with-graphql.html)
+* **Data Fetching and Performance**
+  * [Handling Data Fetching and Optimizing in GraphQL](https://donny-nguyen.github.io/2024/12/28/data-fetching-and-optimizing-in-graphql.html)
