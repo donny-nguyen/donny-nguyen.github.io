@@ -34,6 +34,7 @@
 * [Global Exception Handling](https://donny-nguyen.github.io/2026/09/03/global-exception-handling.html)
 * [Custom Error Responses](https://donny-nguyen.github.io/2026/09/05/custom-error-responses.html)
 * [API Versioning Strategies](https://donny-nguyen.github.io/2026/09/05/api-versioning-strategies-in-spring-boot.html)
+* [Pagination, Filtering & Sorting](https://donny-nguyen.github.io/2026/09/06/pagination-filtering-and-sorting.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
 
 ### Phase 3 — Advanced & Cloud-Ready
