@@ -15,7 +15,7 @@
 ## Stage 2: Object-Oriented Programming
 
 * [Classes and Objects](https://donny-nguyen.github.io/2026/08/26/classes-and-objects.html)
-* [4 Concepts of OOP](https://donny-nguyen.github.io/2024/09/09/4-concepts-of-oop.html)
+* [The 4 Pillars of OOP](https://donny-nguyen.github.io/2024/09/09/4-pillars-of-oop.html)
   * [Use Cases of Composition and Inheritance](https://donny-nguyen.github.io/2024/12/30/use-cases-of-composition-and-inheritance.html)
 * [Abstract Class and Interface](https://donny-nguyen.github.io/2024/09/09/abstract-class-and-interface.html)
 * [Overriding and Overloading](https://donny-nguyen.github.io/2024/11/27/overriding-and-overloading.html)
