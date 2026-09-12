@@ -35,6 +35,8 @@
 * [Custom Error Responses](https://donny-nguyen.github.io/2026/09/05/custom-error-responses.html)
 * [API Versioning Strategies](https://donny-nguyen.github.io/2026/09/05/api-versioning-strategies-in-spring-boot.html)
 * [Pagination, Filtering & Sorting](https://donny-nguyen.github.io/2026/09/06/pagination-filtering-and-sorting.html)
+* [Authentication & Authorization](https://donny-nguyen.github.io/2026/09/10/authentication-and-authorization.html)
+* [JWT & Intro to OAuth2 / OpenID Connect](https://donny-nguyen.github.io/2026/09/10/jwt-oauth2-openid-connect.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
 
 ### Phase 3 — Advanced & Cloud-Ready
