@@ -9,6 +9,7 @@
 
 * [Core Machine Learning Concepts](https://donny-nguyen.github.io/2026/07/13/core-ml-concepts.html)
 * [Supervised Learning](https://donny-nguyen.github.io/2026/09/11/supervised-learning.html)
+* [Unsupervised Learning](https://donny-nguyen.github.io/2026/09/11/unsupervised-learning.html)
 
 ## Large Language Models
 
