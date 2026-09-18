@@ -38,6 +38,7 @@
 * [Authentication & Authorization](https://donny-nguyen.github.io/2026/09/10/authentication-and-authorization.html)
 * [JWT & Intro to OAuth2 / OpenID Connect](https://donny-nguyen.github.io/2026/09/10/jwt-oauth2-openid-connect.html)
 * [Spring Security](https://donny-nguyen.github.io/2024/09/21/spring-security.html)
+* [Caching](https://donny-nguyen.github.io/2026/09/17/caching-in-spring-boot.html)
 
 ### Phase 3 — Advanced & Cloud-Ready
 * [Spring Boot Dynamic DataSource Routing with AWS RDS](https://donny-nguyen.github.io/2026/02/02/spring-boot-dynamic-datasource-routing.html)
