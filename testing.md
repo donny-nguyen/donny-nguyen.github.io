@@ -3,6 +3,7 @@
 * [Testing Learning Roadmap](https://donny-nguyen.github.io/2026/09/24/testing-learning-roadmap.html)
 
 ## Stage 1: Foundations
+* [Types of Testing](https://donny-nguyen.github.io/2026/09/25/types-of-testing.html)
 * [The Testing Pyramid](https://donny-nguyen.github.io/2026/08/19/testing-pyramid.html)
 
 ## Stage 2: Unit Testing
