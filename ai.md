@@ -14,6 +14,7 @@
 ## Large Language Models
 
 * [Claude Model Lineup in Copilot](https://donny-nguyen.github.io/2026/07/07/claude-model-lineup-in-github-copilot.html)
+* [Understanding GitHub Copilot Metrics in Visual Studio Code](https://donny-nguyen.github.io/2026/10/01/github-copilot-metrics.html)
 
 ## AI Agents
 
