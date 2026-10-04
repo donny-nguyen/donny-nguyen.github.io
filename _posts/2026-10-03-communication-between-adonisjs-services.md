@@ -31,6 +31,59 @@ For high-performance, strongly-typed internal communication, gRPC is a better ch
 
 **Use when:** You need high throughput, low latency, and well-defined contracts between internal services.
 
+### Discovering a Called Service That Has Multiple Instances
+
+In production, the called service rarely runs as a single process. For scalability and high availability, it typically runs as several identical instances grouped behind a **target group** (for example, an AWS ALB/NLB target group, a Kubernetes Service, or a set of containers in ECS). The calling service should never hardcode the IP and port of an individual instance, because instances are created, replaced, and removed dynamically as the system scales or recovers from failures. Instead, the client addresses the group through a stable endpoint, and something in between picks a healthy instance for each request.
+
+There are a few common ways to achieve this:
+
+#### 1. Load Balancer in Front of the Target Group
+
+The simplest and most common approach is to place a load balancer in front of all instances. The client sends every request to one stable DNS name, and the load balancer forwards it to a healthy instance using a strategy such as round robin or least connections.
+
+```ts
+// The client only knows the load balancer's stable address,
+// not the individual instance IPs behind the target group.
+import axios from 'axios'
+
+const USER_SERVICE_URL = 'http://user-service.internal:3333' // ALB / NLB / Service DNS
+
+const response = await axios.get(`${USER_SERVICE_URL}/users/1`)
+const user = response.data
+```
+
+- **AWS:** An Application or Network Load Balancer routes to a target group and uses health checks to remove unhealthy instances automatically.
+- **Kubernetes:** A `Service` (ClusterIP) gives you a stable virtual IP and DNS name (`user-service.namespace.svc.cluster.local`) that load-balances across the matching pods.
+- **Docker / Nginx:** Nginx (or another reverse proxy) can act as a load balancer across an upstream pool of instances.
+
+With this approach, the client does no discovery itself — the infrastructure hides the individual instances behind one endpoint.
+
+#### 2. DNS-Based Service Discovery
+
+Instead of (or combined with) a load balancer, the platform can expose each service under a DNS name whose records resolve to the current set of healthy instances. Examples include AWS Cloud Map, Kubernetes headless Services, and Consul DNS. The client resolves the service name at request time, so instances can come and go without any code change.
+
+Keep in mind DNS caching: respecting TTLs (and sometimes disabling aggressive client-side DNS caching) ensures the client notices when instances change.
+
+#### 3. Service Registry (Client-Side Discovery)
+
+With a service registry such as Consul, etcd, or Eureka, each instance registers itself (and its health status) when it starts and deregisters when it stops. The client queries the registry to get the list of currently healthy instances and then chooses one — effectively doing the load balancing on the client side.
+
+```ts
+// Conceptual client-side discovery: ask the registry, then pick an instance.
+const instances = await registry.getHealthyInstances('user-service')
+const target = instances[Math.floor(Math.random() * instances.length)]
+
+const response = await axios.get(`http://${target.host}:${target.port}/users/1`)
+```
+
+This gives the client the most control (custom routing, weighting, failover) at the cost of more complexity in the calling service.
+
+#### 4. Service Mesh (Sidecar Proxy)
+
+A service mesh such as Istio or Linkerd pushes discovery and load balancing into a sidecar proxy that runs next to each service. The Adonis.js app simply calls a logical service name, and the sidecar transparently handles discovery, load balancing, retries, timeouts, and mutual TLS — keeping this logic out of your application code entirely.
+
+**Recommendation:** For most Adonis.js deployments, prefer the load balancer or platform DNS approach (options 1 and 2). They keep the calling service simple — it just calls a stable endpoint — while health checks ensure traffic only reaches healthy instances. Reach for a registry or service mesh when you need finer-grained routing, weighting, or cross-cutting concerns like mutual TLS and advanced observability.
+
 ## 2. Asynchronous Communication (Messaging)
 
 Asynchronous communication decouples services: the sender does not wait for the receiver to process the message. Services do not need to be online at the same time, which improves resilience and scalability.
