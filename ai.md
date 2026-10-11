@@ -23,6 +23,6 @@
 * [Copilot Instruction File Example for Adonis.js Backend](https://donny-nguyen.github.io/2026/05/05/copilot-instructions-adonisjs.html)
 * [How to Trigger GitHub Copilot AI Agent Regularly](https://donny-nguyen.github.io/2026/07/15/trigger-github-copilot-agent-regularly.html)
 
-## MLOps and Production
+## Certification
 
-* [How to Prepare for the AWS Certified Machine Learning Engineer – Associate Exam](https://donny-nguyen.github.io/2026/07/11/aws-certified-machine-learning-engineer-associate.html)
+* [The Learning Roadmap for the AWS Certified Machine Learning Engineer – Associate Exam](https://donny-nguyen.github.io/2026/07/11/learning-roadmap-for-aws-certified-machine-learning-engineer-associate.html)
