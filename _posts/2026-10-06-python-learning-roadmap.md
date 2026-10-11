@@ -33,7 +33,20 @@ Learn Python's built-in collections and when to use each.
 - **Comprehensions**: List, dictionary, and set comprehensions for concise code.
 - **Strings**: Slicing, formatting (f-strings), and common methods.
 
-### 4. Intermediate Concepts
+### 4. Data Handling and Basic SQL
+
+Learn to inspect, transform, and store structured data with Python and SQL.
+
+- **Data Handling**: Read and write common formats such as CSV and JSON, and use Python collections to filter and transform records.
+- **SQL Queries**: Use `SELECT`, `FROM`, `WHERE`, and `ORDER BY` to retrieve and filter rows.
+- **Aggregations**: Summarize data with functions such as `COUNT`, `SUM`, and `AVG`, using `GROUP BY` and `HAVING`.
+- **Joins**: Combine related tables with `INNER JOIN` and `LEFT JOIN`.
+- **Relational Basics**: Understand tables, primary keys, foreign keys, and `NULL` values.
+- **SQL with Python**: Use SQLite and Python's `sqlite3` module to create a table, run parameterized queries, and read results into Python.
+
+Practice by loading a small CSV into SQLite, querying it with filters and aggregates, and using the results in a short Python report. Use parameterized queries for values supplied by users or other input.
+
+### 5. Intermediate Concepts
 
 Deepen your understanding of how Python works.
 
@@ -45,7 +58,7 @@ Deepen your understanding of how Python works.
 - **Decorators and Closures**: Enhancing functions and understanding scope.
 - **Virtual Environments**: Managing dependencies per project.
 
-### 5. Advanced Topics
+### 6. Advanced Topics
 
 Explore features that make you a stronger Python developer.
 
@@ -56,7 +69,7 @@ Explore features that make you a stronger Python developer.
 - **Metaclasses and Descriptors**: Advanced class customization.
 - **Testing**: `unittest`, `pytest`, and test-driven development.
 
-### 6. Tools and Best Practices
+### 7. Tools and Best Practices
 
 Write professional, maintainable code.
 
@@ -66,17 +79,17 @@ Write professional, maintainable code.
 - **Debugging**: Use `pdb` and IDE debuggers.
 - **Documentation**: Write clear docstrings and comments.
 
-### 7. Choose a Specialization
+### 8. Choose a Specialization
 
 Apply Python to a domain that interests you.
 
 - **Web Development**: Django, Flask, or FastAPI.
-- **Data Science and Analysis**: NumPy, pandas, Matplotlib.
+- **Data Science and Analysis**: NumPy, pandas, Matplotlib, and SQL for querying structured data.
 - **Machine Learning**: scikit-learn, TensorFlow, PyTorch.
 - **Automation and Scripting**: Automating repetitive tasks and workflows.
 - **DevOps**: Infrastructure automation and tooling.
 
-### 8. Build Projects
+### 9. Build Projects
 
 The best way to learn is by building. Start small and increase complexity:
 
@@ -84,6 +97,7 @@ The best way to learn is by building. Start small and increase complexity:
 - A web scraper using `requests` and `BeautifulSoup`.
 - A REST API with Flask or FastAPI.
 - A data analysis dashboard.
+- A Python report that queries a SQLite database and summarizes its data.
 - A machine learning model for a real dataset.
 
 ### Conclusion
