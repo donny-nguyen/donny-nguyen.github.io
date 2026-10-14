@@ -14,6 +14,7 @@
 
 * [Artificial Intelligence](https://donny-nguyen.github.io/ai)
 * [Spring Framework](https://donny-nguyen.github.io/spring-framework)
+* [FastAPI](https://donny-nguyen.github.io/fastapi)
 * [Node.js](https://donny-nguyen.github.io/nodejs)
 * [React.js](https://donny-nguyen.github.io/reactjs)
 * [Testing](https://donny-nguyen.github.io/testing)
