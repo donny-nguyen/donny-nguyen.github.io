@@ -22,3 +22,8 @@ After creating an article:
 - Add the article to the relevant topic index page.
 - Check that the index page contains the derived post link.
 - If `rg` is unavailable in the terminal, use `grep` for these checks.
+
+## Review Before Commit and Push
+
+- Whenever a change is made to this repository, show the change to the user for review first.
+- Do not run `git commit` or `git push` until the user has reviewed and approved the change.
