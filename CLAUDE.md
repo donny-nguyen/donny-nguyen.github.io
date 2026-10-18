@@ -1,5 +1,19 @@
 # Claude Instructions
 
+## Git Identity
+
+Before starting any work in this repository, set the local Git user name and email to the following values:
+
+- User name: `Donny Nguyen`
+- Email: `donny.nguyen.swe@outlook.com`
+
+Run these commands inside the repository (without `--global`):
+
+```bash
+git config user.name "Donny Nguyen"
+git config user.email "donny.nguyen.swe@outlook.com"
+```
+
 ## Jekyll Article Workflow
 
 When creating a new article for this site, follow the existing post style:
