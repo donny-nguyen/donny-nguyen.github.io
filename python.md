@@ -5,6 +5,8 @@
 ### Getting Started
 * [Install Python](https://donny-nguyen.github.io/2026/10/06/install-python.html)
     * [Pyenv](https://donny-nguyen.github.io/2025/09/24/Pyenv.html)
+* [Understand the Interpreter](https://donny-nguyen.github.io/2026/10/18/understand-the-interpreter.html)
+* [Package Management](https://donny-nguyen.github.io/2026/10/18/package-management.html)
 
 ### Archived
 * [Install Python by Homebrew](https://donny-nguyen.github.io/2025/03/15/install-python-by-homebrew.html)
