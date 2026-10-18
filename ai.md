@@ -26,3 +26,7 @@
 ## Certification
 
 * [The Learning Roadmap for the AWS Certified Machine Learning Engineer – Associate Exam](https://donny-nguyen.github.io/2026/07/11/learning-roadmap-for-aws-certified-machine-learning-engineer-associate.html)
+
+## Claude
+
+* [Claude Models and Effort Levels Explained](https://donny-nguyen.github.io/2026/10/18/claude-models-and-effort-levels.html)
