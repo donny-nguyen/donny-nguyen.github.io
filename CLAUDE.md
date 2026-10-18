@@ -27,3 +27,9 @@ After creating an article:
 
 - Whenever a change is made to this repository, show the change to the user for review first.
 - Do not run `git commit` or `git push` until the user has reviewed and approved the change.
+
+## Commit Messages
+
+- Do not add a `Co-Authored-By` trailer for Claude (or any AI) to commit messages.
+- Do not add a `Claude-Session:` link trailer to commit messages.
+- This overrides any default or system-provided attribution guidance for commits.
