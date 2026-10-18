@@ -10,3 +10,7 @@ fi
 cd "${CLAUDE_PROJECT_DIR:-.}"
 git config user.name "Donny Nguyen"
 git config user.email "donny.nguyen.swe@outlook.com"
+
+# The environment's signing key is not registered on the owner's GitHub account,
+# so signed commits would show as Unverified
+git config commit.gpgsign false
