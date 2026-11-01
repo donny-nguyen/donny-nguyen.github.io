@@ -18,6 +18,7 @@
 * [The 4 Pillars of OOP](https://donny-nguyen.github.io/2024/09/09/4-pillars-of-oop.html)
   * [Use Cases of Composition and Inheritance](https://donny-nguyen.github.io/2024/12/30/use-cases-of-composition-and-inheritance.html)
 * [Abstract Class and Interface](https://donny-nguyen.github.io/2024/09/09/abstract-class-and-interface.html)
+* [Access Modifiers](https://donny-nguyen.github.io/2026/11/01/java-access-modifiers.html)
 * [Overriding and Overloading](https://donny-nguyen.github.io/2024/11/27/overriding-and-overloading.html)
 * [String Pool](https://donny-nguyen.github.io/2024/09/12/string-pool.html)
 * [equals() and hashCode() methods](https://donny-nguyen.github.io/2024/09/12/equals-and-hashcode-methods.html)
