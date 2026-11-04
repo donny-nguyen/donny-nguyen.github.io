@@ -4,6 +4,7 @@
 
 * [Event Driven Architecture](https://donny-nguyen.github.io/2024/09/27/event-driven-architecture.html)
 * [Event Driven Architecture: What a Software Engineer Should Know for a Technical Interview](https://donny-nguyen.github.io/2026/07/09/event-driven-architecture-interview.html)
+* [Events vs. Commands vs. Messages](https://donny-nguyen.github.io/2026/11/04/events-vs-commands-vs-messages.html)
 * [Communication Between Microservices](https://donny-nguyen.github.io/2024/09/26/communication-between-microservices.html)
 
 ## Patterns
