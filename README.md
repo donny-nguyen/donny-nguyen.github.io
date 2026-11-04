@@ -21,6 +21,7 @@
 * [Databases](https://donny-nguyen.github.io/databases)
 * [Web Services](https://donny-nguyen.github.io/web-services)
 * [System Design](https://donny-nguyen.github.io/system-design)
+* [Event-Driven Architecture](https://donny-nguyen.github.io/event-driven-architecture)
 * [AWS](https://donny-nguyen.github.io/aws)
 * [Cloud](https://donny-nguyen.github.io/cloud)
 * [Docker](https://donny-nguyen.github.io/docker)
