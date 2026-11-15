@@ -52,7 +52,16 @@ The defenses fall into four groups:
 
 The first line of defense is simply having enough spare capacity to absorb a realistic loss.
 
-- **N+k planning**: If the workload needs N servers at peak, provision N+k so that losing k servers (or an entire availability zone) still leaves enough capacity. Many teams plan for the loss of one full zone per region, so a three-zone region runs at no more than about 66% of total capacity at peak.
+- **N+k planning**: If the workload needs N servers at peak, provision N+k so that losing k servers (or an entire availability zone) still leaves enough capacity. Many teams plan for the loss of one full zone per region, so a three-zone region runs at no more than about 66% of total capacity at peak. To calculate this limit for any number of zones:
+
+  ```text
+  Maximum peak utilization per server = S × (Z − k) / Z
+  ```
+
+  - **Z**: the number of availability zones in the region.
+  - **k**: the number of zones the region must survive losing at the same time.
+  - **S**: the safe utilization limit of a single server (100%, or the lower point where latency starts to climb sharply).
+
 - **Plan for correlated failure**: Servers do not fail independently. A bad config push, a shared dependency, a firmware bug, or a power event can take out many at once. Size headroom for the largest failure domain you expect, not for a single machine.
 - **Know your real limit**: Load test each service to find the utilization point where latency starts to climb sharply, and treat that point (not 100%) as the effective capacity.
 
