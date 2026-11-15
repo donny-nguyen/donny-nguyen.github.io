@@ -19,6 +19,7 @@
   * [When Should Not Use Circuit Breaker Pattern](https://donny-nguyen.github.io/2025/01/17/when-not-use-circuit-breaker.html)
 * [Bulkhead Pattern](https://donny-nguyen.github.io/2024/09/29/bulkhead-pattern.html)
 * [Retry Pattern](https://donny-nguyen.github.io/2024/09/29/retry-pattern.html)
+* [Cascading Overload After Partial Capacity Loss](https://donny-nguyen.github.io/2026/11/14/cascading-overload-after-capacity-loss.html)
 
 ### Deployment & Release
 * [Blue-Green Deployment](https://donny-nguyen.github.io/2026/08/11/blue-green-deployment.html)
