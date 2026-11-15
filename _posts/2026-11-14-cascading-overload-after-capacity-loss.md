@@ -17,6 +17,10 @@ Imagine you run a large email and collaboration platform:
 
 One afternoon, for a reason that is not yet understood, **20% of the mailbox servers in one region become unavailable** at the same time. Traffic is not higher than usual. Design the system so that this event degrades service for a limited set of users instead of taking down the platform across multiple regions.
 
+The diagram below shows the target architecture that the rest of this article builds toward. Each layer carries its own defenses, and the failure in Region A stays inside a single cell.
+
+![Resilient architecture for an email and collaboration platform]({{ site.baseurl }}/images/cascading-overload-architecture.svg)
+
 ## How a Partial Failure Becomes a Total Outage
 
 Before looking at solutions, it is worth tracing exactly how the cascade unfolds, because every solution targets one link in this chain.
@@ -30,6 +34,8 @@ Before looking at solutions, it is worth tracing exactly how the cascade unfolds
 7. **Recovery is slow.** Even after the original servers are fixed, the system cannot recover on its own. Every server that comes back is immediately flooded by the backlog of queued work and retries, and falls over again. Operators have to manually throttle traffic to let the fleet come back.
 
 The key insight is that **the system's own reactions (retries, health-check removal, failover) amplify the failure**. A good design makes sure the system's response to overload reduces load instead of adding to it.
+
+![How a partial failure cascades and where each defense breaks the chain]({{ site.baseurl }}/images/cascading-overload-failure-chain.svg)
 
 ## Solution Overview
 
