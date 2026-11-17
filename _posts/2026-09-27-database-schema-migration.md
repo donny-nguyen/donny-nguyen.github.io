@@ -57,7 +57,21 @@ Flyway favors simplicity: you write migrations as ordinary SQL files following a
 </dependency>
 ```
 
-> For MySQL/MariaDB you also need `flyway-mysql`; for newer PostgreSQL versions the core module is enough.
+Since Flyway 10 (Spring Boot 3.2+), database support lives in separate modules, so also add the one for your database. Spring Boot manages the versions for you:
+
+```xml
+<!-- PostgreSQL -->
+<dependency>
+    <groupId>org.flywaydb</groupId>
+    <artifactId>flyway-database-postgresql</artifactId>
+</dependency>
+
+<!-- MySQL / MariaDB -->
+<dependency>
+    <groupId>org.flywaydb</groupId>
+    <artifactId>flyway-mysql</artifactId>
+</dependency>
+```
 
 #### Script Location and Naming
 
@@ -66,6 +80,8 @@ By default Spring Boot looks in `src/main/resources/db/migration`. Files follow 
 ```
 V<VERSION>__<description>.sql
 ```
+
+Note the **double underscore** between the version and the description. With a single underscore, Flyway silently ignores the file.
 
 For example:
 
@@ -98,8 +114,16 @@ ALTER TABLE users
 ```properties
 spring.flyway.enabled=true
 spring.flyway.locations=classpath:db/migration
-spring.flyway.baseline-on-migrate=true
 ```
+
+If you are introducing Flyway to a database that **already has tables** (for example, one created by `ddl-auto=update`), Flyway refuses to run until you baseline it:
+
+```properties
+spring.flyway.baseline-on-migrate=true
+spring.flyway.baseline-version=1
+```
+
+Flyway then records version `1` as already applied and only runs `V2` and later. Turn this off again once every environment has a history table, so it cannot hide a connection to the wrong database.
 
 When the application starts, Flyway creates a `flyway_schema_history` table, applies any pending scripts in version order, and records the result. Applied scripts are **immutable** — to change something, you add a new versioned script rather than editing an old one.
 
@@ -184,6 +208,25 @@ spring.liquibase.enabled=true
 spring.liquibase.change-log=classpath:db/changelog/db.changelog-master.yaml
 ```
 
+#### Rollback
+
+Liquibase can generate rollbacks automatically for structural changes such as `createTable` and `addColumn`. For changes it cannot reverse, such as raw SQL or data updates, you declare the rollback yourself:
+
+```yaml
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: donny
+      changes:
+        - sql:
+            sql: UPDATE users SET email = username || '@example.com' WHERE email IS NULL
+      rollback:
+        - sql:
+            sql: UPDATE users SET email = NULL WHERE email LIKE '%@example.com'
+```
+
+You can then roll back with the Liquibase Maven plugin, for example `mvn liquibase:rollback -Dliquibase.rollbackCount=1`.
+
 Each `changeSet` is identified by `id` + `author` + file path. Liquibase tracks applied change sets in the `DATABASECHANGELOG` table and uses `DATABASECHANGELOGLOCK` to prevent two instances from migrating at the same time. Like Flyway, applied change sets should be treated as **immutable**.
 
 ---
@@ -195,14 +238,54 @@ Each `changeSet` is identified by `id` + `author` + file path. Liquibase tracks 
 | Change format | Plain SQL (native) | XML / YAML / JSON / SQL |
 | Learning curve | Very low | Moderate |
 | Database independence | You write DB-specific SQL | Abstracted, DB-agnostic |
-| Rollback support | Paid (Teams) or manual undo scripts | Built-in `rollback` blocks |
+| Rollback support | Undo scripts in paid editions only; otherwise roll forward with a new migration | Built-in `rollback` blocks |
 | Best fit | Teams comfortable writing SQL | Multi-database or complex change tracking |
 
 **Rule of thumb:** choose **Flyway** if you like writing SQL directly and want minimal ceremony; choose **Liquibase** if you need database portability or richer rollback and change-tracking features.
 
 ---
 
-### 6. Best Practices
+### 6. Testing Migrations
+
+An in-memory H2 database accepts SQL that PostgreSQL or MySQL rejects, and the reverse. Test migrations against the **same engine you run in production**, which is easy with Testcontainers (Spring Boot 3.1+):
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-testcontainers</artifactId>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.testcontainers</groupId>
+    <artifactId>postgresql</artifactId>
+    <scope>test</scope>
+</dependency>
+```
+
+```java
+@SpringBootTest
+@Testcontainers
+class MigrationTest {
+
+    @Container
+    @ServiceConnection
+    static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:16-alpine");
+
+    @Autowired
+    Flyway flyway;
+
+    @Test
+    void allMigrationsAreApplied() {
+        assertThat(flyway.info().pending()).isEmpty();
+    }
+}
+```
+
+`@ServiceConnection` points the `DataSource` at the container. Because the app runs with `ddl-auto=validate`, the test context only starts if the migrated schema matches your entities.
+
+---
+
+### 7. Best Practices
 
 * **Never edit an applied migration.** Add a new one instead — changing a checksum breaks the history.
 * **Keep migrations small and focused.** One logical change per script is easier to review and roll back.
@@ -211,6 +294,8 @@ Each `changeSet` is identified by `id` + `author` + file path. Liquibase tracks 
 * **Separate schema changes from large data backfills** to avoid long-running, locking migrations.
 * **Test migrations on a copy of production data** before deploying.
 * **Make migrations backward-compatible** during rolling deployments (e.g., add a nullable column first, backfill, then add constraints in a later release).
+* **Give migrations their own database user** with DDL rights (`spring.flyway.user` / `spring.flyway.password`), so the application's runtime user can stay least-privileged.
+* **Running several instances is safe.** Both tools lock the database while migrating (Flyway uses a database lock, Liquibase uses `DATABASECHANGELOGLOCK`), so only one instance applies changes. For long migrations, consider running them as a separate deployment step instead of on application startup.
 
 ---
 
