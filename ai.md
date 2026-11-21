@@ -15,7 +15,11 @@
 
 * [AI Model Lineup in GitHub Copilot](https://donny-nguyen.github.io/2026/07/07/ai-model-lineup-in-github-copilot.html)
 * [Understanding GitHub Copilot Metrics in Visual Studio Code](https://donny-nguyen.github.io/2026/10/01/github-copilot-metrics.html)
+
+## Build Retrieval-Augmented Generation (RAG)
+
 * [Understanding Embeddings](https://donny-nguyen.github.io/2026/11/09/embeddings.html)
+* [Document Processing for RAG: Parsing and Chunking](https://donny-nguyen.github.io/2026/11/21/document-processing-for-rag.html)
 
 ## AI Agents
 
