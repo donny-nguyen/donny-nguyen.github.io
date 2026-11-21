@@ -69,6 +69,17 @@ The `@SpringBootApplication` annotation in Spring Boot is a convenience annotati
          }
      }
      ```
+   - **`@Bean` methods**: Inside a `@Configuration` class, `@Bean` marks a method whose return value becomes an object managed by the Spring container. It is especially useful when you need to configure a third-party class that you cannot annotate directly:
+     ```java
+     @Configuration
+     public class AppConfig {
+
+         @Bean
+         public RestTemplate restTemplate() {
+             return new RestTemplate();
+         }
+     }
+     ```
 
 ### **Using `@SpringBootApplication`**
 

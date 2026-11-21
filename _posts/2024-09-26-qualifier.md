@@ -2,6 +2,25 @@
 
 In the **Spring Framework**, `@Qualifier` is an annotation used in the context of **Dependency Injection (DI)** to resolve ambiguity when multiple beans of the same type are present in the Spring application context. When Spring encounters multiple beans of the same type and needs to autowire one of them, it doesn't know which one to choose by default. The `@Qualifier` annotation helps specify exactly which bean should be injected.
 
+### Background: `@Autowired`
+
+`@Qualifier` builds on `@Autowired`, which tells Spring to inject a matching bean. `@Autowired` can be applied to constructors, fields, or setter methods. **Constructor injection is the recommended approach** because it makes dependencies explicit and supports immutability.
+
+```java
+@Service
+public class OrderService {
+
+    private final OrderRepository repository;
+
+    @Autowired // optional on a single constructor since Spring 4.3
+    public OrderService(OrderRepository repository) {
+        this.repository = repository;
+    }
+}
+```
+
+Spring matches the bean by type. This works until more than one bean of that type exists, and that is where `@Qualifier` comes in.
+
 ### When to Use `@Qualifier`
 
 - **Multiple Bean Instances**: When we have more than one bean of the same type (e.g., multiple implementations of an interface), Spring needs guidance on which bean to inject.

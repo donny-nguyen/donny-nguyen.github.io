@@ -36,6 +36,52 @@ In the Spring framework, `@Controller` and `@RestController` are used to define 
   }
   ```
 
+### `@RestController` Is `@Controller` Plus `@ResponseBody`
+
+The two declarations below behave the same way. `@RestController` simply saves you from putting `@ResponseBody` on every handler method:
+
+```java
+@Controller
+@ResponseBody
+@RequestMapping("/api/orders")
+public class OrderController {
+    // REST endpoints
+}
+
+@RestController
+@RequestMapping("/api/orders")
+public class OrderController {
+    // REST endpoints
+}
+```
+
+### Where Controllers Fit in the Application
+
+A controller is the entry point of a request, and it works with the other core annotations:
+
+* `@RestController` receives the HTTP request.
+* It delegates to a `@Service` that holds the business logic.
+* The service calls a `@Repository` to read or write data.
+* `@Autowired` (via the constructor) wires these layers together, and `@SpringBootApplication` ties everything into a running application.
+
+```java
+@RestController
+@RequestMapping("/api/orders")
+public class OrderController {
+
+    private final OrderService orderService;
+
+    public OrderController(OrderService orderService) {
+        this.orderService = orderService;
+    }
+
+    @GetMapping("/{id}")
+    public Order getOrder(@PathVariable Long id) {
+        return orderService.findById(id);
+    }
+}
+```
+
 In summary, `@Controller` is used for traditional web applications that return views, while `@RestController` is used for RESTful web services that return data directly in formats like JSON or XML.
 
 <em>References:</em>

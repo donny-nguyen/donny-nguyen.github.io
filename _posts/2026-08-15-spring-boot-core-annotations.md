@@ -1,152 +1,41 @@
 # Core Annotations
 
-Annotations are at the heart of how Spring Boot configures and wires an application. Instead of writing verbose XML, you decorate classes and methods with annotations, and the Spring container does the rest. This article walks through the **core annotations** every Spring Boot developer should know — the ones you reach for on almost every project.
+Annotations are at the heart of how Spring Boot configures and wires an application. Instead of writing verbose XML, you decorate classes and methods with annotations, and the Spring container does the rest. This article is a quick map of the **core annotations** every Spring Boot developer should know. Each entry gives a one-line description, and the annotations that have their own article link to it for the details.
 
 ---
 
 ## Bootstrapping the Application
 
-### `@SpringBootApplication`
-
-The single annotation you place on your main class to bootstrap a Spring Boot application. It is a convenience annotation that bundles three others:
-
-* `@Configuration` — marks the class as a source of bean definitions.
-* `@EnableAutoConfiguration` — tells Spring Boot to auto-configure beans based on the classpath and defined properties.
-* `@ComponentScan` — scans the current package and its sub-packages for components.
-
-```java
-@SpringBootApplication
-public class Application {
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
-}
-```
-
-### `@Configuration` and `@Bean`
-
-Use `@Configuration` on a class to declare it as a source of bean definitions, and `@Bean` on methods that create and return objects managed by the Spring container.
-
-```java
-@Configuration
-public class AppConfig {
-
-    @Bean
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
-}
-```
-
-`@Bean` is especially useful when you need to configure a third-party class that you cannot annotate directly.
+* **`@SpringBootApplication`**: placed on the main class to start a Spring Boot application. It bundles `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan`. Details: [SpringBootApplication Annotation](https://donny-nguyen.github.io/2024/12/20/springbootapplication-annotation.html).
+* **`@Configuration`**: marks a class as a source of bean definitions. Details: [SpringBootApplication Annotation](https://donny-nguyen.github.io/2024/12/20/springbootapplication-annotation.html).
+* **`@Bean`**: marks a method in a `@Configuration` class whose return value becomes a Spring-managed bean, which is handy for third-party classes you cannot annotate. Details: [SpringBootApplication Annotation](https://donny-nguyen.github.io/2024/12/20/springbootapplication-annotation.html).
+* **`@Profile`**: registers a bean only when a given profile (such as `dev` or `prod`) is active. Details: [Profile Annotation](https://donny-nguyen.github.io/2024/12/31/profile-annotation.html).
 
 ---
 
 ## Declaring Components
 
-Spring builds your application from **components** — objects it discovers, instantiates, and manages. The following stereotype annotations mark a class as a Spring-managed component. They are functionally similar but express intent about which layer the class belongs to.
+These stereotype annotations mark a class as a Spring-managed component. They work the same way, but each one says which layer the class belongs to.
 
-### `@Component`
-
-The generic stereotype for any Spring-managed bean. If none of the more specific annotations fit, use `@Component`.
-
-```java
-@Component
-public class EmailValidator {
-    // ...
-}
-```
-
-### `@Service`
-
-A specialization of `@Component` for the **service layer**, where business logic lives.
-
-```java
-@Service
-public class OrderService {
-    // business logic
-}
-```
-
-### `@Repository`
-
-A specialization of `@Component` for the **persistence layer** (DAOs). In addition to marking the bean, it enables automatic translation of database exceptions into Spring's consistent `DataAccessException` hierarchy.
-
-```java
-@Repository
-public class OrderRepository {
-    // data access logic
-}
-```
-
-### `@Controller` and `@RestController`
-
-* `@Controller` marks a class as a web controller in the MVC pattern, typically returning view names.
-* `@RestController` combines `@Controller` and `@ResponseBody`, so every handler method returns data (usually JSON) directly in the response body — ideal for REST APIs.
-
-```java
-@RestController
-@RequestMapping("/api/orders")
-public class OrderController {
-    // REST endpoints
-}
-```
+* **`@Component`**: the generic stereotype for any Spring-managed bean.
+* **`@Service`**: a `@Component` for the service layer, where business logic lives.
+* **`@Repository`**: a `@Component` for the persistence layer, which also translates database exceptions into Spring's `DataAccessException` hierarchy.
+* **`@Controller`**: a web controller in Spring MVC that usually returns view names. Details: [Controller and RestController](https://donny-nguyen.github.io/2024/09/24/controller-and-restcontroller.html).
+* **`@RestController`**: `@Controller` plus `@ResponseBody`, so handler methods return data (usually JSON) for REST APIs. Details: [Controller and RestController](https://donny-nguyen.github.io/2024/09/24/controller-and-restcontroller.html).
 
 ---
 
 ## Injecting Dependencies
 
-Spring's Inversion of Control container injects the collaborators a bean needs rather than having the bean create them itself.
-
-### `@Autowired`
-
-Tells Spring to inject a matching bean. It can be applied to constructors, fields, or setter methods. **Constructor injection is the recommended approach** because it makes dependencies explicit and supports immutability.
-
-```java
-@Service
-public class OrderService {
-
-    private final OrderRepository repository;
-
-    @Autowired // optional on a single constructor since Spring 4.3
-    public OrderService(OrderRepository repository) {
-        this.repository = repository;
-    }
-}
-```
-
-### `@Qualifier`
-
-When more than one bean of the same type exists, `@Qualifier` disambiguates which one to inject.
-
-```java
-@Service
-public class NotificationService {
-
-    public NotificationService(@Qualifier("emailSender") MessageSender sender) {
-        // ...
-    }
-}
-```
-
-### `@Value`
-
-Injects values from property files, environment variables, or expressions.
-
-```java
-@Value("${app.timeout:30}")
-private int timeout;
-```
+* **`@Autowired`**: asks Spring to inject a matching bean into a constructor, field, or setter. Constructor injection is the recommended style. Details: [Qualifier](https://donny-nguyen.github.io/2024/09/26/qualifier.html).
+* **`@Qualifier`**: picks which bean to inject when several beans share the same type. Details: [Qualifier](https://donny-nguyen.github.io/2024/09/26/qualifier.html).
+* **`@Primary`**: marks the default bean to inject when several candidates exist. Details: [Qualifier](https://donny-nguyen.github.io/2024/09/26/qualifier.html).
+* **`@Value`**: injects a value from properties, environment variables, or an expression, for example `@Value("${app.timeout:30}")`.
 
 ---
 
 ## How the Core Annotations Fit Together
 
-A typical request flows through the layers you just annotated:
+A typical request flows through the layers these annotations describe: a `@RestController` receives the HTTP request, delegates to a `@Service`, which calls a `@Repository`. `@Autowired` wires the layers together, and `@SpringBootApplication` ties everything into a running application. The [Controller and RestController](https://donny-nguyen.github.io/2024/09/24/controller-and-restcontroller.html) article walks through this flow with code.
 
-* `@RestController` receives the HTTP request.
-* It delegates to a `@Service` that holds the business logic.
-* The service calls a `@Repository` to read or write data.
-* `@Autowired` (via the constructor) wires these layers together, and `@SpringBootApplication` ties everything into a running application.
-
-Mastering these core annotations gives you the vocabulary to build and understand almost any Spring Boot application. From here, you can explore more specialized annotations for web mapping, validation, transactions, and configuration.
+For a compact list that goes beyond the core set, see the [Spring Boot Annotations Cheat Sheet](https://donny-nguyen.github.io/2026/04/20/annotations-cheat-sheet.html).
