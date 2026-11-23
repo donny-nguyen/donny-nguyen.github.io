@@ -20,6 +20,7 @@
 
 * [Understanding Embeddings](https://donny-nguyen.github.io/2026/11/09/embeddings.html)
 * [Document Processing for RAG: Parsing and Chunking](https://donny-nguyen.github.io/2026/11/21/document-processing-for-rag.html)
+* [Vector Search: Similarity Metrics, ANN Indexes, and Metadata Filtering](https://donny-nguyen.github.io/2026/11/22/vector-search.html)
 
 ## AI Agents
 
