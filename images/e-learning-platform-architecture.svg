@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="640" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">E-learning Platform: High-Level Architecture</text>
+
+  <!-- Clients -->
+  <g font-size="13" text-anchor="middle" fill="#222">
+    <rect x="200" y="55" width="180" height="44" rx="8" fill="#e8f0fe" stroke="#4a76c9"/>
+    <text x="290" y="82">Learner apps (web/mobile/TV)</text>
+    <rect x="620" y="55" width="180" height="44" rx="8" fill="#e8f0fe" stroke="#4a76c9"/>
+    <text x="710" y="82">Instructor studio</text>
+  </g>
+
+  <!-- Edge layer -->
+  <g font-size="13" text-anchor="middle" fill="#222">
+    <rect x="40" y="140" width="220" height="56" rx="8" fill="#fef7e0" stroke="#e0a800"/>
+    <text x="150" y="164">CDN</text>
+    <text x="150" y="182" font-size="11" fill="#555">video segments · images · static</text>
+    <rect x="390" y="140" width="220" height="56" rx="8" fill="#fef7e0" stroke="#e0a800"/>
+    <text x="500" y="164">API Gateway / BFF</text>
+    <text x="500" y="182" font-size="11" fill="#555">auth · rate limits · routing</text>
+    <rect x="740" y="140" width="220" height="56" rx="8" fill="#fef7e0" stroke="#e0a800"/>
+    <text x="850" y="164">Object storage (uploads)</text>
+    <text x="850" y="182" font-size="11" fill="#555">pre-signed multipart URLs</text>
+  </g>
+  <g stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#ah)">
+    <path d="M260,99 L170,138"/>
+    <path d="M320,99 L460,138"/>
+    <path d="M690,99 L540,138"/>
+    <path d="M740,99 L830,138"/>
+  </g>
+  <text x="150" y="122" font-size="11" fill="#555">playback</text>
+  <text x="800" y="122" font-size="11" fill="#555">upload</text>
+
+  <!-- Services -->
+  <g font-size="12" text-anchor="middle" fill="#222">
+    <rect x="20"  y="250" width="125" height="52" rx="8" fill="#e6f4ea" stroke="#34a853"/>
+    <text x="82"  y="274">User &amp;</text><text x="82" y="290">Identity</text>
+    <rect x="160" y="250" width="125" height="52" rx="8" fill="#e6f4ea" stroke="#34a853"/>
+    <text x="222" y="274">Course</text><text x="222" y="290">Catalog</text>
+    <rect x="300" y="250" width="125" height="52" rx="8" fill="#e6f4ea" stroke="#34a853"/>
+    <text x="362" y="274">Search</text><text x="362" y="290">Service</text>
+    <rect x="440" y="250" width="125" height="52" rx="8" fill="#e6f4ea" stroke="#34a853"/>
+    <text x="502" y="274">Enrollment</text><text x="502" y="290">&amp; Payment</text>
+    <rect x="580" y="250" width="125" height="52" rx="8" fill="#e6f4ea" stroke="#34a853"/>
+    <text x="642" y="274">Playback &amp;</text><text x="642" y="290">Entitlement</text>
+    <rect x="720" y="250" width="125" height="52" rx="8" fill="#e6f4ea" stroke="#34a853"/>
+    <text x="782" y="274">Progress</text><text x="782" y="290">Tracking</text>
+    <rect x="860" y="250" width="125" height="52" rx="8" fill="#e6f4ea" stroke="#34a853"/>
+    <text x="922" y="274">Review &amp;</text><text x="922" y="290">Rating</text>
+  </g>
+  <line x1="500" y1="196" x2="500" y2="222" stroke="#555" stroke-width="1.5"/>
+  <line x1="82" y1="222" x2="922" y2="222" stroke="#555" stroke-width="1.5"/>
+  <g stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#ah)">
+    <path d="M82,222 L82,248"/><path d="M222,222 L222,248"/><path d="M362,222 L362,248"/>
+    <path d="M502,222 L502,248"/><path d="M642,222 L642,248"/><path d="M782,222 L782,248"/>
+    <path d="M922,222 L922,248"/>
+  </g>
+
+  <!-- Datastores -->
+  <g font-size="11" text-anchor="middle" fill="#333">
+    <rect x="30"  y="325" width="105" height="30" rx="15" fill="#f1f3f4" stroke="#888"/><text x="82"  y="344">PostgreSQL</text>
+    <rect x="170" y="325" width="105" height="30" rx="15" fill="#f1f3f4" stroke="#888"/><text x="222" y="344">PostgreSQL</text>
+    <rect x="310" y="325" width="105" height="30" rx="15" fill="#f1f3f4" stroke="#888"/><text x="362" y="344">OpenSearch</text>
+    <rect x="450" y="325" width="105" height="30" rx="15" fill="#f1f3f4" stroke="#888"/><text x="502" y="344">Postgres ledger</text>
+    <rect x="590" y="325" width="105" height="30" rx="15" fill="#f1f3f4" stroke="#888"/><text x="642" y="344">Redis cache</text>
+    <rect x="730" y="325" width="105" height="30" rx="15" fill="#f1f3f4" stroke="#888"/><text x="782" y="344">Cassandra</text>
+    <rect x="870" y="325" width="105" height="30" rx="15" fill="#f1f3f4" stroke="#888"/><text x="922" y="344">Postgres + Redis</text>
+  </g>
+  <g stroke="#888" stroke-width="1">
+    <line x1="82" y1="302" x2="82" y2="325"/><line x1="222" y1="302" x2="222" y2="325"/>
+    <line x1="362" y1="302" x2="362" y2="325"/><line x1="502" y1="302" x2="502" y2="325"/>
+    <line x1="642" y1="302" x2="642" y2="325"/><line x1="782" y1="302" x2="782" y2="325"/>
+    <line x1="922" y1="302" x2="922" y2="325"/>
+  </g>
+
+  <!-- Event bus -->
+  <rect x="20" y="395" width="965" height="44" rx="8" fill="#fce8e6" stroke="#d93025"/>
+  <text x="500" y="416" text-anchor="middle" font-size="14" font-weight="bold" fill="#222">Event bus (Kafka)</text>
+  <text x="500" y="432" text-anchor="middle" font-size="11" fill="#555">CoursePublished · UploadCompleted · EnrollmentCreated · ProgressUpdated · LectureCompleted · ReviewSubmitted</text>
+  <g stroke="#d93025" stroke-width="1.2" stroke-dasharray="4 3" fill="none">
+    <line x1="222" y1="355" x2="222" y2="395"/><line x1="502" y1="355" x2="502" y2="395"/>
+    <line x1="782" y1="355" x2="782" y2="395"/><line x1="922" y1="355" x2="922" y2="395"/>
+  </g>
+
+  <!-- Consumers -->
+  <g font-size="12" text-anchor="middle" fill="#222">
+    <rect x="20"  y="480" width="175" height="56" rx="8" fill="#f3e8fd" stroke="#9334e6"/>
+    <text x="107" y="504">Media pipeline</text><text x="107" y="521" font-size="11" fill="#555">transcode · package · captions</text>
+    <rect x="217" y="480" width="175" height="56" rx="8" fill="#f3e8fd" stroke="#9334e6"/>
+    <text x="304" y="504">Search indexer</text><text x="304" y="521" font-size="11" fill="#555">catalog → OpenSearch</text>
+    <rect x="414" y="480" width="175" height="56" rx="8" fill="#f3e8fd" stroke="#9334e6"/>
+    <text x="501" y="504">Notifications</text><text x="501" y="521" font-size="11" fill="#555">email · push</text>
+    <rect x="611" y="480" width="175" height="56" rx="8" fill="#f3e8fd" stroke="#9334e6"/>
+    <text x="698" y="504">Recommendations</text><text x="698" y="521" font-size="11" fill="#555">models · feature store</text>
+    <rect x="808" y="480" width="175" height="56" rx="8" fill="#f3e8fd" stroke="#9334e6"/>
+    <text x="895" y="504">Analytics</text><text x="895" y="521" font-size="11" fill="#555">data lake · warehouse</text>
+  </g>
+  <g stroke="#555" stroke-width="1.5" fill="none" marker-end="url(#ah)">
+    <path d="M107,439 L107,478"/><path d="M304,439 L304,478"/><path d="M501,439 L501,478"/>
+    <path d="M698,439 L698,478"/><path d="M895,439 L895,478"/>
+  </g>
+
+  <!-- Media pipeline output to CDN origin -->
+  <path d="M20,508 L8,508 L8,168 L38,168" stroke="#9334e6" stroke-width="1.5" fill="none" stroke-dasharray="5 3" marker-end="url(#ah)"/>
+  <text x="14" y="590" font-size="11" fill="#555">Dashed purple: transcoded renditions published to the CDN origin. Dashed red: services publish domain events.</text>
+  <text x="14" y="610" font-size="11" fill="#555">Video bytes flow only through object storage and the CDN, never through the API tier.</text>
+</svg>
