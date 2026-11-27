@@ -26,6 +26,7 @@
 * [Differences between `==` Operator and `equals()` Method](https://donny-nguyen.github.io/2025/01/01/equal-operator-and-method.html)
 * [What happens if hashCode() method always returns the same value?](https://donny-nguyen.github.io/2024/09/12/if-hashcode-returns-the-same-value.html)
 * [`final`, `finally`, and `finalize`](https://donny-nguyen.github.io/2025/01/01/final-finally-finalize-in-java.html)
+* [Packages: Organizing Code and Controlling Visibility](https://donny-nguyen.github.io/2026/11/26/java-packages.html)
 
 ## Stage 3: Core Java Libraries
 
