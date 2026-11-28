@@ -1,5 +1,7 @@
 # Web Services
 
+* [Web Services Learning Roadmap](https://donny-nguyen.github.io/2026/11/27/web-services-learning-roadmap.html)
+
 ### General
 * [Overview of Web Services](https://donny-nguyen.github.io/2026/06/27/web-services.html)
 * [HTTP Request Caching](https://donny-nguyen.github.io/2024/10/09/http-request-caching.html)
