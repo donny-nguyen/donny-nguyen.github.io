@@ -9,6 +9,10 @@
 * [HTTP HEAD Method](https://donny-nguyen.github.io/2024/11/02/head-method.html)
 * [HTTP OPTIONS Method](https://donny-nguyen.github.io/2024/11/02/options-method.html)
 
+## Stage 2: Data Formats and Contracts
+
+* [Content Negotiation](https://donny-nguyen.github.io/2026/11/27/content-negotiation.html)
+
 ## Stage 3: Web Service Styles
 
 * [SOAP and REST](https://donny-nguyen.github.io/2024/09/21/soap-and-rest.html)
